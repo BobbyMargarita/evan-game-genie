@@ -1,16 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { GAMES, FETCHED_AT, detailFor, ignFor } from './lib/staticData';
+import { GAMES, detailFor, ignFor } from './lib/staticData';
 import { palFor, tierChip } from './lib/palette';
 import Sparkline from './components/Sparkline';
 
 const fmtCount = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n));
-
-function updatedLabel() {
-  const d = Math.floor((Date.now() - FETCHED_AT) / 86400000);
-  if (d < 1) return 'updated today';
-  if (d === 1) return 'updated yesterday';
-  return `updated ${d}d ago`;
-}
 
 function pill(active, dashed) {
   return active
@@ -277,15 +270,9 @@ export default function App() {
   return (
     <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', background: 'var(--color-bg)' }}>
       <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column' }}>
-        <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 18px) 14px 8px', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 10 }}>
-          <div>
-            <div style={{ font: '600 11px/1 var(--font-body)', letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>Backlog & bragging rights</div>
-            <h2 style={{ fontSize: 30, margin: '6px 0 0' }}>The Pile</h2>
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 3, paddingBottom: 4 }}>
-            <div style={{ font: '700 13px var(--font-body)' }}>{filtered.length} of {GAMES.length}</div>
-            <div style={{ font: '400 10px var(--font-body)', color: 'var(--color-neutral-600)' }}>{updatedLabel()}</div>
-          </div>
+        <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 18px) 14px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
+          <h2 style={{ fontSize: 30 }}>Evan's Game Genie</h2>
+          <img src={`${import.meta.env.BASE_URL}genie.png`} alt="" style={{ height: 46, flex: 'none' }} draggable="false" />
         </div>
 
         <div className="no-scrollbar" style={{ display: 'flex', gap: 7, padding: '8px 14px 6px', overflowX: 'auto' }}>
