@@ -270,19 +270,20 @@ export default function App() {
   return (
     <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', background: 'var(--color-bg)' }}>
       <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column' }}>
-        <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 18px) 14px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
-          <h2 style={{ fontSize: 30 }}>Evan's Game Genie</h2>
-          <img src={`${import.meta.env.BASE_URL}genie.png`} alt="" style={{ height: 46, flex: 'none' }} draggable="false" />
-        </div>
-
-        <div className="no-scrollbar" style={{ display: 'flex', gap: 7, padding: '8px 14px 6px', overflowX: 'auto' }}>
-          {STATUSES.map((s) => (
-            <button key={s} onClick={() => setStatus(s)} style={{
-              flex: 'none', cursor: 'pointer', borderStyle: 'solid', borderWidth: 1,
-              borderRadius: 999, padding: '7px 15px', font: '700 12.5px var(--font-body)',
-              whiteSpace: 'nowrap', ...pill(status === s),
-            }}>{s}</button>
-          ))}
+        <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 18px) 14px 0', display: 'flex', alignItems: 'stretch', justifyContent: 'space-between', gap: 8 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minWidth: 0 }}>
+            <h2 style={{ fontSize: 30 }}>Evan's Game Genie</h2>
+            <div className="no-scrollbar" style={{ display: 'flex', gap: 7, padding: '8px 0 6px', overflowX: 'auto' }}>
+              {STATUSES.map((s) => (
+                <button key={s} onClick={() => setStatus(s)} style={{
+                  flex: 'none', cursor: 'pointer', borderStyle: 'solid', borderWidth: 1,
+                  borderRadius: 999, padding: '7px 15px', font: '700 12.5px var(--font-body)',
+                  whiteSpace: 'nowrap', ...pill(status === s),
+                }}>{s}</button>
+              ))}
+            </div>
+          </div>
+          <img src={`${import.meta.env.BASE_URL}genie.png`} alt="" style={{ height: 116, alignSelf: 'flex-end', flex: 'none' }} draggable="false" />
         </div>
 
         <div className="no-scrollbar" style={{ display: 'flex', gap: 7, padding: '2px 14px 10px', overflowX: 'auto' }}>
