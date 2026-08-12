@@ -5,6 +5,36 @@ import Sparkline from './components/Sparkline';
 
 const fmtCount = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n));
 
+// ── Genie mascot animation ──────────────────────────────────────────────
+// The header genie normally shows REST. Every GENIE_EVERY_MS it briefly
+// flashes one random pose from GENIE_POSES for GENIE_HOLD_MS (a wink, a wave,
+// …), then returns to rest. To add a pose: drop a PNG in public/genie/ and
+// add its filename to GENIE_POSES. Empty list = static genie (no motion).
+// Honors prefers-reduced-motion (stays still if the user asked for that).
+const GENIE_REST = 'genie/rest.png';
+const GENIE_POSES = ['genie/horns.png']; // e.g. ['genie/wink.png', 'genie/wave.png']
+const GENIE_EVERY_MS = 20000; // how often a pose triggers
+const GENIE_HOLD_MS = 1200; // how long the pose is held before reverting
+
+function useGeniePose() {
+  const [pose, setPose] = useState(null);
+  useEffect(() => {
+    if (!GENIE_POSES.length) return;
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+    // Preload the poses so the swap is instant (no flash of missing image).
+    GENIE_POSES.forEach((p) => { const im = new Image(); im.src = import.meta.env.BASE_URL + p; });
+    let hold;
+    const tick = setInterval(() => {
+      const next = GENIE_POSES[Math.floor(Math.random() * GENIE_POSES.length)];
+      setPose(next);
+      clearTimeout(hold);
+      hold = setTimeout(() => setPose(null), GENIE_HOLD_MS);
+    }, GENIE_EVERY_MS);
+    return () => { clearInterval(tick); clearTimeout(hold); };
+  }, []);
+  return import.meta.env.BASE_URL + (pose || GENIE_REST);
+}
+
 function pill(active, dashed) {
   return active
     ? {
@@ -492,6 +522,7 @@ export default function App() {
   const [open, setOpen] = useState(null); // { game, rect }
   const [playingOpen, setPlayingOpen] = useState(false);
   const nowPlaying = currentlyPlaying();
+  const genieSrc = useGeniePose();
 
   const filtered = useMemo(() => {
     let list = GAMES.slice();
@@ -527,7 +558,7 @@ export default function App() {
               ))}
             </div>
           </div>
-          <img src={`${import.meta.env.BASE_URL}genie.png`} alt="" style={{ height: 116, alignSelf: 'flex-end', flex: 'none' }} draggable="false" />
+          <img src={genieSrc} alt="" style={{ height: 116, alignSelf: 'flex-end', flex: 'none' }} draggable="false" />
         </div>
 
         {nowPlaying && (
