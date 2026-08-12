@@ -1,0 +1,99 @@
+{
+  "gameId": "baldurs-gate-3",
+  "title": "Baldur's Gate 3",
+  "tagline": "Act 1 — get the party right",
+  "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+  "art": "bg3-companions.png",
+  "sections": [
+    {
+      "type": "companions",
+      "label": "The 6 companions",
+      "icon": "🧭",
+      "sub": "Where to find them & what they like",
+      "heading": "The 6 companions",
+      "items": [
+        {
+          "name": "Shadowheart",
+          "role": "Cleric (Trickery)",
+          "where": "On the nautiloid, then near the crash beach",
+          "likes": "Discretion, self-interest, keeping secrets",
+          "dislikes": "Reckless heroism, preaching"
+        },
+        {
+          "name": "Lae'zel",
+          "role": "Fighter",
+          "where": "Caged by tieflings on the cliff path NE of the beach",
+          "likes": "Decisiveness, strength, pragmatism",
+          "dislikes": "Weakness, hesitation"
+        },
+        {
+          "name": "Astarion",
+          "role": "Rogue",
+          "where": "Roadside west of the beach (holds you at knifepoint)",
+          "likes": "Self-interest, cunning, a little cruelty",
+          "dislikes": "Selfless kindness"
+        },
+        {
+          "name": "Gale",
+          "role": "Wizard",
+          "where": "Reaching out of a waypoint portal by the Roadside ruins",
+          "likes": "Knowledge, curiosity, helping people",
+          "dislikes": "Ignorance, wanton destruction"
+        },
+        {
+          "name": "Wyll",
+          "role": "Warlock",
+          "where": "Emerald Grove (the Blade of Frontiers)",
+          "likes": "Heroism, protecting the innocent",
+          "dislikes": "Cruelty, siding with evil"
+        },
+        {
+          "name": "Karlach",
+          "role": "Barbarian",
+          "where": "The Risen Road, by the river past the Grove",
+          "likes": "Heroism, kindness, standing up to bullies",
+          "dislikes": "Cruelty, greed"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "label": "Tips & traps",
+      "icon": "⚠️",
+      "sub": "The stuff people wish they'd known",
+      "heading": "Don't get caught out",
+      "items": [
+        "Approval only builds while a companion is IN your active party — swap people in for big story beats.",
+        "You need ~40 camp supplies to Long Rest (80 on Tactician). Under that you only get a weak partial rest, so grab every sausage and bottle.",
+        "Long Rest often — camp scenes, romance and questlines advance there — but a few quests fail if you rest too much before resolving them.",
+        "You get 2 Short Rests per day (50% HP + short-rest abilities). Use them before burning a Long Rest.",
+        "High ground gives +2 to hit, and you can shove or jump enemies off ledges — positioning wins fights more than raw damage."
+      ]
+    },
+    {
+      "type": "checklist",
+      "label": "Act 1 — don't leave without…",
+      "icon": "✅",
+      "sub": "Missable quests, gear & areas",
+      "heading": "Act 1 — don't leave without…",
+      "items": [
+        "Recruit all 6 companions above before advancing the story.",
+        "The Underdark and the Mountain Pass are BOTH still Act 1 — explore both before the point of no return.",
+        "The Zhentarim hideout, the Grymforge, and the Githyanki Creche each gate unique gear and quests.",
+        "Resolve the Grove (save or side against the tieflings) before triggering the goblin raid.",
+        "Grab your class's key Act 1 gear — a lot of it is permanently missable once you leave."
+      ]
+    },
+    {
+      "type": "links",
+      "label": "Wikis & BG3 apps",
+      "heading": "Wikis & BG3 apps",
+      "items": [
+        { "label": "bg3.wiki", "sub": "Fast, clean reference wiki", "icon": "📖", "url": "https://bg3.wiki/" },
+        { "label": "Missables tracker", "sub": "Don't skip Act 1 content", "icon": "🗺️", "url": "https://plasticmacaroni.github.io/bg3-missables/" },
+        { "label": "Companion approval guide", "sub": "Who likes which choices", "icon": "💬", "url": "https://baldursgate3.wiki.fextralife.com/Companion+Approval+Guide" },
+        { "label": "Best builds", "sub": "All classes & companions", "icon": "⚔️", "url": "https://baldursgate3.wiki.fextralife.com/Builds" }
+      ]
+    }
+  ]
+}
