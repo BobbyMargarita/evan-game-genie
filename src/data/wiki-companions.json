@@ -1,0 +1,41 @@
+{
+  "fetchedAt": "2026-08-12T07:25:29.108Z",
+  "source": "https://bg3.wiki/",
+  "license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "note": "Companion intros trimmed to 2 sentences from bg3.wiki page leads.",
+  "pages": {
+    "Shadowheart": {
+      "title": "Shadowheart",
+      "summary": "Shadowheart (born Jenevelle Hallowleaf) is an Origin character and a recruitable companion who can be romanced by characters of any gender.  She is a high half-elf and a Trickery Domain Cleric with the Acolyte background.",
+      "url": "https://bg3.wiki/wiki/Shadowheart"
+    },
+    "Lae'zel": {
+      "title": "Lae'zel",
+      "summary": "Lae'zel of Crèche K'liir is an Origin Character and a recruitable Companion who can be romanced by characters of any gender.  She is a Githyanki Fighter with the Soldier background.",
+      "url": "https://bg3.wiki/wiki/Lae'zel"
+    },
+    "Astarion": {
+      "title": "Astarion",
+      "summary": "Astarion Ancunín is an Origin character and recruitable companion who can be romanced by characters of any gender.  He is a high elven rogue with the Charlatan background.",
+      "url": "https://bg3.wiki/wiki/Astarion"
+    },
+    "Gale": {
+      "title": "Gale",
+      "summary": "Gale Dekarios is an Origin Character and recruitable Companion who can be romanced by characters of any gender.  He is a human wizard with the Sage background.",
+      "url": "https://bg3.wiki/wiki/Gale"
+    },
+    "Wyll": {
+      "title": "Wyll",
+      "summary": "Wyll Ravengard is an Origin Character and a recruitable Companion who can be romanced by characters of any gender.  He is a Human and a Fiend Warlock with the Folk Hero background.",
+      "url": "https://bg3.wiki/wiki/Wyll"
+    },
+    "Karlach": {
+      "title": "Karlach",
+      "summary": "Karlach Cliffgate is an Origin Character and a recruitable Companion who can be romanced by characters of any gender.  She is a Zariel Tiefling and a Barbarian with the Outlander background.",
+      "url": "https://bg3.wiki/wiki/Karlach"
+    }
+  }
+}

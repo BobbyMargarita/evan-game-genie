@@ -8,6 +8,7 @@ import metaFile from '../data/games-meta.json';
 import OVERRIDES from '../data/meta-overrides.json';
 import IGN from '../data/ign-overrides.json';
 import NOW_PLAYING from '../data/currently-playing.json';
+import WIKI_COMPANIONS from '../data/wiki-companions.json';
 
 export const GAMES = parseSheet(sheetCsv).map((g, i) => ({ ...g, i }));
 export const FETCHED_AT = new Date(metaFile.fetchedAt).getTime();
@@ -27,6 +28,12 @@ export function ignFor(title) {
 // What Evan is playing right now. Hand-maintained in currently-playing.json;
 // returns null (bar hides) when no gameId is set. Falls back to the Steam
 // cover baked into games-meta.json if the file doesn't carry its own.
+// Baked bg3.wiki companion intros (CC BY-SA 4.0). Keyed by companion name.
+export const WIKI_CREDIT = { source: WIKI_COMPANIONS.source, license: WIKI_COMPANIONS.license };
+export function wikiCompanion(name) {
+  return (WIKI_COMPANIONS.pages && WIKI_COMPANIONS.pages[name]) || null;
+}
+
 export function currentlyPlaying() {
   if (!NOW_PLAYING || !NOW_PLAYING.gameId) return null;
   const cover = NOW_PLAYING.cover || metaFile.games[NOW_PLAYING.gameId]?.cover || null;

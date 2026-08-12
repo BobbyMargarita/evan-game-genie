@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { GAMES, detailFor, ignFor, currentlyPlaying } from './lib/staticData';
+import { GAMES, detailFor, ignFor, currentlyPlaying, wikiCompanion, WIKI_CREDIT } from './lib/staticData';
 import { palFor, tierChip } from './lib/palette';
 import Sparkline from './components/Sparkline';
 
@@ -312,17 +312,32 @@ function PanelSection({ section }) {
   if (section.type === 'companions') {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-        {section.items.map((c) => (
-          <div key={c.name} style={{ background: 'var(--color-surface)', borderRadius: 'var(--radius-md)', padding: '13px 14px' }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
-              <div style={{ fontFamily: 'var(--font-heading)', fontSize: 19, color: 'var(--color-neutral-900)' }}>{c.name}</div>
-              <div style={{ flex: 'none', background: 'var(--color-accent-2-200)', color: 'var(--color-accent-2-800)', borderRadius: 999, padding: '3px 10px', font: '700 10.5px var(--font-body)', letterSpacing: '.03em' }}>{c.role}</div>
+        {section.items.map((c) => {
+          const wiki = wikiCompanion(c.name);
+          return (
+            <div key={c.name} style={{ background: 'var(--color-surface)', borderRadius: 'var(--radius-md)', padding: '13px 14px' }}>
+              <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+                <div style={{ fontFamily: 'var(--font-heading)', fontSize: 19, color: 'var(--color-neutral-900)' }}>{c.name}</div>
+                <div style={{ flex: 'none', background: 'var(--color-accent-2-200)', color: 'var(--color-accent-2-800)', borderRadius: 999, padding: '3px 10px', font: '700 10.5px var(--font-body)', letterSpacing: '.03em' }}>{c.role}</div>
+              </div>
+              <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 6 }}>📍 {c.where}</div>
+              <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-accent-2-700)', marginTop: 6 }}>👍 {c.likes}</div>
+              <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-600)', marginTop: 3 }}>👎 {c.dislikes}</div>
+              {wiki?.summary && (
+                <div style={{ marginTop: 9, paddingTop: 9, borderTop: '1px solid var(--color-divider)' }}>
+                  <div style={{ font: '400 12px/1.5 var(--font-body)', color: 'var(--color-neutral-700)' }}>{wiki.summary}</div>
+                  <a href={wiki.url} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginTop: 6, font: '700 10px var(--font-body)', letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--color-accent-700)', textDecoration: 'none' }}>bg3.wiki ↗</a>
+                </div>
+              )}
             </div>
-            <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 6 }}>📍 {c.where}</div>
-            <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-accent-2-700)', marginTop: 6 }}>👍 {c.likes}</div>
-            <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-600)', marginTop: 3 }}>👎 {c.dislikes}</div>
-          </div>
-        ))}
+          );
+        })}
+        <div style={{ font: '400 11px/1.5 var(--font-body)', color: 'var(--color-neutral-600)', textAlign: 'center', marginTop: 2 }}>
+          Companion intros from{' '}
+          <a href={WIKI_CREDIT.source} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-neutral-700)' }}>bg3.wiki</a>
+          {', '}
+          <a href={WIKI_CREDIT.license.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-neutral-700)' }}>{WIKI_CREDIT.license.name}</a>
+        </div>
       </div>
     );
   }
