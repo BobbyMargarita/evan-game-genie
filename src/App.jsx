@@ -241,7 +241,74 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
   );
 }
 
+function Tracker({ section }) {
+  const storeKey = `np-tracker:${section.storageKey || section.heading}`;
+  const [checked, setChecked] = useState(() => {
+    try { return JSON.parse(localStorage.getItem(storeKey)) || {}; } catch { return {}; }
+  });
+  const write = (next) => {
+    try { localStorage.setItem(storeKey, JSON.stringify(next)); } catch { /* storage may be unavailable */ }
+  };
+  const toggle = (id) => setChecked((c) => { const next = { ...c, [id]: !c[id] }; write(next); return next; });
+  const reset = () => {
+    if (typeof window !== 'undefined' && !window.confirm('Clear all checked items?')) return;
+    setChecked({}); write({});
+  };
+
+  const items = section.groups.flatMap((g) => g.items);
+  const total = items.length;
+  const done = items.filter((it) => checked[it.id]).length;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+
+  return (
+    <div>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10, marginBottom: 9 }}>
+        <div style={{ font: '700 12.5px var(--font-body)', color: 'var(--color-neutral-700)' }}>{done} / {total} done</div>
+        <button onClick={reset} style={{ cursor: 'pointer', border: 0, background: 'transparent', font: '700 11px var(--font-body)', letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>Reset</button>
+      </div>
+      <div style={{ height: 8, borderRadius: 999, background: 'var(--color-surface)', overflow: 'hidden', marginBottom: 22 }}>
+        <div style={{ height: '100%', width: `${pct}%`, background: 'var(--color-accent-2-700)', transition: 'width .25s ease' }} />
+      </div>
+
+      {section.groups.map((g) => (
+        <div key={g.title} style={{ marginBottom: 20 }}>
+          <div style={{ font: '700 11px var(--font-body)', letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--color-accent-700)', marginBottom: 9 }}>{g.title}</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            {g.items.map((it) => {
+              const on = !!checked[it.id];
+              return (
+                <button
+                  key={it.id} onClick={() => toggle(it.id)}
+                  style={{
+                    display: 'flex', gap: 11, alignItems: 'flex-start', textAlign: 'left', cursor: 'pointer',
+                    border: 0, width: '100%', background: 'var(--color-surface)', borderRadius: 'var(--radius-md)', padding: '12px 13px',
+                  }}
+                >
+                  <span style={{
+                    flex: 'none', width: 22, height: 22, borderRadius: 7, marginTop: 1,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    background: on ? 'var(--color-accent-2-700)' : 'transparent',
+                    border: on ? 'none' : '2px solid var(--color-neutral-600)',
+                    color: 'var(--color-bg)', fontSize: 13, fontWeight: 700,
+                  }}>{on ? '✓' : ''}</span>
+                  <span style={{
+                    font: '400 13.5px/1.45 var(--font-body)',
+                    color: on ? 'var(--color-neutral-600)' : 'var(--color-neutral-800)',
+                    textDecoration: on ? 'line-through' : 'none',
+                  }}>{it.text}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function PanelSection({ section }) {
+  if (section.type === 'tracker') return <Tracker section={section} />;
+
   if (section.type === 'companions') {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>

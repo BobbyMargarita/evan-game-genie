@@ -71,17 +71,116 @@
       ]
     },
     {
-      "type": "checklist",
-      "label": "Act 1 — don't leave without…",
-      "icon": "✅",
-      "sub": "Missable quests, gear & areas",
-      "heading": "Act 1 — don't leave without…",
-      "items": [
-        "Recruit all 6 companions above before advancing the story.",
-        "The Underdark and the Mountain Pass are BOTH still Act 1 — explore both before the point of no return.",
-        "The Zhentarim hideout, the Grymforge, and the Githyanki Creche each gate unique gear and quests.",
-        "Resolve the Grove (save or side against the tieflings) before triggering the goblin raid.",
-        "Grab your class's key Act 1 gear — a lot of it is permanently missable once you leave."
+      "type": "tracker",
+      "label": "Act 1 missables",
+      "heading": "Act 1 missables",
+      "storageKey": "bg3-act1-missables",
+      "groups": [
+        {
+          "title": "Emerald Grove — do before the raid",
+          "items": [
+            { "id": "a1", "text": "Settle the Grove and rescue the tieflings before you trigger the goblin raid — the raid ends those questlines for good." },
+            { "id": "a2", "text": "Trade with the tiefling and Zhentarim merchants at the Grove; they and their gear leave after the raid." },
+            { "id": "a3", "text": "Save Arabella, the child caught with the idol, from Kagha." },
+            { "id": "a4", "text": "Resolve Kagha and the Shadow Druids one way or the other." },
+            { "id": "a5", "text": "Recruit Volo at the tiefling celebration (only happens if you save the Grove)." },
+            { "id": "a6", "text": "Give Dammon the blacksmith your first Infernal Iron to begin Karlach's engine repair." },
+            { "id": "a7", "text": "Finish the refugees' requests and talk to Zevlor before the celebration." }
+          ]
+        },
+        {
+          "title": "The Goblin Camp (Shattered Sanctum)",
+          "items": [
+            { "id": "b1", "text": "Free the caged bear — it's the druid Halsin; recruit him." },
+            { "id": "b2", "text": "Rescue Volo if the goblins captured him (later he can give you the Ersatz Eye)." },
+            { "id": "b3", "text": "Deal with the three leaders — Minthara, Dror Ragzlin and Priestess Gut — before the camp clears out." },
+            { "id": "b4", "text": "Recruiting Minthara means the evil raid path (or a very careful non-lethal approach) — a hard either/or." },
+            { "id": "b5", "text": "Don't let Priestess Gut 'remove your tadpole' in her chamber — it's a trap." }
+          ]
+        },
+        {
+          "title": "Blighted Village, windmill & Waukeen's Rest",
+          "items": [
+            { "id": "c1", "text": "Put out the fire at Waukeen's Rest and rescue Counsellor Florrick and Benryn." },
+            { "id": "c2", "text": "Free Barcus Wroot from the spinning windmill (he returns later if he lives)." },
+            { "id": "c3", "text": "Clear the Whispering Depths under the village and kill the Phase Spider Matriarch." },
+            { "id": "c4", "text": "Find the Zhentarim hideout and trade with their quartermaster." },
+            { "id": "c5", "text": "Recover the Necromancy of Thay tome — read it carefully, it can backfire." },
+            { "id": "c6", "text": "Loot the apothecary cellar and village for early gear and scrolls." }
+          ]
+        },
+        {
+          "title": "Auntie Ethel & the Sunlit Wetlands",
+          "items": [
+            { "id": "d1", "text": "Follow the teahouse signs into the Sunlit Wetlands (the pretty swamp is an illusion)." },
+            { "id": "d2", "text": "Save Mayrina from the hag, Auntie Ethel." },
+            { "id": "d3", "text": "Take Ethel's one-time bargain for a permanent +1 to an ability — or refuse the catch." },
+            { "id": "d4", "text": "Clear her lair for the Whispering Promise ring, potions and the Bitter Divorce wand." }
+          ]
+        },
+        {
+          "title": "Risen Road & wilderness",
+          "items": [
+            { "id": "e1", "text": "Spare the owlbear cub in its cave — it becomes a camp follower." },
+            { "id": "e2", "text": "Rescue Karlach on the Risen Road and hear her out before deciding her fate." },
+            { "id": "e3", "text": "Handle the paladins of Tyr at the Risen Road toll house." },
+            { "id": "e4", "text": "Search the owlbear cave and hidden shrines for early loot." }
+          ]
+        },
+        {
+          "title": "Companions & camp timing",
+          "items": [
+            { "id": "f1", "text": "Recruit all six — Shadowheart, Lae'zel, Astarion, Gale, Wyll and Karlach — before advancing." },
+            { "id": "f2", "text": "Long Rest often for camp scenes, but don't binge rests before an unresolved quest or it can fail." },
+            { "id": "f3", "text": "Let Astarion attempt his first night-time bite." },
+            { "id": "f4", "text": "Feed Gale the magic items he asks for so he sticks around." },
+            { "id": "f5", "text": "Hear both Wyll and Karlach before you settle their conflict." },
+            { "id": "f6", "text": "Talk through Shadowheart's artifact and Lae'zel's doubts at camp." },
+            { "id": "f7", "text": "Keep an eye out for more Infernal Iron for Karlach across Act 1." }
+          ]
+        },
+        {
+          "title": "The Underdark",
+          "items": [
+            { "id": "g1", "text": "Reach the Underdark — via the Whispering Depths, the Goblin camp, the Zhentarim, or the beach." },
+            { "id": "g2", "text": "Help the Myconid colony and Sovereign Spaw against the duergar." },
+            { "id": "g3", "text": "Save Baelen from the bibberbang field with his partner Filro." },
+            { "id": "g4", "text": "Explore the Arcane Tower and grab Sussur Bark to craft silence weapons." },
+            { "id": "g5", "text": "Trade with Derryth and the myconid vendors." },
+            { "id": "g6", "text": "Recruit Glut the myconid if you want a temporary helper." },
+            { "id": "g7", "text": "Loot the Underdark beach and Selûnite outpost on your way through." }
+          ]
+        },
+        {
+          "title": "Grymforge & the Adamantine Forge",
+          "items": [
+            { "id": "h1", "text": "Take the boat from the Underdark beach down to Grymforge." },
+            { "id": "h2", "text": "Deal with Nere and free (or don't) the deep gnome workers before the rockfall." },
+            { "id": "h3", "text": "Save Philomeen and her smokepowder before the room blows." },
+            { "id": "h4", "text": "Forge one Adamantine item — moulds and mithral are limited, so choose armor, shield or weapon carefully." },
+            { "id": "h5", "text": "Grab every mithral ore and mould you can before leaving Grymforge." }
+          ]
+        },
+        {
+          "title": "Mountain Pass, Rosymorn Monastery & the Creche",
+          "items": [
+            { "id": "i1", "text": "The Mountain Pass is still Act 1 — go there before the Shadowlands." },
+            { "id": "i2", "text": "Solve the Rosymorn Monastery puzzle for the Blood of Lathander, a legendary mace." },
+            { "id": "i3", "text": "Enter the Githyanki Creche (Creche Y'llek) for Lae'zel's quest and the truth about the tadpoles." },
+            { "id": "i4", "text": "Risk the Zaith'isk machine — it can grant a boon or hurt you." },
+            { "id": "i5", "text": "Defeat the inquisitor in the Creche for the Silver Sword of the Astral Plane." }
+          ]
+        },
+        {
+          "title": "Before you leave Act 1",
+          "items": [
+            { "id": "j1", "text": "Explore BOTH the Underdark and the Mountain Pass — you can't return after entering the Shadow-Cursed Lands." },
+            { "id": "j2", "text": "Lock in the Grove outcome (save vs. raid) — it decides who lives and who joins you." },
+            { "id": "j3", "text": "Spend gold and sell loot with Act 1 vendors before they're gone." },
+            { "id": "j4", "text": "Wrap up companion beats you've started; some don't carry into Act 2." },
+            { "id": "j5", "text": "Head into the Shadowlands only when you're done — that's the Act 2 point of no return." }
+          ]
+        }
       ]
     },
     {
@@ -90,7 +189,6 @@
       "heading": "Wikis & BG3 apps",
       "items": [
         { "label": "bg3.wiki", "sub": "Fast, clean reference wiki", "icon": "📖", "url": "https://bg3.wiki/" },
-        { "label": "Missables tracker", "sub": "Don't skip Act 1 content", "icon": "🗺️", "url": "https://plasticmacaroni.github.io/bg3-missables/" },
         { "label": "Companion approval guide", "sub": "Who likes which choices", "icon": "💬", "url": "https://baldursgate3.wiki.fextralife.com/Companion+Approval+Guide" },
         { "label": "Best builds", "sub": "All classes & companions", "icon": "⚔️", "url": "https://baldursgate3.wiki.fextralife.com/Builds" }
       ]
