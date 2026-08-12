@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "refresh-data": "node scripts/fetch-data.mjs",
+    "refresh-data": "node scripts/fetch-data.mjs && node scripts/fetch-wiki.mjs",
     "refresh-wiki": "node scripts/fetch-wiki.mjs"
   },
   "dependencies": {
