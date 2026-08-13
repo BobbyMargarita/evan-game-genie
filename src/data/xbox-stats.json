@@ -1,0 +1,103 @@
+{
+ "fetchedAt": "2026-08-13T09:51:27.653Z",
+ "stats": {
+  "baldurs-gate-3": {
+   "achievementsEarned": 1,
+   "gamerscoreEarned": 10,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2026-08-13",
+   "titleName": "Baldur's Gate 3"
+  },
+  "split-fiction": {
+   "achievementsEarned": null,
+   "gamerscoreEarned": 0,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2026-04-15",
+   "titleName": "Split Fiction"
+  },
+  "blue-prince": {
+   "achievementsEarned": null,
+   "gamerscoreEarned": 0,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2026-03-16",
+   "titleName": "Blue Prince"
+  },
+  "clair-obscur-expedition-33": {
+   "achievementsEarned": 51,
+   "gamerscoreEarned": 880,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2026-01-15",
+   "titleName": "Clair Obscur: Expedition 33"
+  },
+  "halo-infinite": {
+   "achievementsEarned": 94,
+   "gamerscoreEarned": 1120,
+   "gamerscoreTotal": 2020,
+   "lastPlayed": "2026-01-15",
+   "titleName": "Halo Infinite"
+  },
+  "doom-eternal-dark-ages": {
+   "achievementsEarned": 24,
+   "gamerscoreEarned": 800,
+   "gamerscoreTotal": 1420,
+   "lastPlayed": "2025-08-13",
+   "titleName": "DOOM: The Dark Ages"
+  },
+  "return-of-the-obra-dinn": {
+   "achievementsEarned": 8,
+   "gamerscoreEarned": 470,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2025-08-13",
+   "titleName": "Return of the Obra Dinn"
+  },
+  "cyberpunk": {
+   "achievementsEarned": 34,
+   "gamerscoreEarned": 820,
+   "gamerscoreTotal": 1455,
+   "lastPlayed": "2024-08-13",
+   "titleName": "Cyberpunk 2077"
+  },
+  "deathloop": {
+   "achievementsEarned": 26,
+   "gamerscoreEarned": 455,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2024-08-13",
+   "titleName": "DEATHLOOP"
+  },
+  "braid": {
+   "achievementsEarned": 11,
+   "gamerscoreEarned": 185,
+   "gamerscoreTotal": 200,
+   "lastPlayed": "2023-08-14",
+   "titleName": "Braid"
+  },
+  "it-takes-two": {
+   "achievementsEarned": 1,
+   "gamerscoreEarned": 50,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2023-08-14",
+   "titleName": "It Takes Two"
+  },
+  "elden-ring": {
+   "achievementsEarned": 23,
+   "gamerscoreEarned": 420,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2022-08-14",
+   "titleName": "ELDEN RING"
+  },
+  "ori-blind-forest-will-of-the-wisps": {
+   "achievementsEarned": null,
+   "gamerscoreEarned": 0,
+   "gamerscoreTotal": 1000,
+   "lastPlayed": "2022-08-14",
+   "titleName": "Ori and the Will of the Wisps"
+  },
+  "bioshock-1-2": {
+   "achievementsEarned": null,
+   "gamerscoreEarned": null,
+   "gamerscoreTotal": null,
+   "lastPlayed": "2019-08-15",
+   "titleName": "BioShock Remastered"
+  }
+ }
+}

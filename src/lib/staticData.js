@@ -9,6 +9,7 @@ import OVERRIDES from '../data/meta-overrides.json';
 import IGN from '../data/ign-overrides.json';
 import NOW_PLAYING from '../data/currently-playing.json';
 import WIKI_COMPANIONS from '../data/wiki-companions.json';
+import XBOX from '../data/xbox-stats.json';
 
 export const GAMES = parseSheet(sheetCsv).map((g, i) => ({ ...g, i }));
 export const FETCHED_AT = new Date(metaFile.fetchedAt).getTime();
@@ -23,6 +24,12 @@ export function detailFor(game) {
 export function ignFor(title) {
   const v = IGN[title.toLowerCase()];
   return typeof v === 'number' ? v : null;
+}
+
+// Evan's own Xbox play stats, baked from his public profile by
+// scripts/fetch-xbox.mjs. Null for games he hasn't played on Xbox.
+export function xboxFor(gameId) {
+  return (XBOX.stats && XBOX.stats[gameId]) || null;
 }
 
 // What Evan is playing right now. Hand-maintained in currently-playing.json;

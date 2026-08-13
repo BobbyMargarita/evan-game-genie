@@ -1,9 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { GAMES, detailFor, ignFor, currentlyPlaying, wikiCompanion, WIKI_CREDIT } from './lib/staticData';
+import { GAMES, detailFor, ignFor, xboxFor, currentlyPlaying, wikiCompanion, WIKI_CREDIT } from './lib/staticData';
 import { palFor, tierChip } from './lib/palette';
 import Sparkline from './components/Sparkline';
 
 const fmtCount = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n));
+
+// Coarse "3 months ago" phrasing for the baked (approximate) Xbox dates.
+function agoText(iso) {
+  const days = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 86400e3));
+  if (days < 1) return 'today';
+  if (days < 31) return days === 1 ? 'yesterday' : `${days} days ago`;
+  if (days < 365) { const m = Math.round(days / 30); return m === 1 ? 'a month ago' : `${m} months ago`; }
+  const y = Math.round(days / 365);
+  return y === 1 ? 'a year ago' : `${y} years ago`;
+}
 
 // ── Genie mascot animation ──────────────────────────────────────────────
 // The header genie rotates evenly through GENIE_FRAMES, holding each one for
@@ -117,6 +127,7 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
   const detail = detailFor(game);
   const ign = ignFor(game.title);
   const steam = detail?.players || null;
+  const xbox = xboxFor(game.id);
 
   // Shared-element expand in (mode 1a "flip" from the design)
   useEffect(() => {
@@ -214,6 +225,31 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
             {steam.series && <div style={{ marginTop: 8 }}><Sparkline series={steam.series} /></div>}
             {steam.series && steam.current != null && (
               <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', margin: '6px 0 4px' }}>{fmtCount(steam.current)} playing at last update</div>
+            )}
+          </div>
+        )}
+
+        {xbox && (
+          <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 14px 12px' }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+              <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>Evan on Xbox</div>
+              {xbox.lastPlayed && <div style={{ font: '700 12px var(--font-body)' }}>Played {agoText(xbox.lastPlayed)}</div>}
+            </div>
+            {xbox.gamerscoreTotal > 0 && (
+              <>
+                <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8, marginTop: 10 }}>
+                  <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)' }}>Gamerscore</div>
+                  <div style={{ font: '700 12px var(--font-body)' }}>{xbox.gamerscoreEarned} / {xbox.gamerscoreTotal} G</div>
+                </div>
+                <div style={{ height: 6, borderRadius: 999, background: 'var(--color-accent-2-200)', marginTop: 6, overflow: 'hidden' }}>
+                  <div style={{ height: '100%', width: `${Math.min(100, (xbox.gamerscoreEarned / xbox.gamerscoreTotal) * 100)}%`, background: 'var(--color-accent-700)', borderRadius: 999 }} />
+                </div>
+              </>
+            )}
+            {xbox.achievementsEarned != null && (
+              <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 8 }}>
+                {xbox.achievementsEarned} achievement{xbox.achievementsEarned === 1 ? '' : 's'} unlocked
+              </div>
             )}
           </div>
         )}
