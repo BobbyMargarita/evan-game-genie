@@ -28,3 +28,8 @@ dist-ssr
 .env.*
 *.local.json
 credentials*
+
+# Local source art for the genie clip (large; only the baked public/genie/ assets ship)
+/Evan Tiff/
+/*.mp4
+/Nano Banana*.png

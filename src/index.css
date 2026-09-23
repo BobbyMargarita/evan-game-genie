@@ -62,3 +62,18 @@ button { font-family: var(--font-body); }
   inset: 0;
   overflow: hidden;
 }
+
+/* Header genie speech bubble: pops out of its tail tip (bottom-right corner)
+   with a little overshoot when .on is added, shrinks back when removed.
+   `right` eases so it can follow him when he slides across the frame. */
+.genie-bubble {
+  transform-origin: 100% 100%;
+  transform: scale(.15);
+  opacity: 0;
+  transition: transform 220ms ease-in, opacity 180ms ease-in, right 210ms ease-in-out;
+}
+.genie-bubble.on {
+  transform: none;
+  opacity: 1;
+  transition: transform 420ms cubic-bezier(.2, .9, .3, 1.35), opacity 120ms ease-out, right 210ms ease-in-out;
+}
