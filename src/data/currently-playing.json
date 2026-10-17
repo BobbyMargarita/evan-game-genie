@@ -1,196 +1,41 @@
 {
-  "gameId": "baldurs-gate-3",
-  "title": "Baldur's Gate 3",
-  "tagline": "Act 1 — get the party right",
-  "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
-  "art": "bg3-companions.png",
+  "gameId": "gears-of-war-e-day",
+  "title": "Gears of War: E-Day",
+  "tagline": "Emergence Day — stay in cover",
+  "art": "gears-evan.webp",
   "sections": [
     {
-      "type": "companions",
-      "label": "The 6 companions",
-      "icon": "🧭",
-      "sub": "Where to find them & what they like",
-      "heading": "The 6 companions",
-      "items": [
-        {
-          "name": "Shadowheart",
-          "role": "Cleric (Trickery)",
-          "where": "On the nautiloid, then near the crash beach",
-          "likes": "Discretion, self-interest, keeping secrets",
-          "dislikes": "Reckless heroism, preaching"
-        },
-        {
-          "name": "Lae'zel",
-          "role": "Fighter",
-          "where": "Caged by tieflings on the cliff path NE of the beach",
-          "likes": "Decisiveness, strength, pragmatism",
-          "dislikes": "Weakness, hesitation"
-        },
-        {
-          "name": "Astarion",
-          "role": "Rogue",
-          "where": "Roadside west of the beach (holds you at knifepoint)",
-          "likes": "Self-interest, cunning, a little cruelty",
-          "dislikes": "Selfless kindness"
-        },
-        {
-          "name": "Gale",
-          "role": "Wizard",
-          "where": "Reaching out of a waypoint portal by the Roadside ruins",
-          "likes": "Knowledge, curiosity, helping people",
-          "dislikes": "Ignorance, wanton destruction"
-        },
-        {
-          "name": "Wyll",
-          "role": "Warlock",
-          "where": "Emerald Grove (the Blade of Frontiers)",
-          "likes": "Heroism, protecting the innocent",
-          "dislikes": "Cruelty, siding with evil"
-        },
-        {
-          "name": "Karlach",
-          "role": "Barbarian",
-          "where": "The Risen Road, by the river past the Grove",
-          "likes": "Heroism, kindness, standing up to bullies",
-          "dislikes": "Cruelty, greed"
-        }
-      ]
-    },
-    {
       "type": "tips",
-      "label": "Tips & traps",
-      "icon": "⚠️",
-      "sub": "The stuff people wish they'd known",
-      "heading": "Don't get caught out",
+      "label": "Getting started",
+      "icon": "🪖",
+      "sub": "Spoiler-light basics for the campaign",
+      "heading": "Getting started",
       "items": [
-        "Approval only builds while a companion is IN your active party — swap people in for big story beats.",
-        "You need ~40 camp supplies to Long Rest (80 on Tactician). Under that you only get a weak partial rest, so grab every sausage and bottle.",
-        "Long Rest often — camp scenes, romance and questlines advance there — but a few quests fail if you rest too much before resolving them.",
-        "You get 2 Short Rests per day (50% HP + short-rest abilities). Use them before burning a Long Rest.",
-        "High ground gives +2 to hit, and you can shove or jump enemies off ledges — positioning wins fights more than raw damage."
-      ]
-    },
-    {
-      "type": "tracker",
-      "label": "Act 1 missables",
-      "heading": "Act 1 missables",
-      "storageKey": "bg3-act1-missables",
-      "groups": [
-        {
-          "title": "Emerald Grove — do before the raid",
-          "items": [
-            { "id": "a1", "text": "Settle the Grove and rescue the tieflings before you trigger the goblin raid — the raid ends those questlines for good." },
-            { "id": "a2", "text": "Trade with the tiefling and Zhentarim merchants at the Grove; they and their gear leave after the raid." },
-            { "id": "a3", "text": "Save Arabella, the child caught with the idol, from Kagha." },
-            { "id": "a4", "text": "Resolve Kagha and the Shadow Druids one way or the other." },
-            { "id": "a5", "text": "Recruit Volo at the tiefling celebration (only happens if you save the Grove)." },
-            { "id": "a6", "text": "Give Dammon the blacksmith your first Infernal Iron to begin Karlach's engine repair." },
-            { "id": "a7", "text": "Finish the refugees' requests and talk to Zevlor before the celebration." }
-          ]
-        },
-        {
-          "title": "The Goblin Camp (Shattered Sanctum)",
-          "items": [
-            { "id": "b1", "text": "Free the caged bear — it's the druid Halsin; recruit him." },
-            { "id": "b2", "text": "Rescue Volo if the goblins captured him (later he can give you the Ersatz Eye)." },
-            { "id": "b3", "text": "Deal with the three leaders — Minthara, Dror Ragzlin and Priestess Gut — before the camp clears out." },
-            { "id": "b4", "text": "Recruiting Minthara means the evil raid path (or a very careful non-lethal approach) — a hard either/or." },
-            { "id": "b5", "text": "Don't let Priestess Gut 'remove your tadpole' in her chamber — it's a trap." }
-          ]
-        },
-        {
-          "title": "Blighted Village, windmill & Waukeen's Rest",
-          "items": [
-            { "id": "c1", "text": "Put out the fire at Waukeen's Rest and rescue Counsellor Florrick and Benryn." },
-            { "id": "c2", "text": "Free Barcus Wroot from the spinning windmill (he returns later if he lives)." },
-            { "id": "c3", "text": "Clear the Whispering Depths under the village and kill the Phase Spider Matriarch." },
-            { "id": "c4", "text": "Find the Zhentarim hideout and trade with their quartermaster." },
-            { "id": "c5", "text": "Recover the Necromancy of Thay tome — read it carefully, it can backfire." },
-            { "id": "c6", "text": "Loot the apothecary cellar and village for early gear and scrolls." }
-          ]
-        },
-        {
-          "title": "Auntie Ethel & the Sunlit Wetlands",
-          "items": [
-            { "id": "d1", "text": "Follow the teahouse signs into the Sunlit Wetlands (the pretty swamp is an illusion)." },
-            { "id": "d2", "text": "Save Mayrina from the hag, Auntie Ethel." },
-            { "id": "d3", "text": "Take Ethel's one-time bargain for a permanent +1 to an ability — or refuse the catch." },
-            { "id": "d4", "text": "Clear her lair for the Whispering Promise ring, potions and the Bitter Divorce wand." }
-          ]
-        },
-        {
-          "title": "Risen Road & wilderness",
-          "items": [
-            { "id": "e1", "text": "Spare the owlbear cub in its cave — it becomes a camp follower." },
-            { "id": "e2", "text": "Rescue Karlach on the Risen Road and hear her out before deciding her fate." },
-            { "id": "e3", "text": "Handle the paladins of Tyr at the Risen Road toll house." },
-            { "id": "e4", "text": "Search the owlbear cave and hidden shrines for early loot." }
-          ]
-        },
-        {
-          "title": "Companions & camp timing",
-          "items": [
-            { "id": "f1", "text": "Recruit all six — Shadowheart, Lae'zel, Astarion, Gale, Wyll and Karlach — before advancing." },
-            { "id": "f2", "text": "Long Rest often for camp scenes, but don't binge rests before an unresolved quest or it can fail." },
-            { "id": "f3", "text": "Let Astarion attempt his first night-time bite." },
-            { "id": "f4", "text": "Feed Gale the magic items he asks for so he sticks around." },
-            { "id": "f5", "text": "Hear both Wyll and Karlach before you settle their conflict." },
-            { "id": "f6", "text": "Talk through Shadowheart's artifact and Lae'zel's doubts at camp." },
-            { "id": "f7", "text": "Keep an eye out for more Infernal Iron for Karlach across Act 1." }
-          ]
-        },
-        {
-          "title": "The Underdark",
-          "items": [
-            { "id": "g1", "text": "Reach the Underdark — via the Whispering Depths, the Goblin camp, the Zhentarim, or the beach." },
-            { "id": "g2", "text": "Help the Myconid colony and Sovereign Spaw against the duergar." },
-            { "id": "g3", "text": "Save Baelen from the bibberbang field with his partner Filro." },
-            { "id": "g4", "text": "Explore the Arcane Tower and grab Sussur Bark to craft silence weapons." },
-            { "id": "g5", "text": "Trade with Derryth and the myconid vendors." },
-            { "id": "g6", "text": "Recruit Glut the myconid if you want a temporary helper." },
-            { "id": "g7", "text": "Loot the Underdark beach and Selûnite outpost on your way through." }
-          ]
-        },
-        {
-          "title": "Grymforge & the Adamantine Forge",
-          "items": [
-            { "id": "h1", "text": "Take the boat from the Underdark beach down to Grymforge." },
-            { "id": "h2", "text": "Deal with Nere and free (or don't) the deep gnome workers before the rockfall." },
-            { "id": "h3", "text": "Save Philomeen and her smokepowder before the room blows." },
-            { "id": "h4", "text": "Forge one Adamantine item — moulds and mithral are limited, so choose armor, shield or weapon carefully." },
-            { "id": "h5", "text": "Grab every mithral ore and mould you can before leaving Grymforge." }
-          ]
-        },
-        {
-          "title": "Mountain Pass, Rosymorn Monastery & the Creche",
-          "items": [
-            { "id": "i1", "text": "The Mountain Pass is still Act 1 — go there before the Shadowlands." },
-            { "id": "i2", "text": "Solve the Rosymorn Monastery puzzle for the Blood of Lathander, a legendary mace." },
-            { "id": "i3", "text": "Enter the Githyanki Creche (Creche Y'llek) for Lae'zel's quest and the truth about the tadpoles." },
-            { "id": "i4", "text": "Risk the Zaith'isk machine — it can grant a boon or hurt you." },
-            { "id": "i5", "text": "Defeat the inquisitor in the Creche for the Silver Sword of the Astral Plane." }
-          ]
-        },
-        {
-          "title": "Before you leave Act 1",
-          "items": [
-            { "id": "j1", "text": "Explore BOTH the Underdark and the Mountain Pass — you can't return after entering the Shadow-Cursed Lands." },
-            { "id": "j2", "text": "Lock in the Grove outcome (save vs. raid) — it decides who lives and who joins you." },
-            { "id": "j3", "text": "Spend gold and sell loot with Act 1 vendors before they're gone." },
-            { "id": "j4", "text": "Wrap up companion beats you've started; some don't carry into Act 2." },
-            { "id": "j5", "text": "Head into the Shadowlands only when you're done — that's the Act 2 point of no return." }
-          ]
-        }
+        "Warm up in Boot Camp first (movement, cover, shooting), then try Combat Training before the tougher fights.",
+        "Know where your next piece of cover is before you need it, and keep an eye on flanking routes.",
+        "Every weapon has its own Active Reload timing. Nail it for a boost, and miss it and you're stuck for a moment.",
+        "Shotguns are for close range, rifles for safer distance, and heavy weapons for big enemies or crowds. Don't waste the good ammo.",
+        "Deal with enemies trying to flank you first. Watch what they're doing, not only where they're standing.",
+        "Falling back to reload behind better cover is smart. Only go for executions once the area is clear."
       ]
     },
     {
       "type": "links",
-      "label": "Wikis & BG3 apps",
-      "heading": "Wikis & BG3 apps",
+      "label": "Guides & info",
+      "heading": "Guides & info",
       "items": [
-        { "label": "bg3.wiki", "sub": "Fast, clean reference wiki", "icon": "📖", "url": "https://bg3.wiki/" },
-        { "label": "Companion approval guide", "sub": "Who likes which choices", "icon": "💬", "url": "https://baldursgate3.wiki.fextralife.com/Companion+Approval+Guide" },
-        { "label": "Best builds", "sub": "All classes & companions", "icon": "⚔️", "url": "https://baldursgate3.wiki.fextralife.com/Builds" }
+        {
+          "label": "Wikipedia",
+          "sub": "Story setup & cast",
+          "icon": "📖",
+          "url": "https://en.wikipedia.org/wiki/Gears_of_War:_E-Day"
+        },
+        {
+          "label": "Steam page",
+          "sub": "Trailers & screenshots",
+          "icon": "🎮",
+          "url": "https://store.steampowered.com/app/3010850/"
+        }
       ]
     }
   ]

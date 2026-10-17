@@ -20,5 +20,6 @@
   "astro bot": { "metacritic": 94, "year": "2024", "developer": "Team Asobi" },
   "bloodborne": { "metacritic": 92, "year": "2015", "developer": "FromSoftware" },
   "ghost of yotei": { "metacritic": 87, "year": "2025", "developer": "Sucker Punch" },
-  "infamous second son": { "metacritic": 80, "year": "2014", "developer": "Sucker Punch" }
+  "infamous second son": { "metacritic": 80, "year": "2014", "developer": "Sucker Punch" },
+  "gears of war: e-day": { "metacritic": 87 }
 }

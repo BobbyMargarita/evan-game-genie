@@ -3,6 +3,7 @@
 //   4: tier labels for AAA Played     5: AAA Played titles
 //   7: Indie to Try titles            9: AAA to Try titles
 // Tier labels ("Great"/"Good"/"Ok") appear once, then blank rows continue that tier.
+// Rows with any other label (e.g. "Currently playing") are skipped.
 
 function parseCsv(text) {
   const rows = [];
@@ -54,6 +55,9 @@ export function parseSheet(csvText) {
       if (s.tierCol != null) {
         const label = (rows[r][s.tierCol] || '').trim();
         if (TIERS.includes(label)) tier = label;
+        // Any other label (e.g. "Currently playing") marks a one-off row that
+        // isn't part of the played list — skip it without changing the tier.
+        else if (label) continue;
       }
       if (tier) add(rows[r][s.titleCol], s.cat, s.status, tier);
     }

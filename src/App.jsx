@@ -19,9 +19,7 @@ function agoText(iso) {
 // The header genie is a masked clay clip: Resolve Magic Mask → TIFF+alpha
 // sequence → cropped animated WebP (loop count 1, so it plays once and holds
 // its last frame). It starts as soon as the clip has loaded and loops: play
-// → the speech bubble pops in at GENIE_BUBBLE_AT_MS (5 frames before his
-// hands reach his cheeks) → it slides right with him at GENIE_SLIDE_AT_MS →
-// hold → bubble pops away, clip fades out, rest fades back in → play again.
+// → hold → clip fades out, rest fades back in → play again.
 // The clip is source frames 84–239, and GENIE_REST is its first frame, so
 // the rest→play swap is seamless. Times are clip frame × 42ms.
 // The clip is fetched once as a blob; each play gets a fresh object URL so
@@ -29,18 +27,15 @@ function agoText(iso) {
 // on rest), and simply rests if the clip fails to load.
 const GENIE_REST = 'genie/rest.png';
 const GENIE_CLIP = 'genie/shock.webp';
-const GENIE_BUBBLE = 'genie/shock-bubble.png';
 const GENIE_FADE_MS = 250;
 const GENIE_REST_MS = GENIE_FADE_MS; // between loops: just long enough to fade rest back in
-const GENIE_BUBBLE_AT_MS = 2100;     // clip frame 50: bubble pops in
-const GENIE_SLIDE_AT_MS = 3900;      // clip frame 93: he slides right (~5 frames)
 const GENIE_END_MS = 9550;           // clip runs ~6.5s, then holds its last frame
 
 const asset = (p) => import.meta.env.BASE_URL + p;
 
 // phase: 'rest' → 'loading' (clip mounted, hidden until decoded) → 'play' → 'out'
 function useGenieClip() {
-  const [s, setS] = useState({ url: null, phase: 'rest', bubble: false, slid: false });
+  const [s, setS] = useState({ url: null, phase: 'rest' });
   const onLoad = useRef(() => {});
   useEffect(() => {
     if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
@@ -51,20 +46,16 @@ function useGenieClip() {
     const play = () => {
       if (url) URL.revokeObjectURL(url);
       url = URL.createObjectURL(blob);
-      setS({ url, phase: 'loading', bubble: false, slid: false });
+      setS({ url, phase: 'loading' });
     };
     onLoad.current = () => {
       set({ phase: 'play' });
-      later(GENIE_BUBBLE_AT_MS, () => set({ bubble: true }));
-      later(GENIE_SLIDE_AT_MS, () => set({ slid: true }));
-      later(GENIE_END_MS, () => set({ bubble: false }));
-      later(GENIE_END_MS + GENIE_FADE_MS, () => set({ phase: 'out' }));
-      later(GENIE_END_MS + 2 * GENIE_FADE_MS, () => {
-        setS({ url: null, phase: 'rest', bubble: false, slid: false });
+      later(GENIE_END_MS, () => set({ phase: 'out' }));
+      later(GENIE_END_MS + GENIE_FADE_MS, () => {
+        setS({ url: null, phase: 'rest' });
         later(GENIE_REST_MS, play);
       });
     };
-    new Image().src = asset(GENIE_BUBBLE);
     fetch(asset(GENIE_CLIP))
       .then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
       .then((b) => { if (alive) { blob = b; play(); } })
@@ -80,7 +71,7 @@ function useGenieClip() {
 }
 
 function Genie() {
-  const [{ url, phase, bubble, slid }, onClipLoad] = useGenieClip();
+  const [{ url, phase }, onClipLoad] = useGenieClip();
   const fade = `opacity ${GENIE_FADE_MS}ms ease-out`;
   const clipShown = phase === 'play' || phase === 'out';
   return (
@@ -90,13 +81,6 @@ function Genie() {
       {url && (
         <img src={url} onLoad={onClipLoad} alt="" draggable="false" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: phase === 'play' ? 1 : 0, transition: phase === 'out' ? fade : 'none' }} />
       )}
-      <img
-        src={asset(GENIE_BUBBLE)} alt="" draggable="false" className={'genie-bubble' + (bubble ? ' on' : '')}
-        // Tail tip (the bubble's bottom-right corner) sits just left of his
-        // hand at mouth height, 55.4% down the box: 23.4% across before he
-        // slides right, 47.6% after.
-        style={{ position: 'absolute', right: slid ? '52.4%' : '76.6%', bottom: '44.6%', width: 190, zIndex: 2, pointerEvents: 'none' }}
-      />
     </div>
   );
 }
