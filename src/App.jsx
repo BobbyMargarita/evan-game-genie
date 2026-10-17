@@ -168,14 +168,94 @@ function ScoreCard({ label, value, denom, note }) {
   );
 }
 
+// Detail blocks shared by a game's DetailSheet and the Now Playing panel.
+function GameMeta({ game }) {
+  const detail = detailFor(game);
+  return (
+    <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, margin: '14px 0 0', font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)', flexWrap: 'wrap' }}>
+      {detail?.year && <span>{detail.year}</span>}
+      {detail?.year && detail?.developer && <span>·</span>}
+      {detail?.developer && <span>{detail.developer}</span>}
+      {detail?.genres?.length > 0 && <><span>·</span><span>{detail.genres.join(', ')}</span></>}
+    </div>
+  );
+}
+
+function GameScores({ game }) {
+  const mc = detailFor(game)?.metacritic ?? null;
+  const ign = ignFor(game.title);
+  return (
+    <>
+      {(mc != null || ign != null) && (
+        <div style={{ display: 'grid', gridTemplateColumns: mc != null && ign != null ? '1fr 1fr' : '1fr', gap: 11, marginTop: 12 }}>
+          {mc != null && <ScoreCard label="Metacritic" value={mc} denom="/100" note={mc >= 90 ? 'Universal acclaim' : 'Generally favorable'} />}
+          {ign != null && <ScoreCard label="IGN" value={ign} denom="/10" note={ign >= 9 ? 'Amazing' : 'Great'} />}
+        </div>
+      )}
+    </>
+  );
+}
+
+function GameMore({ game }) {
+  const detail = detailFor(game);
+  const steam = detail?.players || null;
+  const xbox = xboxFor(game.id);
+  return (
+    <>
+      {steam && (steam.series || steam.current != null) && (
+        <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 14px 10px' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+            <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>Steam players</div>
+            <div style={{ font: '700 12px var(--font-body)' }}>
+              {steam.series ? `${fmtCount(steam.peak)} peak · 30d` : `${fmtCount(steam.current)} playing`}
+            </div>
+          </div>
+          {steam.series && <div style={{ marginTop: 8 }}><Sparkline series={steam.series} /></div>}
+          {steam.series && steam.current != null && (
+            <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', margin: '6px 0 4px' }}>{fmtCount(steam.current)} playing at last update</div>
+          )}
+        </div>
+      )}
+
+      {xbox && (
+        <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 14px 12px' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+            <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>Evan on Xbox</div>
+            {xbox.lastPlayed && <div style={{ font: '700 12px var(--font-body)' }}>Played {agoText(xbox.lastPlayed)}</div>}
+          </div>
+          {xbox.gamerscoreTotal > 0 && (
+            <>
+              <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8, marginTop: 10 }}>
+                <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)' }}>Gamerscore</div>
+                <div style={{ font: '700 12px var(--font-body)' }}>{xbox.gamerscoreEarned} / {xbox.gamerscoreTotal} G</div>
+              </div>
+              <div style={{ height: 6, borderRadius: 999, background: 'var(--color-accent-2-200)', marginTop: 6, overflow: 'hidden' }}>
+                <div style={{ height: '100%', width: `${Math.min(100, (xbox.gamerscoreEarned / xbox.gamerscoreTotal) * 100)}%`, background: 'var(--color-accent-700)', borderRadius: 999 }} />
+              </div>
+            </>
+          )}
+          {xbox.achievementsEarned != null && (
+            <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 8 }}>
+              {xbox.achievementsEarned} achievement{xbox.achievementsEarned === 1 ? '' : 's'} unlocked
+            </div>
+          )}
+        </div>
+      )}
+
+      {detail?.description && (
+        <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 16px' }}>
+          <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>About</div>
+          <p style={{ margin: '7px 0 0', font: '400 13.5px/1.55 var(--font-body)', color: 'var(--color-neutral-800)' }}>{detail.description}</p>
+        </div>
+      )}
+    </>
+  );
+}
+
 function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
   const sheetRef = useRef(null);
   const heroRef = useRef(null);
   const bodyRef = useRef(null);
-  const detail = detailFor(game);
-  const ign = ignFor(game.title);
-  const steam = detail?.players || null;
-  const xbox = xboxFor(game.id);
 
   // Shared-element expand in (mode 1a "flip" from the design)
   useEffect(() => {
@@ -224,7 +304,6 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
   const crumb = game.status === 'To try'
     ? `${game.cat === 'Indie' ? 'Indie Games' : 'Triple AAA'} to Try`
     : `${game.cat === 'Indie' ? 'Indie Games' : 'Triple AAA'} › ${game.tier}`;
-  const mc = detail?.metacritic ?? null;
   const similar = GAMES.filter((g) => g.id !== game.id && g.cat === game.cat && g.tier === game.tier).slice(0, 5);
 
   return (
@@ -238,12 +317,7 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
       </div>
 
       <div ref={bodyRef} style={{ padding: '0 14px 34px' }}>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, margin: '14px 0 0', font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)', flexWrap: 'wrap' }}>
-          {detail?.year && <span>{detail.year}</span>}
-          {detail?.year && detail?.developer && <span>·</span>}
-          {detail?.developer && <span>{detail.developer}</span>}
-          {detail?.genres?.length > 0 && <><span>·</span><span>{detail.genres.join(', ')}</span></>}
-        </div>
+        <GameMeta game={game} />
 
         <div style={{ marginTop: 14, background: 'var(--color-accent-2-200)', borderRadius: 'var(--radius-lg)', padding: 16 }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
@@ -255,59 +329,8 @@ function DetailSheet({ game, startRect, onClosed, onOpenGame }) {
           </div>
         </div>
 
-        {(mc != null || ign != null) && (
-          <div style={{ display: 'grid', gridTemplateColumns: mc != null && ign != null ? '1fr 1fr' : '1fr', gap: 11, marginTop: 12 }}>
-            {mc != null && <ScoreCard label="Metacritic" value={mc} denom="/100" note={mc >= 90 ? 'Universal acclaim' : 'Generally favorable'} />}
-            {ign != null && <ScoreCard label="IGN" value={ign} denom="/10" note={ign >= 9 ? 'Amazing' : 'Great'} />}
-          </div>
-        )}
-
-        {steam && (steam.series || steam.current != null) && (
-          <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 14px 10px' }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
-              <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>Steam players</div>
-              <div style={{ font: '700 12px var(--font-body)' }}>
-                {steam.series ? `${fmtCount(steam.peak)} peak · 30d` : `${fmtCount(steam.current)} playing`}
-              </div>
-            </div>
-            {steam.series && <div style={{ marginTop: 8 }}><Sparkline series={steam.series} /></div>}
-            {steam.series && steam.current != null && (
-              <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', margin: '6px 0 4px' }}>{fmtCount(steam.current)} playing at last update</div>
-            )}
-          </div>
-        )}
-
-        {xbox && (
-          <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 14px 12px' }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
-              <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>Evan on Xbox</div>
-              {xbox.lastPlayed && <div style={{ font: '700 12px var(--font-body)' }}>Played {agoText(xbox.lastPlayed)}</div>}
-            </div>
-            {xbox.gamerscoreTotal > 0 && (
-              <>
-                <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8, marginTop: 10 }}>
-                  <div style={{ font: '600 12px var(--font-body)', color: 'var(--color-neutral-700)' }}>Gamerscore</div>
-                  <div style={{ font: '700 12px var(--font-body)' }}>{xbox.gamerscoreEarned} / {xbox.gamerscoreTotal} G</div>
-                </div>
-                <div style={{ height: 6, borderRadius: 999, background: 'var(--color-accent-2-200)', marginTop: 6, overflow: 'hidden' }}>
-                  <div style={{ height: '100%', width: `${Math.min(100, (xbox.gamerscoreEarned / xbox.gamerscoreTotal) * 100)}%`, background: 'var(--color-accent-700)', borderRadius: 999 }} />
-                </div>
-              </>
-            )}
-            {xbox.achievementsEarned != null && (
-              <div style={{ font: '600 11px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 8 }}>
-                {xbox.achievementsEarned} achievement{xbox.achievementsEarned === 1 ? '' : 's'} unlocked
-              </div>
-            )}
-          </div>
-        )}
-
-        {detail?.description && (
-          <div style={{ marginTop: 12, background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', padding: '14px 16px' }}>
-            <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.09em', textTransform: 'uppercase', color: 'var(--color-neutral-700)' }}>About</div>
-            <p style={{ margin: '7px 0 0', font: '400 13.5px/1.55 var(--font-body)', color: 'var(--color-neutral-800)' }}>{detail.description}</p>
-          </div>
-        )}
+        <GameScores game={game} />
+        <GameMore game={game} />
 
         {similar.length > 0 && (
           <>
@@ -531,7 +554,7 @@ function NowPlayingPanel({ data, onClose }) {
       {active ? (
         <div ref={bodyRef}>
           <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 18px) 16px 0' }}>
-            <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.11em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>{data.title}</div>
+            <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.11em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>{data.panelTitle}</div>
             <h2 style={{ fontSize: 25, marginTop: 4 }}>{active.heading}</h2>
           </div>
           <div style={{ padding: '18px 16px 40px' }}>
@@ -542,7 +565,7 @@ function NowPlayingPanel({ data, onClose }) {
         <div ref={bodyRef}>
           <div style={{ padding: 'calc(env(safe-area-inset-top, 0px) + 20px) 16px 0', textAlign: 'center' }}>
             <div style={{ font: '700 10.5px var(--font-body)', letterSpacing: '.11em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>▶ Now Playing</div>
-            <h2 style={{ fontSize: 28, marginTop: 5 }}>{data.title}</h2>
+            <h2 style={{ fontSize: 28, marginTop: 5 }}>{data.panelTitle}</h2>
             {data.tagline && <div style={{ font: '600 12.5px var(--font-body)', color: 'var(--color-neutral-700)', marginTop: 5 }}>{data.tagline}</div>}
           </div>
 
@@ -550,7 +573,12 @@ function NowPlayingPanel({ data, onClose }) {
             <img src={data.art} alt="" draggable="false" style={{ display: 'block', width: '100%', marginTop: 10 }} />
           )}
 
-          <div style={{ padding: '14px 16px 40px', display: 'flex', flexDirection: 'column', gap: 11 }}>
+          <div style={{ padding: '0 16px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}><GameMeta game={data.game} /></div>
+            <GameScores game={data.game} />
+          </div>
+
+          <div style={{ padding: '14px 16px 0', display: 'flex', flexDirection: 'column', gap: 11 }}>
             {(() => {
               let i = 0;
               return data.sections.map((section) =>
@@ -569,6 +597,10 @@ function NowPlayingPanel({ data, onClose }) {
               );
             })()}
           </div>
+
+          <div style={{ padding: '0 16px 40px' }}>
+            <GameMore game={data.game} />
+          </div>
         </div>
       )}
 
@@ -582,7 +614,7 @@ function NowPlayingPanel({ data, onClose }) {
             fontFamily: 'var(--font-heading)', fontSize: 14, boxShadow: 'var(--shadow-lg)',
           }}
         >
-          {active ? `← ${data.title}` : '← Back to the pile'}
+          {active ? `← ${data.panelTitle}` : '← Back to the pile'}
         </button>
       </div>
     </div>
@@ -650,8 +682,8 @@ export default function App() {
               <div style={{ font: '700 10px var(--font-body)', letterSpacing: '.11em', textTransform: 'uppercase', color: 'var(--color-accent-700)' }}>▶ Now Playing</div>
               <div style={{ fontFamily: 'var(--font-heading)', fontSize: 19, color: 'var(--color-neutral-900)', marginTop: 2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{nowPlaying.title}</div>
             </div>
-            {nowPlaying.art && (
-              <img src={nowPlaying.art} alt="" draggable="false" style={{ flex: '1 1 0', minWidth: 0, height: 104, objectFit: 'contain', objectPosition: 'right bottom' }} />
+            {nowPlaying.barArt && (
+              <img src={nowPlaying.barArt} alt="" draggable="false" style={{ flex: '1 1 0', minWidth: 0, height: 104, objectFit: 'contain', objectPosition: 'right bottom' }} />
             )}
           </button>
         )}

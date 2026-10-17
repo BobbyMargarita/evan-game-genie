@@ -45,8 +45,13 @@ export function currentlyPlaying() {
   if (!NOW_PLAYING || !NOW_PLAYING.gameId) return null;
   const cover = NOW_PLAYING.cover || metaFile.games[NOW_PLAYING.gameId]?.cover || null;
   // Local art lives in public/ and must go through the GitHub Pages base path;
-  // absolute (http) art is used as-is.
-  const rawArt = NOW_PLAYING.art || null;
-  const art = rawArt && !/^https?:/.test(rawArt) ? import.meta.env.BASE_URL + rawArt : rawArt;
-  return { ...NOW_PLAYING, cover, art };
+  // absolute (http) art is used as-is. `art` shows in the panel; `barArt`
+  // (optional, defaults to `art`) is the start-page bar's image.
+  const resolve = (p) => (p && !/^https?:/.test(p) ? import.meta.env.BASE_URL + p : p || null);
+  const art = resolve(NOW_PLAYING.art);
+  const barArt = resolve(NOW_PLAYING.barArt) || art;
+  // The game's own record for score/detail lookups — the sheet row may be
+  // skipped (e.g. labelled "Currently playing"), so fall back to id + title.
+  const game = GAMES.find((g) => g.id === NOW_PLAYING.gameId) || { id: NOW_PLAYING.gameId, title: NOW_PLAYING.title };
+  return { ...NOW_PLAYING, panelTitle: NOW_PLAYING.panelTitle || NOW_PLAYING.title, cover, art, barArt, game };
 }

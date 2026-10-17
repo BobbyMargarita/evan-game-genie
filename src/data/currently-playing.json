@@ -1,8 +1,10 @@
 {
   "gameId": "gears-of-war-e-day",
   "title": "Gears of War: E-Day",
+  "panelTitle": "Gears of War: Evan-Day",
   "tagline": "Emergence Day — stay in cover",
   "art": "gears-evan.webp",
+  "barArt": "gears-evan-still.webp",
   "sections": [
     {
       "type": "tips",
