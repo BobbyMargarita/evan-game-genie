@@ -28,7 +28,12 @@ const SEARCH_ALIASES = {
   'rathet & clank': "Ratchet & Clank: Rift Apart",
   'civilization 5': "Sid Meier's Civilization V",
   'god of war 2018 & ragnarok': 'God of War',
-  'horizon foribedden ': 'Horizon Forbidden West',
+  'horizon foribedden': 'Horizon Forbidden West',
+  'control': 'CONTROL Ultimate Edition', // plain "control" lands on Control Resonant
+  'uncharted 4': 'UNCHARTED: Legacy of Thieves',
+  'donut country': 'Donut County',
+  'humanity': null, // search lands on X4: Cradle of Humanity
+  'shadow of the colossus': null,
   'doom eternal & dark ages': 'DOOM Eternal',
   'spiderman 1 & 2': "Marvel's Spider-Man Remastered",
   'the last of us 1 & 2': 'The Last of Us Part I',
@@ -45,10 +50,10 @@ const SEARCH_ALIASES = {
   'doom 2017': 'DOOM',
   'tony hawks pro skater 1 & 2': "Tony Hawk's Pro Skater 1 + 2",
   'metal gear solid phantom pain': 'Metal Gear Solid V: The Phantom Pain',
-  'ac black flag remaster': "Assassin's Creed IV Black Flag",
+  'ac black flag remaster': "Assassin's Creed Black Flag Resynced",
   'ac valhalla/odyssey': "Assassin's Creed Odyssey",
   'jedi survivor': 'STAR WARS Jedi: Survivor',
-  'halo campaign evovled': 'Halo: The Master Chief Collection',
+  'halo campaign evovled': 'Halo: Campaign Evolved',
   'far cry 6': 'Far Cry 6',
   'black myth wukong': 'Black Myth: Wukong',
   '007 first light': '007 First Light',
@@ -70,11 +75,13 @@ const SEARCH_ALIASES = {
   'metroid prime remastered': null,
   'astral chain': null,
   'advance wars': null,
-  'mina the hollower': null,
   'astro bot': null, // PlayStation exclusive
   'bloodborne': null,
   'ghost of yotei': null,
   'infamous second son': null,
+  'gta 6': null, // not on Steam (search would land on GTA V)
+  'gow laufey': null,
+  'ocarina of time remake': null,
   'gears of war reloaded': 'Gears of War: Reloaded',
   'gears of war eday': 'Gears of War: E-Day',
 };

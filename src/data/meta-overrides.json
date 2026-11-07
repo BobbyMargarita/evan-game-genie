@@ -1,26 +1,455 @@
 {
-  "_comment": "Hand-maintained details for games Steam can't provide (console exclusives), keyed by the sheet title lowercased. Merged over the Steam data — any field here wins.",
-  "breath of the wild": { "metacritic": 97, "year": "2017", "developer": "Nintendo" },
-  "tears of the kingdom": { "metacritic": 96, "year": "2023", "developer": "Nintendo" },
-  "super mario odyssey": { "metacritic": 97, "year": "2017", "developer": "Nintendo" },
-  "super mario 3d world": { "metacritic": 89, "year": "2021", "developer": "Nintendo" },
-  "super mario rpg remastered": { "metacritic": 82, "year": "2023", "developer": "Nintendo / ArtePiazza" },
-  "link awakening": { "metacritic": 87, "year": "2019", "developer": "Grezzo" },
-  "echoes of wisdom": { "metacritic": 86, "year": "2024", "developer": "Grezzo" },
-  "super smash bros ultimate": { "metacritic": 93, "year": "2018", "developer": "Bandai Namco / Sora" },
-  "mario + rabbids": { "metacritic": 85, "year": "2017", "developer": "Ubisoft Milan" },
-  "pikmin 4": { "metacritic": 87, "year": "2023", "developer": "Nintendo" },
-  "metroid dread": { "metacritic": 88, "year": "2021", "developer": "MercurySteam" },
-  "metroid prime remastered": { "metacritic": 94, "year": "2023", "developer": "Retro Studios" },
-  "astral chain": { "metacritic": 87, "year": "2019", "developer": "PlatinumGames" },
-  "advance wars": { "metacritic": 75, "year": "2023", "developer": "WayForward" },
-  "dk tropical freeze": { "metacritic": 83, "year": "2018", "developer": "Retro Studios" },
-  "dk bananza": { "metacritic": 91, "year": "2025", "developer": "Nintendo" },
-  "mina the hollower": { "year": "2025", "developer": "Yacht Club Games" },
-  "astro bot": { "metacritic": 94, "year": "2024", "developer": "Team Asobi" },
-  "bloodborne": { "metacritic": 92, "year": "2015", "developer": "FromSoftware" },
-  "ghost of yotei": { "metacritic": 87, "year": "2025", "developer": "Sucker Punch" },
-  "infamous second son": { "metacritic": 80, "year": "2014", "developer": "Sucker Punch" },
-  "gears of war: e-day": { "metacritic": 87 },
-  "gears of war eday": { "metacritic": 87 }
+  "_comment": "Hand-maintained details, keyed by the sheet title lowercased. Merged over the Steam data, so any field here wins. title = clean display name (the sheet keeps Evan's spelling). Console exclusives get description, genres, year and developer here; cover and scores are filled from Wikipedia.",
+  "breath of the wild": {
+    "metacritic": 97,
+    "year": "2017",
+    "developer": "Nintendo",
+    "description": "Open-air adventure across a ruined Hyrule: climb anything, cook everything, and take on Ganon whenever you feel ready.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Zelda: Breath of the Wild",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "tears of the kingdom": {
+    "metacritic": 96,
+    "year": "2023",
+    "developer": "Nintendo",
+    "description": "Link returns to Hyrule and the sky islands above it, building machines from whatever he finds to explore land, sky and the depths below.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Zelda: Tears of the Kingdom",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "super mario odyssey": {
+    "metacritic": 97,
+    "year": "2017",
+    "developer": "Nintendo",
+    "description": "Mario and his sentient hat Cappy sail between sandbox kingdoms, possessing enemies and hunting Power Moons to stop Bowser's wedding.",
+    "genres": [
+      "Platformer"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "super mario 3d world": {
+    "metacritic": 89,
+    "year": "2021",
+    "developer": "Nintendo",
+    "description": "Colorful co-op platforming with the cat suit, on the Switch version with the Bowser's Fury open-world adventure included.",
+    "genres": [
+      "Platformer"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "super mario rpg remastered": {
+    "metacritic": 82,
+    "year": "2023",
+    "developer": "Nintendo / ArtePiazza",
+    "description": "A full remake of the 1996 RPG: Mario, Bowser and Peach team up in timed turn-based battles against the Smithy Gang.",
+    "genres": [
+      "RPG"
+    ],
+    "title": "Super Mario RPG",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "link awakening": {
+    "metacritic": 87,
+    "year": "2019",
+    "developer": "Grezzo",
+    "description": "Link washes up on Koholint Island in a toy-box remake of the Game Boy classic, gathering instruments to wake the Wind Fish.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Zelda: Link's Awakening",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Legend_of_Zelda_Link%27s_Awakening_%282019_video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "echoes of wisdom": {
+    "metacritic": 86,
+    "year": "2024",
+    "developer": "Grezzo",
+    "description": "Zelda takes the lead, copying objects and monsters as echoes to solve puzzles her own way and rescue a kingdom swallowed by rifts.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Zelda: Echoes of Wisdom",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Legend_of_Zelda_%E2%80%93_Echoes_of_Wisdom.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "super smash bros ultimate": {
+    "metacritic": 93,
+    "year": "2018",
+    "developer": "Bandai Namco / Sora",
+    "description": "The crossover fighter with every character the series has ever had, all on one roster.",
+    "genres": [
+      "Fighting"
+    ],
+    "title": "Super Smash Bros. Ultimate",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "mario + rabbids": {
+    "metacritic": 85,
+    "year": "2017",
+    "developer": "Ubisoft Milan",
+    "description": "Tactical turn-based battles with Mario, his friends and their Rabbid lookalikes, in a world knocked sideways by a strange device.",
+    "genres": [
+      "Strategy",
+      "Tactics"
+    ],
+    "title": "Mario + Rabbids Kingdom Battle",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Mario_%2B_Rabbids_Kingdom_Battle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "pikmin 4": {
+    "metacritic": 87,
+    "year": "2023",
+    "developer": "Nintendo",
+    "description": "Command a growing squad of tiny plant creatures and a rescue dog named Oatchi to explore a strange planet and recover what's lost there.",
+    "genres": [
+      "Strategy",
+      "Adventure"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4d/Pikmin_icon_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "metroid dread": {
+    "metacritic": 88,
+    "year": "2021",
+    "developer": "MercurySteam",
+    "description": "Samus hunts through a hostile planet while unstoppable E.M.M.I. robots hunt her, in the first new 2D Metroid in nineteen years.",
+    "genres": [
+      "Action",
+      "Metroidvania"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Metroid_Dread_Banner.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "metroid prime remastered": {
+    "metacritic": 94,
+    "year": "2023",
+    "developer": "Retro Studios",
+    "description": "The first-person Metroid classic rebuilt with new visuals: Samus scans and blasts her way through the ruins of Tallon IV.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "astral chain": {
+    "metacritic": 87,
+    "year": "2019",
+    "developer": "PlatinumGames",
+    "description": "A futuristic police officer fights interdimensional creatures while chained to a living weapon called a Legion.",
+    "genres": [
+      "Action"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Astral_Chain.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "advance wars": {
+    "metacritic": 83,
+    "year": "2023",
+    "developer": "WayForward",
+    "description": "A remake of the first two Advance Wars games: bright, sharp turn-based tactics with tanks, planes and commanding officers.",
+    "genres": [
+      "Strategy",
+      "Tactics"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/71/Advance_Wars_1-2_Re-Boot_Camp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "dk tropical freeze": {
+    "metacritic": 83,
+    "year": "2018",
+    "developer": "Retro Studios",
+    "description": "Donkey Kong and family fight to take back their frozen island in tough, beautifully animated side-scrolling platforming.",
+    "genres": [
+      "Platformer"
+    ],
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/DKC5_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "dk bananza": {
+    "metacritic": 91,
+    "year": "2025",
+    "developer": "Nintendo",
+    "description": "Donkey Kong punches his way through destructible worlds toward the planet's core, with a teenage Pauline along for the ride.",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "title": "Donkey Kong Bananza",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Donkey_Kong_Bananza_updated_box_art.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "astro bot": {
+    "metacritic": 94,
+    "year": "2024",
+    "developer": "Team Asobi",
+    "description": "A tiny robot chases his scattered crew through inventive worlds in a joyful platformer built around the DualSense controller.",
+    "genres": [
+      "Platformer"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a9/Astro_Bot_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "bloodborne": {
+    "metacritic": 92,
+    "year": "2015",
+    "developer": "FromSoftware",
+    "description": "A hunter stalks the gothic streets of Yharnam through a nightmare of beasts and cosmic horror, in FromSoftware's most aggressive combat.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "ghost of yotei": {
+    "metacritic": 87,
+    "year": "2025",
+    "developer": "Sucker Punch",
+    "description": "A lone mercenary named Atsu hunts the gang that killed her family across the wilds around Mount Yotei in 1600s Japan.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Ghost of Yōtei",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/18/Ghost_of_Y%C5%8Dtei_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "infamous second son": {
+    "metacritic": 80,
+    "year": "2014",
+    "developer": "Sucker Punch",
+    "description": "Delsin Rowe discovers he can absorb superpowers like smoke and neon, and turns them on an occupied Seattle.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "inFAMOUS Second Son",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "gears of war: e-day": {
+    "metacritic": 87
+  },
+  "gears of war eday": {
+    "metacritic": 87,
+    "title": "Gears of War: E-Day"
+  },
+  "shadow of the colossus": {
+    "description": "A lone traveler rides across a forbidden land, climbing and felling sixteen giant colossi to bring back someone he lost.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "year": "2005",
+    "developer": "Team Ico",
+    "metacritic": 91,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "tony hawks pro skater 1 & 2": {
+    "description": "The first two Pro Skater games rebuilt from the ground up, with the original levels, soundtrack and skaters plus new ones.",
+    "genres": [
+      "Sports"
+    ],
+    "year": "2020",
+    "developer": "Vicarious Visions",
+    "title": "Tony Hawk's Pro Skater 1 + 2",
+    "metacritic": 88,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Tony_Hawk_Pro_Skater_Remaster_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "humanity": {
+    "description": "Guide endless crowds of people through puzzle stages as a glowing Shiba Inu, in a strange and striking puzzle-action game.",
+    "genres": [
+      "Puzzle"
+    ],
+    "year": "2023",
+    "developer": "tha ltd.",
+    "metacritic": 86,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Humanity_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "gta 6": {
+    "description": "Rockstar's return to Vice City and the state of Leonida, following criminal partners Lucia and Jason.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developer": "Rockstar Games",
+    "title": "Grand Theft Auto VI",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "gow laufey": {
+    "description": "An upcoming God of War from Santa Monica Studio, on PlayStation 5.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "year": "2027",
+    "developer": "Santa Monica Studio",
+    "title": "God of War Laufey",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/God_of_War_Laufey_cover.webp?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "ocarina of time remake": {
+    "description": "Evan's list has this as a remake of Link's Nintendo 64 adventure. We couldn't find a listing for it yet.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "title": "Zelda: Ocarina of Time Remake"
+  },
+  "baldurs gate 3": {
+    "title": "Baldur's Gate 3"
+  },
+  "ori blind forest & will of the wisps": {
+    "title": "Ori and the Blind Forest & Will of the Wisps"
+  },
+  "outerwilds": {
+    "title": "Outer Wilds"
+  },
+  "hell divers 2": {
+    "title": "Helldivers 2",
+    "metacritic": 83
+  },
+  "steamworld heist & dig 2": {
+    "title": "SteamWorld Heist & Dig 2"
+  },
+  "dead cells og": {
+    "title": "Dead Cells"
+  },
+  "rathet & clank": {
+    "title": "Ratchet & Clank: Rift Apart",
+    "metacritic": 88
+  },
+  "civilization 5": {
+    "title": "Civilization V"
+  },
+  "god of war 2018 & ragnarok": {
+    "title": "God of War & Ragnarök"
+  },
+  "horizon foribedden": {
+    "title": "Horizon Forbidden West",
+    "metacritic": 88
+  },
+  "doom eternal & dark ages": {
+    "title": "Doom Eternal & The Dark Ages"
+  },
+  "spiderman 1 & 2": {
+    "title": "Spider-Man 1 & 2",
+    "metacritic": 87
+  },
+  "the last of us 1 & 2": {
+    "title": "The Last of Us 1 & 2",
+    "metacritic": 89
+  },
+  "jedi fallen order": {
+    "title": "Star Wars Jedi: Fallen Order"
+  },
+  "cyberpunk": {
+    "title": "Cyberpunk 2077"
+  },
+  "sekiro shadows die twice": {
+    "title": "Sekiro: Shadows Die Twice"
+  },
+  "gta v": {
+    "title": "Grand Theft Auto V",
+    "metacritic": 97
+  },
+  "bishock infinite": {
+    "title": "BioShock Infinite"
+  },
+  "final fantasy 7 remake & rebirth": {
+    "title": "Final Fantasy VII Remake & Rebirth",
+    "metacritic": 87
+  },
+  "bioshock 1 & 2": {
+    "title": "BioShock 1 & 2"
+  },
+  "wolfenstein 2 the new colossus": {
+    "title": "Wolfenstein II: The New Colossus"
+  },
+  "silk song": {
+    "title": "Hollow Knight: Silksong"
+  },
+  "paper please": {
+    "title": "Papers, Please"
+  },
+  "doom 2017": {
+    "title": "Doom"
+  },
+  "metal gear solid phantom pain": {
+    "title": "Metal Gear Solid V: The Phantom Pain"
+  },
+  "ac black flag remaster": {
+    "title": "Assassin's Creed: Black Flag Remaster",
+    "metacritic": 84
+  },
+  "ac valhalla/odyssey": {
+    "title": "Assassin's Creed Valhalla & Odyssey",
+    "metacritic": 87
+  },
+  "jedi survivor": {
+    "title": "Star Wars Jedi: Survivor",
+    "metacritic": 78
+  },
+  "halo campaign evovled": {
+    "title": "Halo: Campaign Evolved",
+    "metacritic": 77
+  },
+  "faster than light": {
+    "title": "FTL: Faster Than Light"
+  },
+  "deaths door": {
+    "title": "Death's Door"
+  },
+  "nier automata": {
+    "title": "NieR:Automata"
+  },
+  "donut country": {
+    "title": "Donut County"
+  },
+  "dead cells return to castlevania": {
+    "title": "Dead Cells: Return to Castlevania"
+  },
+  "steamworld quest": {
+    "title": "SteamWorld Quest",
+    "metacritic": 81
+  },
+  "black myth wukong": {
+    "title": "Black Myth: Wukong",
+    "metacritic": 81
+  },
+  "onimusha way of the sword": {
+    "title": "Onimusha: Way of the Sword"
+  },
+  "mina the hollower": {
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6a/Mina_the_Hollower_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "split fiction": {
+    "metacritic": 91
+  },
+  "dredge": {
+    "metacritic": 80
+  },
+  "journey": {
+    "metacritic": 92
+  },
+  "uncharted 4": {
+    "metacritic": 93
+  },
+  "ghost of tsushima": {
+    "metacritic": 83
+  },
+  "halo infinite": {
+    "metacritic": 87
+  },
+  "cairn": {
+    "metacritic": 85
+  },
+  "returnal": {
+    "metacritic": 86
+  },
+  "far cry 6": {
+    "metacritic": 74
+  },
+  "days gone": {
+    "metacritic": 78
+  },
+  "control resonant": {
+    "metacritic": 83
+  }
 }

@@ -54,6 +54,18 @@ button { font-family: var(--font-body); }
 :focus { outline: none; }
 :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 
+/* The hint under the wheel: chevrons that drift up and fade like smoke */
+@keyframes smokeUp {
+  0% { opacity: 0; transform: translateY(12px) scale(.9); }
+  35% { opacity: .8; }
+  100% { opacity: 0; transform: translateY(-12px) scale(1.14); }
+}
+.smoke-up { filter: blur(.8px); animation: smokeUp 2.4s ease-out infinite; }
+.smoke-up-b { filter: blur(.8px); animation: smokeUp 2.4s ease-out .5s infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .smoke-up, .smoke-up-b { animation: none; opacity: .6; }
+}
+
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 
