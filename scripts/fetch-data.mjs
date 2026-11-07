@@ -12,7 +12,8 @@ import { dirname, join } from 'node:path';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const { parseSheet } = await import('../src/lib/parseSheet.js');
 
-const SHEET_ID = '12z-CYPrVWwpWjlRc2aXoLNWh6ao4kSxVna6rDYR4aak';
+const SHEET_ID = '1DCRc7mZDKAKyYHTmxB9RkTaDkvhCsvwn2ogWLHEqJFs';
+const GAMES_GID = '0'; // Games tab; each tab of the sheet exports by its own gid
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // Sheet titles that Steam search won't match on its own.
@@ -75,6 +76,7 @@ const SEARCH_ALIASES = {
   'ghost of yotei': null,
   'infamous second son': null,
   'gears of war reloaded': 'Gears of War: Reloaded',
+  'gears of war eday': 'Gears of War: E-Day',
 };
 
 async function jfetch(url) {
@@ -137,7 +139,7 @@ async function players(appid) {
   return Object.keys(out).length ? out : null;
 }
 
-const csv = await (await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`)).text();
+const csv = await (await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${GAMES_GID}`)).text();
 const games = parseSheet(csv);
 console.log(`${games.length} games in the sheet`);
 
