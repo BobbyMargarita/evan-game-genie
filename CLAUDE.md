@@ -18,5 +18,6 @@ Everything committed here is visible on GitHub. Hard rules:
 - `src/data/ign-overrides.json` — hand-maintained IGN scores.
 - `src/data/wiki-companions.json` — BG3 companion intros baked from bg3.wiki (CC BY-SA 4.0; attributed in-app). Run standalone with `npm run refresh-wiki`.
 - `src/data/xbox-stats.json` — Evan's per-game achievements/gamerscore/last-played, scraped from his public xboxgamertag.com profile (sheet games only; achievement totals aren't public). Run standalone with `npm run refresh-xbox`.
+- `src/data/media-meta.json` — movies and shows (sheet tabs + OMDb), baked by `npm run refresh-media`; not wired into the app yet. `media-titles.json` maps sheet spellings to real titles and years; `media-overrides.json` pins bad matches by IMDb id (`kind|title|year`). OMDb's title search is fuzzy without a year, so read the script's "to check" list after a refresh. Credit OMDb (CC BY-NC) in the app.
 - Deploys automatically to GitHub Pages on push to `master` (.github/workflows/deploy.yml).
 - Update loop: edit sheet → `npm run refresh-data` → commit → push.

@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "refresh-data": "node scripts/fetch-data.mjs && node scripts/fetch-wiki.mjs && node scripts/fetch-xbox.mjs",
+    "refresh-data": "node scripts/fetch-data.mjs && node scripts/fetch-wiki.mjs && node scripts/fetch-xbox.mjs && node scripts/fetch-media.mjs",
+    "refresh-media": "node scripts/fetch-media.mjs",
     "refresh-wiki": "node scripts/fetch-wiki.mjs",
     "refresh-xbox": "node scripts/fetch-xbox.mjs"
   },

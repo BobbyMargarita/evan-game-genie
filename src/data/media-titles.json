@@ -1,0 +1,2628 @@
+{
+ "movie": {
+  "Nice Guys": [
+   {
+    "title": "The Nice Guys",
+    "year": "2016"
+   }
+  ],
+  "One Battle After Another": [
+   {
+    "title": "One Battle After Another",
+    "year": ""
+   }
+  ],
+  "Heat": [
+   {
+    "title": "Heat",
+    "year": "1995"
+   }
+  ],
+  "The Martian": [
+   {
+    "title": "The Martian",
+    "year": "2015"
+   }
+  ],
+  "John Wick": [
+   {
+    "title": "John Wick",
+    "year": ""
+   }
+  ],
+  "The Matrix": [
+   {
+    "title": "The Matrix",
+    "year": "1999"
+   }
+  ],
+  "The Lord of the Rings Trilogy": [
+   {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001"
+   },
+   {
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": "2002"
+   },
+   {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": "2003"
+   }
+  ],
+  "Dune Trilogy": [
+   {
+    "title": "Dune",
+    "year": "2021"
+   },
+   {
+    "title": "Dune: Part Two",
+    "year": "2024"
+   },
+   {
+    "title": "Dune: Part Three",
+    "year": "2026"
+   }
+  ],
+  "Saving Private Ryan": [
+   {
+    "title": "Saving Private Ryan",
+    "year": ""
+   }
+  ],
+  "Good Will Hunting": [
+   {
+    "title": "Good Will Hunting",
+    "year": ""
+   }
+  ],
+  "Gravity": [
+   {
+    "title": "Gravity",
+    "year": "2013"
+   }
+  ],
+  "Interstellar": [
+   {
+    "title": "Interstellar",
+    "year": "2014"
+   }
+  ],
+  "Black Panther": [
+   {
+    "title": "Black Panther",
+    "year": ""
+   }
+  ],
+  "Minority Report": [
+   {
+    "title": "Minority Report",
+    "year": ""
+   }
+  ],
+  "Gladiator": [
+   {
+    "title": "Gladiator",
+    "year": ""
+   }
+  ],
+  "Safety Not Guaranteed": [
+   {
+    "title": "Safety Not Guaranteed",
+    "year": ""
+   }
+  ],
+  "Inception": [
+   {
+    "title": "Inception",
+    "year": "2010"
+   }
+  ],
+  "Blade Runner 2049": [
+   {
+    "title": "Blade Runner 2049",
+    "year": ""
+   }
+  ],
+  "Black Swan": [
+   {
+    "title": "Black Swan",
+    "year": ""
+   }
+  ],
+  "Jojo Rabbit": [
+   {
+    "title": "Jojo Rabbit",
+    "year": ""
+   }
+  ],
+  "Everything Everywhere All at Once": [
+   {
+    "title": "Everything Everywhere All at Once",
+    "year": ""
+   }
+  ],
+  "The Hurt Locker": [
+   {
+    "title": "The Hurt Locker",
+    "year": ""
+   }
+  ],
+  "Gone Girl": [
+   {
+    "title": "Gone Girl",
+    "year": ""
+   }
+  ],
+  "Memento": [
+   {
+    "title": "Memento",
+    "year": "2000"
+   }
+  ],
+  "Kill Bill: Vol. 1 & 2": [
+   {
+    "title": "Kill Bill: Vol. 1",
+    "year": "2003"
+   },
+   {
+    "title": "Kill Bill: Vol. 2",
+    "year": "2004"
+   }
+  ],
+  "Pulp Fiction": [
+   {
+    "title": "Pulp Fiction",
+    "year": ""
+   }
+  ],
+  "Pan’s Labyrinth": [
+   {
+    "title": "Pan’s Labyrinth",
+    "year": ""
+   }
+  ],
+  "Moneyball": [
+   {
+    "title": "Moneyball",
+    "year": ""
+   }
+  ],
+  "The Departed": [
+   {
+    "title": "The Departed",
+    "year": ""
+   }
+  ],
+  "Princess Monoke": [
+   {
+    "title": "Princess Mononoke",
+    "year": "1997"
+   }
+  ],
+  "Arrival": [
+   {
+    "title": "Arrival",
+    "year": "2016"
+   }
+  ],
+  "The Dark Knight": [
+   {
+    "title": "The Dark Knight",
+    "year": ""
+   }
+  ],
+  "Her": [
+   {
+    "title": "Her",
+    "year": "2013"
+   }
+  ],
+  "Ex Machina": [
+   {
+    "title": "Ex Machina",
+    "year": ""
+   }
+  ],
+  "Mid 90s": [
+   {
+    "title": "Mid90s",
+    "year": "2018"
+   }
+  ],
+  "The Wolf of Wall Street": [
+   {
+    "title": "The Wolf of Wall Street",
+    "year": ""
+   }
+  ],
+  "Crouching Tiger, Hidden Dragon": [
+   {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "year": ""
+   }
+  ],
+  "City of God": [
+   {
+    "title": "City of God",
+    "year": ""
+   }
+  ],
+  "Inglourious Basterds": [
+   {
+    "title": "Inglourious Basterds",
+    "year": ""
+   }
+  ],
+  "Children of Men": [
+   {
+    "title": "Children of Men",
+    "year": ""
+   }
+  ],
+  "Mad Max: Fury Road": [
+   {
+    "title": "Mad Max: Fury Road",
+    "year": ""
+   }
+  ],
+  "The Social Network": [
+   {
+    "title": "The Social Network",
+    "year": ""
+   }
+  ],
+  "Ghost in the Shell": [
+   {
+    "title": "Ghost in the Shell",
+    "year": ""
+   }
+  ],
+  "Get Out": [
+   {
+    "title": "Get Out",
+    "year": "2017"
+   }
+  ],
+  "Eternal Sunshine of the Spotless Mind": [
+   {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": ""
+   }
+  ],
+  "No Country for Old Men": [
+   {
+    "title": "No Country for Old Men",
+    "year": ""
+   }
+  ],
+  "Moonlight": [
+   {
+    "title": "Moonlight",
+    "year": "2016"
+   }
+  ],
+  "There Will Be Blood": [
+   {
+    "title": "There Will Be Blood",
+    "year": ""
+   }
+  ],
+  "Parasite": [
+   {
+    "title": "Parasite",
+    "year": "2019"
+   }
+  ],
+  "Zero Dark Thirty": [
+   {
+    "title": "Zero Dark Thirty",
+    "year": ""
+   }
+  ],
+  "Sicario": [
+   {
+    "title": "Sicario",
+    "year": ""
+   }
+  ],
+  "Schindlers List": [
+   {
+    "title": "Schindler's List",
+    "year": "1993"
+   }
+  ],
+  "Top Gun Maverick": [
+   {
+    "title": "Top Gun Maverick",
+    "year": ""
+   }
+  ],
+  "Rio Bravo": [
+   {
+    "title": "Rio Bravo",
+    "year": ""
+   }
+  ],
+  "Good Fellas": [
+   {
+    "title": "Goodfellas",
+    "year": "1990"
+   }
+  ],
+  "Gangs of New York": [
+   {
+    "title": "Gangs of New York",
+    "year": ""
+   }
+  ],
+  "Lock Stock and Two Smoking Barrels": [
+   {
+    "title": "Lock Stock and Two Smoking Barrels",
+    "year": ""
+   }
+  ],
+  "Snatch": [
+   {
+    "title": "Snatch",
+    "year": "2000"
+   }
+  ],
+  "Drive": [
+   {
+    "title": "Drive",
+    "year": "2011"
+   }
+  ],
+  "Logan": [
+   {
+    "title": "Logan",
+    "year": "2017"
+   }
+  ],
+  "Edge of Tomorrow": [
+   {
+    "title": "Edge of Tomorrow",
+    "year": ""
+   }
+  ],
+  "Braveheart": [
+   {
+    "title": "Braveheart",
+    "year": ""
+   }
+  ],
+  "Big Trouble in Little China": [
+   {
+    "title": "Big Trouble in Little China",
+    "year": ""
+   }
+  ],
+  "James Bond": [
+   {
+    "title": "Casino Royale",
+    "year": "2006"
+   },
+   {
+    "title": "Skyfall",
+    "year": "2012"
+   }
+  ],
+  "Inside Man": [
+   {
+    "title": "Inside Man",
+    "year": ""
+   }
+  ],
+  "Hell of Highwater": [
+   {
+    "title": "Hell or High Water",
+    "year": "2016"
+   }
+  ],
+  "Catch Me if you Can": [
+   {
+    "title": "Catch Me if you Can",
+    "year": ""
+   }
+  ],
+  "Dumb Money": [
+   {
+    "title": "Dumb Money",
+    "year": ""
+   }
+  ],
+  "The Fall Guy": [
+   {
+    "title": "The Fall Guy",
+    "year": ""
+   }
+  ],
+  "The Creator": [
+   {
+    "title": "The Creator",
+    "year": ""
+   }
+  ],
+  "John Wick 2+": [
+   {
+    "title": "John Wick: Chapter 2",
+    "year": "2017"
+   },
+   {
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "year": "2019"
+   },
+   {
+    "title": "John Wick: Chapter 4",
+    "year": "2023"
+   }
+  ],
+  "O Brother, Where Art Thou?": [
+   {
+    "title": "O Brother, Where Art Thou?",
+    "year": ""
+   }
+  ],
+  "The Florida Project": [
+   {
+    "title": "The Florida Project",
+    "year": ""
+   }
+  ],
+  "Ocean’s Eleven": [
+   {
+    "title": "Ocean’s Eleven",
+    "year": ""
+   }
+  ],
+  "Oppenheimer": [
+   {
+    "title": "Oppenheimer",
+    "year": "2023"
+   }
+  ],
+  "Little Miss Sunshine": [
+   {
+    "title": "Little Miss Sunshine",
+    "year": ""
+   }
+  ],
+  "Whiplash": [
+   {
+    "title": "Whiplash",
+    "year": "2014"
+   }
+  ],
+  "Uncut Gems": [
+   {
+    "title": "Uncut Gems",
+    "year": ""
+   }
+  ],
+  "Nomad": [
+   {
+    "title": "Nomadland",
+    "year": "2020"
+   }
+  ],
+  "Once Upon a Time ... in Hollywood": [
+   {
+    "title": "Once Upon a Time... in Hollywood",
+    "year": "2019"
+   }
+  ],
+  "Lady Bird": [
+   {
+    "title": "Lady Bird",
+    "year": ""
+   }
+  ],
+  "Bullit": [
+   {
+    "title": "Bullitt",
+    "year": "1968"
+   }
+  ],
+  "Dunkirk": [
+   {
+    "title": "Dunkirk",
+    "year": "2017"
+   }
+  ],
+  "The Irishman": [
+   {
+    "title": "The Irishman",
+    "year": ""
+   }
+  ],
+  "F1 Movie": [
+   {
+    "title": "F1",
+    "year": "2025"
+   }
+  ],
+  "Titanic": [
+   {
+    "title": "Titanic",
+    "year": "1997"
+   }
+  ],
+  "American Hustle": [
+   {
+    "title": "American Hustle",
+    "year": ""
+   }
+  ],
+  "Killers of the Flower Moon": [
+   {
+    "title": "Killers of the Flower Moon",
+    "year": ""
+   }
+  ],
+  "A Star is Born": [
+   {
+    "title": "A Star is Born",
+    "year": ""
+   }
+  ],
+  "Warfare": [
+   {
+    "title": "Warfare",
+    "year": "2025"
+   }
+  ],
+  "Goodtime": [
+   {
+    "title": "Good Time",
+    "year": "2017"
+   }
+  ],
+  "Knives Out Movies": [
+   {
+    "title": "Knives Out",
+    "year": "2019"
+   },
+   {
+    "title": "Glass Onion",
+    "year": "2022"
+   },
+   {
+    "title": "Wake Up Dead Man",
+    "year": "2025"
+   }
+  ],
+  "Casablanca": [
+   {
+    "title": "Casablanca",
+    "year": "1942"
+   }
+  ],
+  "Akira": [
+   {
+    "title": "Akira",
+    "year": "1988"
+   }
+  ],
+  "Marvel": [
+   {
+    "title": "Avengers: Endgame",
+    "year": "2019"
+   }
+  ],
+  "300": [
+   {
+    "title": "300",
+    "year": "2006"
+   }
+  ],
+  "Baby Driver": [
+   {
+    "title": "Baby Driver",
+    "year": ""
+   }
+  ],
+  "Sound of Metal": [
+   {
+    "title": "Sound of Metal",
+    "year": ""
+   }
+  ],
+  "The Kings Speech": [
+   {
+    "title": "The King's Speech",
+    "year": "2010"
+   }
+  ],
+  "The Invite": [
+   {
+    "title": "The Invitation",
+    "year": "2015"
+   }
+  ],
+  "Star Wars Prequel": [
+   {
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "year": "1999"
+   },
+   {
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "year": "2002"
+   },
+   {
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "year": "2005"
+   }
+  ],
+  "Star Wars Original": [
+   {
+    "title": "Star Wars",
+    "year": "1977"
+   },
+   {
+    "title": "The Empire Strikes Back",
+    "year": "1980"
+   },
+   {
+    "title": "Return of the Jedi",
+    "year": "1983"
+   }
+  ],
+  "Past Lives": [
+   {
+    "title": "Past Lives",
+    "year": ""
+   }
+  ],
+  "The Lighthouse": [
+   {
+    "title": "The Lighthouse",
+    "year": ""
+   }
+  ],
+  "Anora": [
+   {
+    "title": "Anora",
+    "year": "2024"
+   }
+  ],
+  "The Power of the Dog": [
+   {
+    "title": "The Power of the Dog",
+    "year": ""
+   }
+  ],
+  "The Green Knight": [
+   {
+    "title": "The Green Knight",
+    "year": ""
+   }
+  ],
+  "Superbad": [
+   {
+    "title": "Superbad",
+    "year": "2007"
+   }
+  ],
+  "Wedding Crashers": [
+   {
+    "title": "Wedding Crashers",
+    "year": ""
+   }
+  ],
+  "Step Brothers": [
+   {
+    "title": "Step Brothers",
+    "year": ""
+   }
+  ],
+  "Anchorman": [
+   {
+    "title": "Anchorman: The Legend of Ron Burgundy",
+    "year": "2004"
+   }
+  ],
+  "Borat": [
+   {
+    "title": "Borat",
+    "year": ""
+   }
+  ],
+  "Wall-E": [
+   {
+    "title": "WALL·E",
+    "year": "2008"
+   }
+  ],
+  "Bridesmaids": [
+   {
+    "title": "Bridesmaids",
+    "year": "2011"
+   }
+  ],
+  "Inside Out": [
+   {
+    "title": "Inside Out",
+    "year": ""
+   }
+  ],
+  "La La Land": [
+   {
+    "title": "La La Land",
+    "year": ""
+   }
+  ],
+  "Lost in Translation": [
+   {
+    "title": "Lost in Translation",
+    "year": ""
+   }
+  ],
+  "Monty Python and the Quest for the Holy Grail": [
+   {
+    "title": "Monty Python and the Holy Grail",
+    "year": "1975"
+   }
+  ],
+  "Claus": [
+   {
+    "title": "Klaus",
+    "year": "2019"
+   }
+  ],
+  "The Big Sick": [
+   {
+    "title": "The Big Sick",
+    "year": ""
+   }
+  ],
+  "Aladdin": [
+   {
+    "title": "Aladdin",
+    "year": "1992"
+   }
+  ],
+  "Fern Gully": [
+   {
+    "title": "FernGully: The Last Rainforest",
+    "year": "1992"
+   }
+  ],
+  "Ponyo": [
+   {
+    "title": "Ponyo",
+    "year": "2008"
+   }
+  ],
+  "Spirited Away": [
+   {
+    "title": "Spirited Away",
+    "year": ""
+   }
+  ],
+  "Eighth Grade": [
+   {
+    "title": "Eighth Grade",
+    "year": ""
+   }
+  ],
+  "Moonrise Kingdom": [
+   {
+    "title": "Moonrise Kingdom",
+    "year": ""
+   }
+  ],
+  "Booksmart": [
+   {
+    "title": "Booksmart",
+    "year": "2019"
+   }
+  ],
+  "40 Year Old Virgin": [
+   {
+    "title": "The 40-Year-Old Virgin",
+    "year": "2005"
+   }
+  ],
+  "Forgetting Sarah Marshall": [
+   {
+    "title": "Forgetting Sarah Marshall",
+    "year": ""
+   }
+  ],
+  "American Pie": [
+   {
+    "title": "American Pie",
+    "year": ""
+   }
+  ],
+  "The Lion King": [
+   {
+    "title": "The Lion King",
+    "year": "1994"
+   }
+  ],
+  "Into the Spiderverse": [
+   {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": "2018"
+   }
+  ],
+  "Wild Robot": [
+   {
+    "title": "Wild Robot",
+    "year": ""
+   }
+  ],
+  "Kubo and the Two Strings": [
+   {
+    "title": "Kubo and the Two Strings",
+    "year": ""
+   }
+  ],
+  "The Iron Giant": [
+   {
+    "title": "The Iron Giant",
+    "year": ""
+   }
+  ],
+  "Shrek": [
+   {
+    "title": "Shrek",
+    "year": "2001"
+   }
+  ],
+  "The Lego Movie": [
+   {
+    "title": "The Lego Movie",
+    "year": ""
+   }
+  ],
+  "Howls Moving Castle": [
+   {
+    "title": "Howl's Moving Castle",
+    "year": "2004"
+   }
+  ],
+  "Coco": [
+   {
+    "title": "Coco",
+    "year": "2017"
+   }
+  ],
+  "Marcel the Shell with Shoes On": [
+   {
+    "title": "Marcel the Shell with Shoes On",
+    "year": ""
+   }
+  ],
+  "How to Train Your Dragon": [
+   {
+    "title": "How to Train Your Dragon",
+    "year": ""
+   }
+  ],
+  "Jungle Book": [
+   {
+    "title": "The Jungle Book",
+    "year": "2016"
+   }
+  ],
+  "Peter Pan": [
+   {
+    "title": "Peter Pan",
+    "year": "1953"
+   }
+  ],
+  "The Secret of Nimh": [
+   {
+    "title": "The Secret of Nimh",
+    "year": ""
+   }
+  ],
+  "Zootopia": [
+   {
+    "title": "Zootopia",
+    "year": "2016"
+   }
+  ],
+  "The Incredibles": [
+   {
+    "title": "The Incredibles",
+    "year": ""
+   }
+  ],
+  "Teenage Mutant Ninja Turtles": [
+   {
+    "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+    "year": "2023"
+   }
+  ],
+  "Big Hero 6": [
+   {
+    "title": "Big Hero 6",
+    "year": ""
+   }
+  ],
+  "Dazed and Confused": [
+   {
+    "title": "Dazed and Confused",
+    "year": ""
+   }
+  ],
+  "Crazy Rich Asians": [
+   {
+    "title": "Crazy Rich Asians",
+    "year": ""
+   }
+  ],
+  "Kung Fu Hustle": [
+   {
+    "title": "Kung Fu Hustle",
+    "year": ""
+   }
+  ],
+  "Elf": [
+   {
+    "title": "Elf",
+    "year": "2003"
+   }
+  ],
+  "Austin Powers": [
+   {
+    "title": "Austin Powers",
+    "year": ""
+   }
+  ],
+  "Trainwreck": [
+   {
+    "title": "Trainwreck",
+    "year": "2015"
+   }
+  ],
+  "Office Space": [
+   {
+    "title": "Office Space",
+    "year": ""
+   }
+  ],
+  "The Big Lebowski": [
+   {
+    "title": "The Big Lebowski",
+    "year": ""
+   }
+  ],
+  "The Hangover": [
+   {
+    "title": "The Hangover",
+    "year": ""
+   }
+  ],
+  "Waynes World": [
+   {
+    "title": "Wayne's World",
+    "year": "1992"
+   }
+  ],
+  "Team America World Police": [
+   {
+    "title": "Team America World Police",
+    "year": ""
+   }
+  ],
+  "Harold and Kumar": [
+   {
+    "title": "Harold & Kumar Go to White Castle",
+    "year": "2004"
+   }
+  ],
+  "Idiocracy": [
+   {
+    "title": "Idiocracy",
+    "year": "2006"
+   }
+  ],
+  "Zoolander": [
+   {
+    "title": "Zoolander",
+    "year": "2001"
+   }
+  ],
+  "Meet the Fockers": [
+   {
+    "title": "Meet the Fockers",
+    "year": ""
+   }
+  ],
+  "Super Troopers": [
+   {
+    "title": "Super Troopers",
+    "year": ""
+   }
+  ],
+  "Scott Pilgrim": [
+   {
+    "title": "Scott Pilgrim",
+    "year": ""
+   }
+  ],
+  "Silver Linings Playbook": [
+   {
+    "title": "Silver Linings Playbook",
+    "year": ""
+   }
+  ],
+  "Princess Bride": [
+   {
+    "title": "Princess Bride",
+    "year": ""
+   }
+  ],
+  "500 Days of Summer": [
+   {
+    "title": "500 Days of Summer",
+    "year": ""
+   }
+  ],
+  "Tropic Thunder": [
+   {
+    "title": "Tropic Thunder",
+    "year": ""
+   }
+  ],
+  "The Truman Show": [
+   {
+    "title": "The Truman Show",
+    "year": ""
+   }
+  ],
+  "Almost Famous": [
+   {
+    "title": "Almost Famous",
+    "year": ""
+   }
+  ],
+  "Death of Stalin": [
+   {
+    "title": "Death of Stalin",
+    "year": ""
+   }
+  ],
+  "Birdman": [
+   {
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "year": "2014"
+   }
+  ],
+  "King of Staten Island": [
+   {
+    "title": "King of Staten Island",
+    "year": ""
+   }
+  ],
+  "Pineapple Express": [
+   {
+    "title": "Pineapple Express",
+    "year": ""
+   }
+  ],
+  "The Boy and the Heron": [
+   {
+    "title": "The Boy and the Heron",
+    "year": ""
+   }
+  ],
+  "Flow": [
+   {
+    "title": "Flow",
+    "year": "2024"
+   }
+  ],
+  "Garden State": [
+   {
+    "title": "Garden State",
+    "year": ""
+   }
+  ],
+  "Sinners": [
+   {
+    "title": "Sinners",
+    "year": "2025"
+   }
+  ],
+  "Kpop Demon Hunters": [
+   {
+    "title": "KPop Demon Hunters",
+    "year": "2025"
+   }
+  ],
+  "Hook": [
+   {
+    "title": "Hook",
+    "year": "1991"
+   }
+  ],
+  "Burn After Reading": [
+   {
+    "title": "Burn After Reading",
+    "year": ""
+   }
+  ],
+  "Game Night": [
+   {
+    "title": "Game Night",
+    "year": ""
+   }
+  ],
+  "A scanner Darkly": [
+   {
+    "title": "A scanner Darkly",
+    "year": ""
+   }
+  ],
+  "The Grand Budapest Hotel": [
+   {
+    "title": "The Grand Budapest Hotel",
+    "year": ""
+   }
+  ],
+  "Banshees of Inshirin": [
+   {
+    "title": "The Banshees of Inisherin",
+    "year": "2022"
+   }
+  ],
+  "Isle of Dogs": [
+   {
+    "title": "Isle of Dogs",
+    "year": ""
+   }
+  ],
+  "Happy Gilmore": [
+   {
+    "title": "Happy Gilmore",
+    "year": ""
+   }
+  ],
+  "American Factory": [
+   {
+    "title": "American Factory",
+    "year": ""
+   }
+  ],
+  "Exit through the Gift Shop": [
+   {
+    "title": "Exit through the Gift Shop",
+    "year": ""
+   }
+  ],
+  "CitizenFour": [
+   {
+    "title": "CitizenFour",
+    "year": ""
+   }
+  ],
+  "Bowling for Colombine": [
+   {
+    "title": "Bowling for Columbine",
+    "year": "2002"
+   }
+  ],
+  "Searching for Sugar Man": [
+   {
+    "title": "Searching for Sugar Man",
+    "year": ""
+   }
+  ],
+  "An Inconvienant Truth": [
+   {
+    "title": "An Inconvenient Truth",
+    "year": "2006"
+   }
+  ],
+  "Super Size Me": [
+   {
+    "title": "Super Size Me",
+    "year": ""
+   }
+  ],
+  "Sicko": [
+   {
+    "title": "Sicko",
+    "year": "2007"
+   }
+  ],
+  "Farenheit 9/11": [
+   {
+    "title": "Fahrenheit 9/11",
+    "year": "2004"
+   }
+  ],
+  "Free Solo": [
+   {
+    "title": "Free Solo",
+    "year": ""
+   }
+  ],
+  "Coyote vs Acme": [
+   {
+    "title": "Coyote vs. Acme",
+    "year": "2026"
+   }
+  ],
+  "The Ministrey of Ungentlemenly Warfare": [
+   {
+    "title": "The Ministry of Ungentlemanly Warfare",
+    "year": "2024"
+   }
+  ],
+  "The Odyssey": [
+   {
+    "title": "The Odyssey",
+    "year": "2026"
+   }
+  ],
+  "Kiss Kiss Bang Bang": [
+   {
+    "title": "Kiss Kiss Bang Bang",
+    "year": ""
+   }
+  ],
+  "Zodiac": [
+   {
+    "title": "Zodiac",
+    "year": "2007"
+   }
+  ],
+  "Silence of the Lambs": [
+   {
+    "title": "The Silence of the Lambs",
+    "year": "1991"
+   }
+  ],
+  "Wildwood": [
+   {
+    "title": "Wildwood",
+    "year": "2026"
+   }
+  ],
+  "Indiana Jones": [
+   {
+    "title": "Raiders of the Lost Ark",
+    "year": "1981"
+   }
+  ],
+  "Michael Clayton": [
+   {
+    "title": "Michael Clayton",
+    "year": ""
+   }
+  ],
+  "Forest Gump": [
+   {
+    "title": "Forrest Gump",
+    "year": "1994"
+   }
+  ],
+  "Inside Llewyn Davis": [
+   {
+    "title": "Inside Llewyn Davis",
+    "year": ""
+   }
+  ],
+  "Aftersun": [
+   {
+    "title": "Aftersun",
+    "year": "2022"
+   }
+  ],
+  "The Prestige": [
+   {
+    "title": "The Prestige",
+    "year": "2006"
+   }
+  ],
+  "Under the Skin": [
+   {
+    "title": "Under the Skin",
+    "year": ""
+   }
+  ],
+  "Spotlight": [
+   {
+    "title": "Spotlight",
+    "year": "2015"
+   }
+  ],
+  "Oldboy*": [
+   {
+    "title": "Oldboy",
+    "year": "2003"
+   }
+  ],
+  "The Master": [
+   {
+    "title": "The Master",
+    "year": ""
+   }
+  ],
+  "The Zone of Interest": [
+   {
+    "title": "The Zone of Interest",
+    "year": ""
+   }
+  ],
+  "Mulholland Drive": [
+   {
+    "title": "Mulholland Drive",
+    "year": ""
+   }
+  ],
+  "Seven Samurai": [
+   {
+    "title": "Seven Samurai",
+    "year": ""
+   }
+  ],
+  "North by Northwest": [
+   {
+    "title": "North by Northwest",
+    "year": ""
+   }
+  ],
+  "Love Lies Bleeding": [
+   {
+    "title": "Love Lies Bleeding",
+    "year": ""
+   }
+  ],
+  "12 Angry Men": [
+   {
+    "title": "12 Angry Men",
+    "year": ""
+   }
+  ],
+  "A Street Car name Desire": [
+   {
+    "title": "A Streetcar Named Desire",
+    "year": "1951"
+   }
+  ],
+  "A Ghost Story": [
+   {
+    "title": "A Ghost Story",
+    "year": ""
+   }
+  ],
+  "Roma": [
+   {
+    "title": "Roma",
+    "year": "2018"
+   }
+  ],
+  "Mancsheter by the Sea": [
+   {
+    "title": "Manchester by the Sea",
+    "year": "2016"
+   }
+  ],
+  "12 Years a Slave": [
+   {
+    "title": "12 Years a Slave",
+    "year": ""
+   }
+  ],
+  "Taxi Driver": [
+   {
+    "title": "Taxi Driver",
+    "year": ""
+   }
+  ],
+  "Grave of the Fireflies": [
+   {
+    "title": "Grave of the Fireflies",
+    "year": ""
+   }
+  ],
+  "The French Connection": [
+   {
+    "title": "The French Connection",
+    "year": ""
+   }
+  ],
+  "Apocalypse Now": [
+   {
+    "title": "Apocalypse Now",
+    "year": ""
+   }
+  ],
+  "Cool Hand Luke": [
+   {
+    "title": "Cool Hand Luke",
+    "year": ""
+   }
+  ],
+  "Ben Hur": [
+   {
+    "title": "Ben-Hur",
+    "year": "1959"
+   }
+  ],
+  "Lawrence of Arabia": [
+   {
+    "title": "Lawrence of Arabia",
+    "year": ""
+   }
+  ],
+  "First Cow": [
+   {
+    "title": "First Cow",
+    "year": ""
+   }
+  ],
+  "The Good the Bad and the Ugly": [
+   {
+    "title": "The Good the Bad and the Ugly",
+    "year": ""
+   }
+  ],
+  "Blue is the Warmest Color": [
+   {
+    "title": "Blue Is the Warmest Colour",
+    "year": "2013"
+   }
+  ],
+  "Bugonia": [
+   {
+    "title": "Bugonia",
+    "year": "2025"
+   }
+  ],
+  "Scarface": [
+   {
+    "title": "Scarface",
+    "year": "1983"
+   }
+  ],
+  "The Deer Hunter": [
+   {
+    "title": "The Deer Hunter",
+    "year": ""
+   }
+  ],
+  "Civil War": [
+   {
+    "title": "Civil War",
+    "year": "2024"
+   }
+  ],
+  "Fablemans": [
+   {
+    "title": "The Fabelmans",
+    "year": "2022"
+   }
+  ],
+  "Lords of Dogtown": [
+   {
+    "title": "Lords of Dogtown",
+    "year": ""
+   }
+  ],
+  "One Hour Photo": [
+   {
+    "title": "One Hour Photo",
+    "year": ""
+   }
+  ],
+  "12 Monkeys": [
+   {
+    "title": "12 Monkeys",
+    "year": ""
+   }
+  ],
+  "Conclave": [
+   {
+    "title": "Conclave",
+    "year": "2024"
+   }
+  ],
+  "A Complete Unknown": [
+   {
+    "title": "A Complete Unknown",
+    "year": ""
+   }
+  ],
+  "Spiderman Brand New Day": [
+   {
+    "title": "Spider-Man: Brand New Day",
+    "year": "2026"
+   }
+  ],
+  "Ratatouille": [
+   {
+    "title": "Ratatouille",
+    "year": ""
+   }
+  ],
+  "Best in Show": [
+   {
+    "title": "Best in Show",
+    "year": ""
+   }
+  ],
+  "Punch-Drunk Love": [
+   {
+    "title": "Punch-Drunk Love",
+    "year": ""
+   }
+  ],
+  "Up": [
+   {
+    "title": "Up",
+    "year": "2009"
+   }
+  ],
+  "The Royal Tenenbaums": [
+   {
+    "title": "The Royal Tenenbaums",
+    "year": ""
+   }
+  ],
+  "Sideways": [
+   {
+    "title": "Sideways",
+    "year": "2004"
+   }
+  ],
+  "Boyhood": [
+   {
+    "title": "Boyhood",
+    "year": "2014"
+   }
+  ],
+  "Dr Strangelove": [
+   {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "year": "1964"
+   }
+  ],
+  "American Graffiti": [
+   {
+    "title": "American Graffiti",
+    "year": ""
+   }
+  ],
+  "Licorice Pizza": [
+   {
+    "title": "Licorice Pizza",
+    "year": ""
+   }
+  ],
+  "Being John Malkovich": [
+   {
+    "title": "Being John Malkovich",
+    "year": ""
+   }
+  ],
+  "Marty Supreme": [
+   {
+    "title": "Marty Supreme",
+    "year": "2025"
+   }
+  ],
+  "Paddington 2": [
+   {
+    "title": "Paddington 2",
+    "year": ""
+   }
+  ],
+  "Three Billboards": [
+   {
+    "title": "Three Billboards",
+    "year": ""
+   }
+  ],
+  "Knocked Up": [
+   {
+    "title": "Knocked Up",
+    "year": ""
+   }
+  ],
+  "Funny People": [
+   {
+    "title": "Funny People",
+    "year": ""
+   }
+  ],
+  "This is 40": [
+   {
+    "title": "This is 40",
+    "year": ""
+   }
+  ],
+  "This is the End": [
+   {
+    "title": "This is the End",
+    "year": ""
+   }
+  ],
+  "Turning Red": [
+   {
+    "title": "Turning Red",
+    "year": ""
+   }
+  ],
+  "Zola": [
+   {
+    "title": "Zola",
+    "year": "2020"
+   }
+  ],
+  "Bodies Bodies Bodies": [
+   {
+    "title": "Bodies Bodies Bodies",
+    "year": ""
+   }
+  ],
+  "Puss in Boots: Last Wish": [
+   {
+    "title": "Puss in Boots: The Last Wish",
+    "year": "2022"
+   }
+  ],
+  "Onward": [
+   {
+    "title": "Onward",
+    "year": "2020"
+   }
+  ],
+  "Airplane": [
+   {
+    "title": "Airplane!",
+    "year": "1980"
+   }
+  ],
+  "Galxy Quest": [
+   {
+    "title": "Galaxy Quest",
+    "year": "1999"
+   }
+  ],
+  "Clerks": [
+   {
+    "title": "Clerks",
+    "year": "1994"
+   }
+  ],
+  "Dogma": [
+   {
+    "title": "Dogma",
+    "year": "1999"
+   }
+  ],
+  "Good Morning Vietnam": [
+   {
+    "title": "Good Morning Vietnam",
+    "year": ""
+   }
+  ],
+  "Shaolin Soccer": [
+   {
+    "title": "Shaolin Soccer",
+    "year": ""
+   }
+  ],
+  "Blazing Saddles": [
+   {
+    "title": "Blazing Saddles",
+    "year": ""
+   }
+  ],
+  "Scary Movie": [
+   {
+    "title": "Scary Movie",
+    "year": ""
+   }
+  ],
+  "Starship Troopers": [
+   {
+    "title": "Starship Troopers",
+    "year": ""
+   }
+  ],
+  "The Act of Killing": [
+   {
+    "title": "The Act of Killing",
+    "year": ""
+   }
+  ],
+  "You Can See Everything": [
+   {
+    "title": "You Can See Everything",
+    "year": ""
+   }
+  ],
+  "Man on Wire": [
+   {
+    "title": "Man on Wire",
+    "year": ""
+   }
+  ],
+  "Inside Job": [
+   {
+    "title": "Inside Job",
+    "year": ""
+   }
+  ],
+  "Blackfish": [
+   {
+    "title": "Blackfish",
+    "year": "2013"
+   }
+  ],
+  "My Octopus Teacher": [
+   {
+    "title": "My Octopus Teacher",
+    "year": ""
+   }
+  ],
+  "The Truffle Hunters": [
+   {
+    "title": "The Truffle Hunters",
+    "year": ""
+   }
+  ],
+  "Food Inc": [
+   {
+    "title": "Food Inc",
+    "year": ""
+   }
+  ],
+  "Marley": [
+   {
+    "title": "Marley",
+    "year": "2012"
+   }
+  ],
+  "March of the Penguins": [
+   {
+    "title": "March of the Penguins",
+    "year": ""
+   }
+  ],
+  "Val": [
+   {
+    "title": "Val",
+    "year": "2021"
+   }
+  ],
+  "Tickled": [
+   {
+    "title": "Tickled",
+    "year": "2016"
+   }
+  ],
+  "Senna": [
+   {
+    "title": "Senna",
+    "year": "2010"
+   }
+  ],
+  "Jesus Camp": [
+   {
+    "title": "Jesus Camp",
+    "year": ""
+   }
+  ],
+  "Tyson": [
+   {
+    "title": "Tyson",
+    "year": "2009"
+   }
+  ],
+  "Inside Deep Throat": [
+   {
+    "title": "Inside Deep Throat",
+    "year": ""
+   }
+  ]
+ },
+ "show": {
+  "The Wire": [
+   {
+    "title": "The Wire",
+    "year": ""
+   }
+  ],
+  "Breaking Bad": [
+   {
+    "title": "Breaking Bad",
+    "year": ""
+   }
+  ],
+  "The Night Of": [
+   {
+    "title": "The Night Of",
+    "year": ""
+   }
+  ],
+  "Dexter": [
+   {
+    "title": "Dexter",
+    "year": "2006"
+   }
+  ],
+  "Shogun": [
+   {
+    "title": "Shōgun",
+    "year": "2024"
+   }
+  ],
+  "Westworld S1": [
+   {
+    "title": "Westworld",
+    "year": "2016"
+   }
+  ],
+  "True Detective S1": [
+   {
+    "title": "True Detective",
+    "year": "2014"
+   }
+  ],
+  "Game of Thrones": [
+   {
+    "title": "Game of Thrones",
+    "year": ""
+   }
+  ],
+  "The Queens Gambit": [
+   {
+    "title": "The Queen's Gambit",
+    "year": "2020"
+   }
+  ],
+  "Mare of Easttown": [
+   {
+    "title": "Mare of Easttown",
+    "year": ""
+   }
+  ],
+  "House of Cards": [
+   {
+    "title": "House of Cards",
+    "year": ""
+   }
+  ],
+  "Watchmen": [
+   {
+    "title": "Watchmen",
+    "year": "2019"
+   }
+  ],
+  "Andor": [
+   {
+    "title": "Andor",
+    "year": "2022"
+   }
+  ],
+  "Severance": [
+   {
+    "title": "Severance",
+    "year": "2022"
+   }
+  ],
+  "Band of Brothers": [
+   {
+    "title": "Band of Brothers",
+    "year": ""
+   }
+  ],
+  "The White Lotus": [
+   {
+    "title": "The White Lotus",
+    "year": ""
+   }
+  ],
+  "Succession": [
+   {
+    "title": "Succession",
+    "year": "2018"
+   }
+  ],
+  "Pantheon": [
+   {
+    "title": "Pantheon",
+    "year": "2022"
+   }
+  ],
+  "The Walking Dead S1": [
+   {
+    "title": "The Walking Dead",
+    "year": "2010"
+   }
+  ],
+  "Avatar TLA": [
+   {
+    "title": "Avatar: The Last Airbender",
+    "year": "2005"
+   }
+  ],
+  "Kora": [
+   {
+    "title": "The Legend of Korra",
+    "year": "2012"
+   }
+  ],
+  "Blue Eye Samuri": [
+   {
+    "title": "Blue Eye Samurai",
+    "year": "2023"
+   }
+  ],
+  "Incredible": [
+   {
+    "title": "Invincible",
+    "year": "2021"
+   }
+  ],
+  "Arcane": [
+   {
+    "title": "Arcane",
+    "year": "2021"
+   }
+  ],
+  "Dark": [
+   {
+    "title": "Dark",
+    "year": "2017"
+   }
+  ],
+  "Scavengers Reign": [
+   {
+    "title": "Scavengers Reign",
+    "year": ""
+   }
+  ],
+  "Big Little Lies": [
+   {
+    "title": "Big Little Lies",
+    "year": ""
+   }
+  ],
+  "Narcos": [
+   {
+    "title": "Narcos",
+    "year": "2015"
+   }
+  ],
+  "Ozark": [
+   {
+    "title": "Ozark",
+    "year": "2017"
+   }
+  ],
+  "Stranger Things": [
+   {
+    "title": "Stranger Things",
+    "year": ""
+   }
+  ],
+  "The Silo": [
+   {
+    "title": "Silo",
+    "year": "2023"
+   }
+  ],
+  "The Crown": [
+   {
+    "title": "The Crown",
+    "year": "2016"
+   }
+  ],
+  "The Boys": [
+   {
+    "title": "The Boys",
+    "year": "2019"
+   }
+  ],
+  "Sweet Tooth": [
+   {
+    "title": "Sweet Tooth",
+    "year": ""
+   }
+  ],
+  "Altered Carbon": [
+   {
+    "title": "Altered Carbon",
+    "year": ""
+   }
+  ],
+  "The Expanse": [
+   {
+    "title": "The Expanse",
+    "year": ""
+   }
+  ],
+  "One Piece": [
+   {
+    "title": "One Piece",
+    "year": "2023"
+   }
+  ],
+  "True Blood": [
+   {
+    "title": "True Blood",
+    "year": ""
+   }
+  ],
+  "Under the Banner of Heaven": [
+   {
+    "title": "Under the Banner of Heaven",
+    "year": ""
+   }
+  ],
+  "Marvel Shows": [
+   {
+    "title": "Daredevil",
+    "year": "2015"
+   }
+  ],
+  "Heated Rivalry": [
+   {
+    "title": "Heated Rivalry",
+    "year": "2025"
+   }
+  ],
+  "Lovecraft Country": [
+   {
+    "title": "Lovecraft Country",
+    "year": ""
+   }
+  ],
+  "Shameless": [
+   {
+    "title": "Shameless",
+    "year": "2011"
+   }
+  ],
+  "Drops of God": [
+   {
+    "title": "Drops of God",
+    "year": ""
+   }
+  ],
+  "Squid Game": [
+   {
+    "title": "Squid Game",
+    "year": ""
+   }
+  ],
+  "Beef": [
+   {
+    "title": "Beef",
+    "year": "2023"
+   }
+  ],
+  "Ballers": [
+   {
+    "title": "Ballers",
+    "year": "2015"
+   }
+  ],
+  "The Flight Attendant": [
+   {
+    "title": "The Flight Attendant",
+    "year": ""
+   }
+  ],
+  "Yellowstone": [
+   {
+    "title": "Yellowstone",
+    "year": "2018"
+   }
+  ],
+  "Community": [
+   {
+    "title": "Community",
+    "year": "2009"
+   }
+  ],
+  "Its Always Sunny in Philadelphia": [
+   {
+    "title": "It's Always Sunny in Philadelphia",
+    "year": "2005"
+   }
+  ],
+  "Modern Family": [
+   {
+    "title": "Modern Family",
+    "year": ""
+   }
+  ],
+  "Shrinking": [
+   {
+    "title": "Shrinking",
+    "year": ""
+   }
+  ],
+  "Broad City": [
+   {
+    "title": "Broad City",
+    "year": ""
+   }
+  ],
+  "The Good Place": [
+   {
+    "title": "The Good Place",
+    "year": ""
+   }
+  ],
+  "Louie": [
+   {
+    "title": "Louie",
+    "year": "2010"
+   }
+  ],
+  "Schitts Creek": [
+   {
+    "title": "Schitt's Creek",
+    "year": "2015"
+   }
+  ],
+  "Key & Peele": [
+   {
+    "title": "Key and Peele",
+    "year": "2012"
+   }
+  ],
+  "Arrested Development": [
+   {
+    "title": "Arrested Development",
+    "year": ""
+   }
+  ],
+  "The Office": [
+   {
+    "title": "The Office",
+    "year": "2005"
+   }
+  ],
+  "Curb Your Enthusiasm": [
+   {
+    "title": "Curb Your Enthusiasm",
+    "year": ""
+   }
+  ],
+  "House": [
+   {
+    "title": "House",
+    "year": "2004"
+   }
+  ],
+  "Mighty Nein": [
+   {
+    "title": "The Mighty Nein",
+    "year": "2025"
+   }
+  ],
+  "Vox Machina": [
+   {
+    "title": "The Legend of Vox Machina",
+    "year": "2022"
+   }
+  ],
+  "How I Met Your Mother": [
+   {
+    "title": "How I Met Your Mother",
+    "year": ""
+   }
+  ],
+  "Eastbound & Down": [
+   {
+    "title": "Eastbound & Down",
+    "year": ""
+   }
+  ],
+  "Righteous Gemstones": [
+   {
+    "title": "Righteous Gemstones",
+    "year": ""
+   }
+  ],
+  "High Maintenance": [
+   {
+    "title": "High Maintenance",
+    "year": ""
+   }
+  ],
+  "Entourage": [
+   {
+    "title": "Entourage",
+    "year": "2004"
+   }
+  ],
+  "Dave": [
+   {
+    "title": "Dave",
+    "year": "2020"
+   }
+  ],
+  "Vice Principals": [
+   {
+    "title": "Vice Principals",
+    "year": ""
+   }
+  ],
+  "Nobody Wants This": [
+   {
+    "title": "Nobody Wants This",
+    "year": ""
+   }
+  ],
+  "Crashing": [
+   {
+    "title": "Crashing",
+    "year": "2017"
+   }
+  ],
+  "Great British Baking Show": [
+   {
+    "title": "The Great British Bake Off",
+    "year": "2010"
+   }
+  ],
+  "Planet Earth": [
+   {
+    "title": "Planet Earth",
+    "year": "2006"
+   }
+  ],
+  "No Reservations": [
+   {
+    "title": "Anthony Bourdain: No Reservations",
+    "year": "2005"
+   }
+  ],
+  "Parts Unknown": [
+   {
+    "title": "Anthony Bourdain: Parts Unknown",
+    "year": "2013"
+   }
+  ],
+  "Survivor": [
+   {
+    "title": "Survivor",
+    "year": "2000"
+   }
+  ],
+  "The Jinx": [
+   {
+    "title": "The Jinx: The Life and Deaths of Robert Durst",
+    "year": "2015"
+   }
+  ],
+  "Station Eleven": [
+   {
+    "title": "Station Eleven",
+    "year": ""
+   }
+  ],
+  "Baby Reindeer": [
+   {
+    "title": "Baby Reindeer",
+    "year": "2024"
+   }
+  ],
+  "Justified": [
+   {
+    "title": "Justified",
+    "year": "2010"
+   }
+  ],
+  "Knight of the Seven Kingdoms": [
+   {
+    "title": "A Knight of the Seven Kingdoms",
+    "year": "2026"
+   }
+  ],
+  "Handmaids Tale": [
+   {
+    "title": "The Handmaid's Tale",
+    "year": "2017"
+   }
+  ],
+  "The Penguin": [
+   {
+    "title": "The Penguin",
+    "year": "2024"
+   }
+  ],
+  "Twin Peaks & The Return": [
+   {
+    "title": "Twin Peaks",
+    "year": "1990"
+   },
+   {
+    "title": "Twin Peaks",
+    "year": "2017"
+   }
+  ],
+  "Adolescence": [
+   {
+    "title": "Adolescence",
+    "year": "2025"
+   }
+  ],
+  "Homeland": [
+   {
+    "title": "Homeland",
+    "year": "2011"
+   }
+  ],
+  "Better Call Saul": [
+   {
+    "title": "Better Call Saul",
+    "year": ""
+   }
+  ],
+  "Black Mirror": [
+   {
+    "title": "Black Mirror",
+    "year": ""
+   }
+  ],
+  "The Leftovers": [
+   {
+    "title": "The Leftovers",
+    "year": ""
+   }
+  ],
+  "Deadwood": [
+   {
+    "title": "Deadwood",
+    "year": "2004"
+   }
+  ],
+  "Chernobyl": [
+   {
+    "title": "Chernobyl",
+    "year": "2019"
+   }
+  ],
+  "The Americans": [
+   {
+    "title": "The Americans",
+    "year": ""
+   }
+  ],
+  "Madmen": [
+   {
+    "title": "Mad Men",
+    "year": "2007"
+   }
+  ],
+  "Legion": [
+   {
+    "title": "Legion",
+    "year": "2017"
+   }
+  ],
+  "Firefly": [
+   {
+    "title": "Firefly",
+    "year": "2002"
+   }
+  ],
+  "Battlestar Galactica": [
+   {
+    "title": "Battlestar Galactica",
+    "year": ""
+   }
+  ],
+  "Fargo": [
+   {
+    "title": "Fargo",
+    "year": "2014"
+   }
+  ],
+  "Mindhunter": [
+   {
+    "title": "Mindhunter",
+    "year": ""
+   }
+  ],
+  "Devs": [
+   {
+    "title": "Devs",
+    "year": "2020"
+   }
+  ],
+  "Lanterns": [
+   {
+    "title": "Lanterns",
+    "year": "2026"
+   }
+  ],
+  "Tokyo Vice": [
+   {
+    "title": "Tokyo Vice",
+    "year": ""
+   }
+  ],
+  "Pluribus": [
+   {
+    "title": "Pluribus",
+    "year": "2025"
+   }
+  ],
+  "Foundation": [
+   {
+    "title": "Foundation",
+    "year": "2021"
+   }
+  ],
+  "Reservation Dogs": [
+   {
+    "title": "Reservation Dogs",
+    "year": ""
+   }
+  ],
+  "The Rehersal": [
+   {
+    "title": "The Rehearsal",
+    "year": "2022"
+   }
+  ],
+  "Slow Horses": [
+   {
+    "title": "Slow Horses",
+    "year": ""
+   }
+  ],
+  "Pen15": [
+   {
+    "title": "PEN15",
+    "year": "2019"
+   }
+  ],
+  "Nathan For You": [
+   {
+    "title": "Nathan For You",
+    "year": ""
+   }
+  ],
+  "Bojack Horseman": [
+   {
+    "title": "Bojack Horseman",
+    "year": ""
+   }
+  ],
+  "Six Feet Under": [
+   {
+    "title": "Six Feet Under",
+    "year": ""
+   }
+  ],
+  "Friday Night Lights": [
+   {
+    "title": "Friday Night Lights",
+    "year": ""
+   }
+  ],
+  "30 Rock": [
+   {
+    "title": "30 Rock",
+    "year": "2006"
+   }
+  ],
+  "Veep": [
+   {
+    "title": "Veep",
+    "year": "2012"
+   }
+  ],
+  "Fleabag": [
+   {
+    "title": "Fleabag",
+    "year": "2016"
+   }
+  ],
+  "Brooklyn Nine-Nine": [
+   {
+    "title": "Brooklyn Nine-Nine",
+    "year": ""
+   }
+  ],
+  "Archer": [
+   {
+    "title": "Archer",
+    "year": "2009"
+   }
+  ],
+  "Over the Garden Wall": [
+   {
+    "title": "Over the Garden Wall",
+    "year": ""
+   }
+  ],
+  "PeaceMaker": [
+   {
+    "title": "Peacemaker",
+    "year": "2022"
+   }
+  ],
+  "Common Side Effects": [
+   {
+    "title": "Common Side Effects",
+    "year": "2025"
+   }
+  ],
+  "Sopranos": [
+   {
+    "title": "The Sopranos",
+    "year": "1999"
+   }
+  ],
+  "Peaky Blinders": [
+   {
+    "title": "Peaky Blinders",
+    "year": ""
+   }
+  ],
+  "The Pitt": [
+   {
+    "title": "The Pitt",
+    "year": "2025"
+   }
+  ],
+  "Mr Robot": [
+   {
+    "title": "Mr. Robot",
+    "year": "2015"
+   }
+  ],
+  "The Fringe": [
+   {
+    "title": "Fringe",
+    "year": "2008"
+   }
+  ],
+  "His Dark Materials": [
+   {
+    "title": "His Dark Materials",
+    "year": ""
+   }
+  ],
+  "X Men 97": [
+   {
+    "title": "X-Men '97",
+    "year": "2024"
+   }
+  ],
+  "Ted Lasso": [
+   {
+    "title": "Ted Lasso",
+    "year": ""
+   }
+  ],
+  "Parks & Recreation": [
+   {
+    "title": "Parks and Recreation",
+    "year": "2009"
+   }
+  ],
+  "Atlanta": [
+   {
+    "title": "Atlanta",
+    "year": "2016"
+   }
+  ],
+  "Rick & Morty": [
+   {
+    "title": "Rick and Morty",
+    "year": "2013"
+   }
+  ]
+ }
+}
