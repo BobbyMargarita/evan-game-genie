@@ -12,7 +12,7 @@
       "imdbId": "tt3799694",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "70"
       },
       "plot": "In 1970s Los Angeles, a mismatched pair of private eyes investigate a missing girl and the mysterious death of a porn star.",
@@ -36,7 +36,7 @@
       "imdbId": "tt0829482",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
@@ -60,7 +60,7 @@
       "imdbId": "tt9351980",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "In post-industrial Ohio, a Chinese billionaire opens a factory in an abandoned General Motors plant, hiring two thousand Americans. Early days of hope and optimism give way to setbacks as high-tech China clashes with working-class...",
@@ -83,8 +83,8 @@
       "tier": null,
       "imdbId": "tt1756855",
       "scores": {
-        "imdb": "7.6",
-        "rottenTomatoes": "96%",
+        "imdb": "7.3",
+        "rottenTomatoes": null,
         "metacritic": "77"
       },
       "plot": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
@@ -108,7 +108,7 @@
       "imdbId": "tt0382932",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
@@ -132,7 +132,7 @@
       "imdbId": "tt2375605",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "A documentary which challenges former Indonesian death-squad leaders to reenact their mass-killings in whichever cinematic genres they wish, including classic Hollywood crime scenarios and lavish musical numbers.",
@@ -156,7 +156,7 @@
       "imdbId": "tt30144839",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "When their enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own.",
@@ -180,7 +180,7 @@
       "imdbId": "tt0396269",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "75%",
+        "rottenTomatoes": null,
         "metacritic": "64"
       },
       "plot": "John Beckwith and Jeremy Grey, a pair of committed womanizers who sneak into weddings to take advantage of the romantic tinge in the air, find themselves at odds with one another when John meets and falls for Claire Cleary.",
@@ -204,7 +204,7 @@
       "imdbId": "tt1587707",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "Following the style of some of the world's most prolific street artists, an amateur filmmaker makes a foray into the art world.",
@@ -228,7 +228,7 @@
       "imdbId": "tt5177120",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "67%",
+        "rottenTomatoes": null,
         "metacritic": "55"
       },
       "plot": "The British military recruits a small group of highly skilled soldiers to strike against German forces behind enemy lines during World War II.",
@@ -252,7 +252,7 @@
       "imdbId": "tt0218839",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "A behind-the-scenes look into the highly competitive and cut-throat world of dog shows through the eyes of a group of ruthless dog owners.",
@@ -276,7 +276,7 @@
       "imdbId": "tt45368240",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "98"
       },
       "plot": "Thirty-four days before she's sent to prison, notorious Theranos founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait becomes a mind-bending three-year journey.",
@@ -290,6 +290,30 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMDkwNGRiNjYtZTQ4MC00MWFhLWI3MjYtNzk1MDY2ZTNiY2Q4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
     },
     {
+      "slug": "the-harder-they-fall-2021",
+      "title": "The Harder They Fall",
+      "year": "2021",
+      "sheetTitle": "The Harder They Fall",
+      "status": "Watched",
+      "category": "Drama/Action",
+      "tier": "Great",
+      "imdbId": "tt10696784",
+      "scores": {
+        "imdb": "6.6",
+        "rottenTomatoes": null,
+        "metacritic": "68"
+      },
+      "plot": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek revenge.",
+      "genre": "Action, Drama, Western",
+      "runtime": "139 min",
+      "rated": "R",
+      "director": "Jeymes Samuel",
+      "writer": "Jeymes Samuel, Boaz Yakin",
+      "actors": "Jonathan Majors, Zazie Beetz, RJ Cyler",
+      "seasons": null,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDBjOTQyZTEtZTdhYS00ZTNlLWE3NTgtZGY3YmZlZTdhYjUxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+    },
+    {
       "slug": "step-brothers-2008",
       "title": "Step Brothers",
       "year": "2008",
@@ -300,7 +324,7 @@
       "imdbId": "tt0838283",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "54%",
+        "rottenTomatoes": null,
         "metacritic": "51"
       },
       "plot": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
@@ -324,7 +348,7 @@
       "imdbId": "tt4044364",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "A documentarian and a reporter travel to Hong Kong for the first of many meetings with Edward Snowden.",
@@ -348,7 +372,7 @@
       "imdbId": "tt33764258",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
@@ -372,7 +396,7 @@
       "imdbId": "tt0272338",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "An entrepreneur with social anxiety falls victim to a blackmailing scheme that jeopardizes his chance at true love.",
@@ -396,7 +420,7 @@
       "imdbId": "tt1155592",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "A look at tightrope walker Philippe Petit's daring, but illegal, high-wire routine performed between New York City's World Trade Center's twin towers in 1974, what some consider, \"the artistic crime of the century\".",
@@ -420,7 +444,7 @@
       "imdbId": "tt0113277",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.",
@@ -444,7 +468,7 @@
       "imdbId": "tt0357413",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "66%",
+        "rottenTomatoes": null,
         "metacritic": "63"
       },
       "plot": "In the 1970s, an anchorman's stint as San Diego's top-rated newsreader is challenged when an ambitious newswoman becomes his co-anchor.",
@@ -468,7 +492,7 @@
       "imdbId": "tt0310793",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "72"
       },
       "plot": "Filmmaker Michael Moore explores the roots of America's predilection for gun violence.",
@@ -492,7 +516,7 @@
       "imdbId": "tt0373469",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "After being mistaken for an actor, a New York thief is sent to Hollywood to train under a private eye for a potential movie role, but the duo are thrown together with a struggling actress into a murder mystery.",
@@ -516,7 +540,7 @@
       "imdbId": "tt1049413",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "A grumpy old man turns his house into an airship using balloons and flies off to South America with a young stowaway.",
@@ -540,7 +564,7 @@
       "imdbId": "tt1645089",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "Takes a closer look at what brought about the 2008 financial meltdown.",
@@ -564,7 +588,7 @@
       "imdbId": "tt3659388",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "An astronaut stranded on Mars must rely on his ingenuity to survive and arrange a potential rescue.",
@@ -588,7 +612,7 @@
       "imdbId": "tt0443453",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "Kazakh TV talking head Borat is dispatched to the United States to report on the greatest country in the world.",
@@ -612,7 +636,7 @@
       "imdbId": "tt2125608",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "Two South Africans set out to discover what happened to their unlikely musical hero, the mysterious 1970s rock n roller, Rodriguez.",
@@ -636,7 +660,7 @@
       "imdbId": "tt0443706",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
@@ -660,7 +684,7 @@
       "imdbId": "tt0265666",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
@@ -684,7 +708,7 @@
       "imdbId": "tt2545118",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "A documentary following the controversial captivity of killer whales, and its dangers for both humans and whales.",
@@ -708,7 +732,7 @@
       "imdbId": "tt2911666",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "87%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "John Wick is a former hitman grieving the loss of his true love. When his home is broken into, robbed, and his dog killed, he is forced to return to action to exact revenge.",
@@ -732,7 +756,7 @@
       "imdbId": "tt0910970",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "In a future where humans have temporarily abandoned Earth, a trash-compacting robot falls in love with a flying droid and helps her on her quest to restore hope to mankind.",
@@ -756,7 +780,7 @@
       "imdbId": "tt0497116",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "Filmmaker Davis Guggenheim follows Al Gore on the lecture circuit, as the former presidential candidate campaigns to raise public awareness of the dangers of global warming and calls for immediate action to curb its destructive ef...",
@@ -780,7 +804,7 @@
       "imdbId": "tt0102926",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims.",
@@ -804,7 +828,7 @@
       "imdbId": "tt0375063",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "Two men reaching middle age with not much to show but disappointment embark on a week-long road trip through California's wine country, just as one is about to take a trip down the aisle.",
@@ -828,7 +852,7 @@
       "imdbId": "tt12888462",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "A filmmaker forges an unusual friendship with an octopus living in a South African kelp forest, learning as the animal shares the mysteries of her world.",
@@ -852,7 +876,7 @@
       "imdbId": "tt0133093",
       "scores": {
         "imdb": "8.7",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "A computer hacker discovers that his life is nothing more than an elaborate simulation run by an evil AI.",
@@ -876,7 +900,7 @@
       "imdbId": "tt1478338",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef.",
@@ -948,7 +972,7 @@
       "imdbId": "tt1065073",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "100"
       },
       "plot": "The life of Mason, from early childhood to his arrival at college.",
@@ -972,7 +996,7 @@
       "imdbId": "tt11394318",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "Deep in the forests of Piedmont, Italy, a handful of men, seventy or eighty years old, hunt for the rare and expensive white Alba truffle-which to date has resisted all of modern science's efforts at cultivation.",
@@ -996,7 +1020,7 @@
       "imdbId": "tt0120737",
       "scores": {
         "imdb": "8.9",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
@@ -1020,7 +1044,7 @@
       "imdbId": "tt0167261",
       "scores": {
         "imdb": "8.8",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
@@ -1044,7 +1068,7 @@
       "imdbId": "tt0167260",
       "scores": {
         "imdb": "9.0",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
@@ -1068,7 +1092,7 @@
       "imdbId": "tt2096673",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "After a young girl is uprooted from her Midwest life and moved to San Francisco, her emotions conflict on how best to navigate her new reality.",
@@ -1092,7 +1116,7 @@
       "imdbId": "tt0386032",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "A documentary comparing the highly profitable American health care industry to other nations, and HMO horror stories including shotgun deaths.",
@@ -1116,7 +1140,7 @@
       "imdbId": "tt0082971",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
@@ -1140,7 +1164,7 @@
       "imdbId": "tt0057012",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "97"
       },
       "plot": "After a rogue U.S. general orders an unauthorized nuclear attack on the Soviet Union, leaders in the War Room race to prevent global catastrophe.",
@@ -1164,7 +1188,7 @@
       "imdbId": "tt1286537",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "An unflattering look inside America's corporate controlled food industry.",
@@ -1188,7 +1212,7 @@
       "imdbId": "tt1160419",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.",
@@ -1212,7 +1236,7 @@
       "imdbId": "tt15239678",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible fu...",
@@ -1260,7 +1284,7 @@
       "imdbId": "tt3783958",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "When Sebastian, a pianist, and Mia, an actress, follow their passion and achieve success in their respective fields, they find themselves torn between their love for each other and their careers.",
@@ -1284,7 +1308,7 @@
       "imdbId": "tt0361596",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "Michael Moore's view on what happened to the United States after 9/11 and how the Bush Administration allegedly used the tragic event to push forward its agenda for unjust wars in Afghanistan and Iraq.",
@@ -1308,7 +1332,7 @@
       "imdbId": "tt0465538",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "A law firm brings in its \"fixer\" to remedy the situation after a lawyer has a breakdown while representing a chemical company that he knows is guilty in a multibillion-dollar class action suit.",
@@ -1332,7 +1356,7 @@
       "imdbId": "tt0069704",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "97"
       },
       "plot": "A group of teenagers in California's central valley spend one final night after their 1962 high school graduation cruising the strip with their buddies before they pursue their varying goals.",
@@ -1356,7 +1380,7 @@
       "imdbId": "tt1183919",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "A documentary on the life, music, and legacy of Bob Marley.",
@@ -1380,7 +1404,7 @@
       "imdbId": "tt0120815",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
@@ -1404,7 +1428,7 @@
       "imdbId": "tt0335266",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "A fading movie star and a neglected married young woman come to be unlikely soulmates in Tokyo.",
@@ -1428,7 +1452,7 @@
       "imdbId": "tt7775622",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "Alex Honnold faces the biggest challenge of his career, climbing El Capitan in Yosemite National Park. He pursues it Free Solo, which means climbing without a rope and alone.",
@@ -1452,7 +1476,7 @@
       "imdbId": "tt0109830",
       "scores": {
         "imdb": "8.8",
-        "rottenTomatoes": "75%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
@@ -1476,7 +1500,7 @@
       "imdbId": "tt11271038",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A young man and a young woman grow up, run around, and fall in love in the San Fernando Valley, 1973.",
@@ -1500,7 +1524,7 @@
       "imdbId": "tt0428803",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "In the Antarctic, every March since the beginning of time, the quest begins to find the perfect mate and start a family.",
@@ -1524,7 +1548,7 @@
       "imdbId": "tt0119217",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "71"
       },
       "plot": "A therapist counsels Will Hunting, a janitor with a genius IQ.",
@@ -1548,7 +1572,7 @@
       "imdbId": "tt0071853",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
@@ -1572,7 +1596,7 @@
       "imdbId": "tt2042568",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "A week in the life of a young singer as he navigates the Greenwich Village folk scene of 1961.",
@@ -1596,7 +1620,7 @@
       "imdbId": "tt0120601",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.",
@@ -1620,7 +1644,7 @@
       "imdbId": "tt14731254",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "A documentary centering on the daily life of actor Val Kilmer, featuring never-before-seen footage spanning 40 years.",
@@ -1644,7 +1668,7 @@
       "imdbId": "tt1454468",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "Two astronauts must survive in space after their shuttle is hit by debris during a spacewalk.",
@@ -1668,7 +1692,7 @@
       "imdbId": "tt4729430",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "65"
       },
       "plot": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
@@ -1692,7 +1716,7 @@
       "imdbId": "tt19770238",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between as she tries to reconcile the father she knew with the man she d...",
@@ -1716,7 +1740,7 @@
       "imdbId": "tt32916440",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
@@ -1740,7 +1764,7 @@
       "imdbId": "tt5278506",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "Journalist David Farrier stumbles upon a mysterious tickling competition online. As he delves deeper he comes up against fierce resistance, but that doesn't stop him getting to the bottom of a story stranger than fiction.",
@@ -1764,7 +1788,7 @@
       "imdbId": "tt0816692",
       "scores": {
         "imdb": "8.7",
-        "rottenTomatoes": "73%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
@@ -1788,7 +1812,7 @@
       "imdbId": "tt5462602",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "Pakistan-born comedian Kumail Nanjiani and grad student Emily Gardner fall in love but struggle as their cultures clash. When Emily contracts a mysterious illness, Kumail finds himself forced to face her feisty parents, his family...",
@@ -1812,7 +1836,7 @@
       "imdbId": "tt0482571",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "77%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic.",
@@ -1836,7 +1860,7 @@
       "imdbId": "tt4468740",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "Paddington, now happily settled with the Brown family and a popular member of the local community, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy's 100th birthday, only for the gift to be stolen.",
@@ -1860,7 +1884,7 @@
       "imdbId": "tt1424432",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "A documentary on Brazilian Formula One racing driver Ayrton Senna, who won the F1 world championship three times before his death at age 34.",
@@ -1884,7 +1908,7 @@
       "imdbId": "tt1825683",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
@@ -1908,7 +1932,7 @@
       "imdbId": "tt0103639",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
@@ -1932,7 +1956,7 @@
       "imdbId": "tt1441395",
       "scores": {
         "imdb": "6.3",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "A mysterious young woman seduces lonely men in the evening hours in Scotland. However, events lead her to begin a process of self-discovery.",
@@ -1956,7 +1980,7 @@
       "imdbId": "tt5027774",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
@@ -1980,7 +2004,7 @@
       "imdbId": "tt0486358",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "62"
       },
       "plot": "A documentary on kids who attend a summer camp hoping to become the next Billy Graham.",
@@ -2004,7 +2028,7 @@
       "imdbId": "tt0181689",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "The chief of a police unit that can accurately predict and prevent crimes goes on the run after he's accused of a future murder himself.",
@@ -2028,7 +2052,7 @@
       "imdbId": "tt0104254",
       "scores": {
         "imdb": "6.6",
-        "rottenTomatoes": "67%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "The magical inhabitants of a rainforest fight to save their home, which is threatened by logging and a polluting force of destruction called Hexxus.",
@@ -2052,7 +2076,7 @@
       "imdbId": "tt1895587",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
@@ -2076,7 +2100,7 @@
       "imdbId": "tt0478311",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "For fun-loving party animal Ben Stone, the last thing he ever expected was for his one-night stand to show up on his doorstep eight weeks later to tell him she's pregnant with his child.",
@@ -2100,7 +2124,7 @@
       "imdbId": "tt1032821",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "A mixture of original interviews, archival footage, and photographs sheds light on the life experiences of Mike Tyson.",
@@ -2124,7 +2148,7 @@
       "imdbId": "tt0172495",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "80%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
@@ -2148,7 +2172,7 @@
       "imdbId": "tt0876563",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
@@ -2172,7 +2196,7 @@
       "imdbId": "tt0364569",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days.",
@@ -2196,7 +2220,7 @@
       "imdbId": "tt1201167",
       "scores": {
         "imdb": "6.3",
-        "rottenTomatoes": "69%",
+        "rottenTomatoes": null,
         "metacritic": "60"
       },
       "plot": "When seasoned comedian George Simmons learns of his terminal, inoperable health condition, his desire to form a genuine friendship causes him to take a relatively green performer under his wing as his opening act.",
@@ -2220,7 +2244,7 @@
       "imdbId": "tt0418753",
       "scores": {
         "imdb": "6.7",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "64"
       },
       "plot": "An examination of the infamous pornographic film Deep Throat (1972), covering aspects from the film's creation to its cultural impact.",
@@ -2244,7 +2268,7 @@
       "imdbId": "tt1862079",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "72"
       },
       "plot": "Three magazine employees head out on an assignment to interview a guy who placed a classified advertisement seeking a companion for time travel.",
@@ -2268,7 +2292,7 @@
       "imdbId": "tt0245429",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
@@ -2292,7 +2316,7 @@
       "imdbId": "tt1560747",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by a cult and its charismatic leader.",
@@ -2316,7 +2340,7 @@
       "imdbId": "tt1758830",
       "scores": {
         "imdb": "6.2",
-        "rottenTomatoes": "52%",
+        "rottenTomatoes": null,
         "metacritic": "59"
       },
       "plot": "Pete and Debbie are both about to turn 40, their kids hate each other, both of their businesses are failing, they're on the verge of losing their house, and their relationship is threatening to fall apart.",
@@ -2340,7 +2364,7 @@
       "imdbId": "tt1375666",
       "scores": {
         "imdb": "8.8",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
@@ -2364,7 +2388,7 @@
       "imdbId": "tt7014006",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "An introverted teenage girl tries to survive the last week of her disastrous eighth grade year before leaving to start high school.",
@@ -2388,7 +2412,7 @@
       "imdbId": "tt7160372",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "The commandant of Auschwitz and his wife strive to build a dream life for their family in a house next to the camp.",
@@ -2412,7 +2436,7 @@
       "imdbId": "tt1245492",
       "scores": {
         "imdb": "6.6",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "Six Los Angeles celebrities are stuck in James Franco's house after a series of devastating events just destroyed the city. Inside, the group not only have to face the apocalypse, but themselves.",
@@ -2436,7 +2460,7 @@
       "imdbId": "tt1856101",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
@@ -2460,7 +2484,7 @@
       "imdbId": "tt1748122",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "Two 12-year-olds, who live on an island, fall in love with each other and elope into the wilderness. While people set out on a search mission, a violent storm approaching them catches their attention.",
@@ -2484,7 +2508,7 @@
       "imdbId": "tt0166924",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
@@ -2508,7 +2532,7 @@
       "imdbId": "tt8097030",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "A thirteen-year-old girl named Mei Lee is torn between staying her mother's dutiful daughter and the changes of adolescence. And as if the challenges were not enough, whenever she gets overly excited Mei transforms into a giant re...",
@@ -2532,7 +2556,7 @@
       "imdbId": "tt0947798",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "An insecure ballerina finally gets the role she has always dreamed of, but as the pressures mount her line between reality and illusion starts to blur.",
@@ -2556,7 +2580,7 @@
       "imdbId": "tt1489887",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "On the eve of their high-school graduation, two academic superstars and best friends realize they should have worked less and played more. Determined not to fall short of their peers, the girls try to cram four years of fun into o...",
@@ -2580,7 +2604,7 @@
       "imdbId": "tt0047478",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "98"
       },
       "plot": "Farmers from a village exploited by bandits hire a veteran samurai for protection, and he gathers six other samurai to join him.",
@@ -2604,7 +2628,7 @@
       "imdbId": "tt5439812",
       "scores": {
         "imdb": "6.4",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "A stripper named Zola embarks on a wild road trip to Florida.",
@@ -2628,7 +2652,7 @@
       "imdbId": "tt2584384",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "58"
       },
       "plot": "A young German boy in the Hitler Youth, whose hero and imaginary friend is the country's dictator, is shocked to discover that his mother is hiding a Jewish girl in their home.",
@@ -2652,7 +2676,7 @@
       "imdbId": "tt0405422",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "Guided by his buddies, a nerdy guy who's never \"done the deed\" only finds the pressure mounting when he meets a single mother.",
@@ -2676,7 +2700,7 @@
       "imdbId": "tt0053125",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "98"
       },
       "plot": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.",
@@ -2700,7 +2724,7 @@
       "imdbId": "tt8110652",
       "scores": {
         "imdb": "6.1",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "69"
       },
       "plot": "When a group of rich 20-somethings plan a hurricane party at a remote family mansion, a party game turns deadly.",
@@ -2724,7 +2748,7 @@
       "imdbId": "tt6710474",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
@@ -2748,7 +2772,7 @@
       "imdbId": "tt0800039",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "Devastated Peter takes a Hawaiian vacation in order to deal with the recent break-up with his TV star girlfriend, Sarah. Little does he know, Sarah's traveling to the same resort as her ex - and she's bringing along her new boyfri...",
@@ -2772,7 +2796,7 @@
       "imdbId": "tt19637052",
       "scores": {
         "imdb": "6.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "77"
       },
       "plot": "Reclusive gym manager Lou falls hard for Jackie, an ambitious bodybuilder headed through town to Vegas in pursuit of her dream. But their love ignites violence, pulling them deep into the web of Lou's criminal family.",
@@ -2820,7 +2844,7 @@
       "imdbId": "tt0887912",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "During the Iraq War, a Sergeant recently assigned to an army bomb squad is put at odds with his squad mates due to his maverick way of handling his work.",
@@ -2844,7 +2868,7 @@
       "imdbId": "tt0163651",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "62%",
+        "rottenTomatoes": null,
         "metacritic": "58"
       },
       "plot": "Four teenage boys enter a pact to lose their virginity by prom night.",
@@ -2868,7 +2892,7 @@
       "imdbId": "tt0050083",
       "scores": {
         "imdb": "9.0",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "97"
       },
       "plot": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
@@ -2892,7 +2916,7 @@
       "imdbId": "tt7146812",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "61"
       },
       "plot": "Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father. Like any good adventure, their journey is filled with cryptic maps, impossible obstacles and unimaginable discoveries.",
@@ -2916,7 +2940,7 @@
       "imdbId": "tt2267998",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "The husband of a missing woman becomes the main suspect in her disappearance.",
@@ -2940,7 +2964,7 @@
       "imdbId": "tt0110357",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
@@ -2964,7 +2988,7 @@
       "imdbId": "tt0044081",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "97"
       },
       "plot": "Middle-aged, emotionally disturbed Blanche DuBois moves in with her younger sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her.",
@@ -2988,7 +3012,7 @@
       "imdbId": "tt0080339",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "After the crew becomes sick with food poisoning, a neurotic ex-fighter pilot must safely land a commercial airplane full of passengers.",
@@ -3012,7 +3036,7 @@
       "imdbId": "tt0209144",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "A former insurance investigator who now suffers from anterograde amnesia uses notes and tattoos to hunt down his wife's murderer.",
@@ -3036,7 +3060,7 @@
       "imdbId": "tt4633694",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
@@ -3060,7 +3084,7 @@
       "imdbId": "tt6265828",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "In this singular exploration of legacy, love, loss, and the enormity of existence, a recently deceased, white-sheeted ghost returns to his suburban home to try to reconnect with his bereft wife.",
@@ -3084,7 +3108,7 @@
       "imdbId": "tt0177789",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "70"
       },
       "plot": "The alumni cast of a space opera television series have to play their roles as the real thing when an alien race needs their help. However, they also have to defend both Earth and the alien race from a reptilian warlord.",
@@ -3108,7 +3132,7 @@
       "imdbId": "tt0266697",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "69"
       },
       "plot": "After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
@@ -3132,7 +3156,7 @@
       "imdbId": "tt0378194",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "The Bride continues her quest for vengeance, tracking the remaining Deadly Viper assassins and closing in on the man who betrayed her.",
@@ -3156,7 +3180,7 @@
       "imdbId": "tt29623480",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "A sentient robot stranded on an uninhabited island raises an orphaned gosling while trying to fit in with the local wildlife.",
@@ -3180,7 +3204,7 @@
       "imdbId": "tt6155172",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "A year in the life of an upper-middle-class family's maid in Mexico City in the early 1970s.",
@@ -3204,7 +3228,7 @@
       "imdbId": "tt0109445",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "70"
       },
       "plot": "A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof.",
@@ -3228,7 +3252,7 @@
       "imdbId": "tt0110912",
       "scores": {
         "imdb": "8.8",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
@@ -3252,7 +3276,7 @@
       "imdbId": "tt4302938",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "A young boy named Kubo must locate a magical suit of armour worn by his late father in order to defeat a vengeful spirit from the past.",
@@ -3276,7 +3300,7 @@
       "imdbId": "tt4034228",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.",
@@ -3300,7 +3324,7 @@
       "imdbId": "tt0120655",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "72%",
+        "rottenTomatoes": null,
         "metacritic": "62"
       },
       "plot": "An abortion clinic worker with a special heritage is called upon to save the existence of humanity from being negated by two renegade angels trying to exploit a loop-hole and reenter Heaven.",
@@ -3324,7 +3348,7 @@
       "imdbId": "tt0457430",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "98"
       },
       "plot": "In 1944 Francoist Spain, an imaginative young girl meets a faun who tells her she's a princess and that she must prove her worthiness by completing three dangerous tasks.",
@@ -3348,7 +3372,7 @@
       "imdbId": "tt0129167",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
@@ -3372,7 +3396,7 @@
       "imdbId": "tt2024544",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "96"
       },
       "plot": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
@@ -3396,7 +3420,7 @@
       "imdbId": "tt0093105",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "In 1965, an unorthodox and irreverent DJ named Adrian Cronauer begins to shake up things when he is assigned to the U.S. Armed Services radio station in Vietnam.",
@@ -3420,7 +3444,7 @@
       "imdbId": "tt1210166",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
@@ -3444,7 +3468,7 @@
       "imdbId": "tt0126029",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
@@ -3468,7 +3492,7 @@
       "imdbId": "tt0075314",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
@@ -3492,7 +3516,7 @@
       "imdbId": "tt0286112",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "A disgraced former soccer star joins forces with a Shaolin master and his battered brothers, turning kung fu into a weapon against a corrupt champion determined to crush their comeback.",
@@ -3516,7 +3540,7 @@
       "imdbId": "tt0407887",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
@@ -3540,7 +3564,7 @@
       "imdbId": "tt1490017",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "An ordinary LEGO construction worker, thought to be the prophesied as \"special\", is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
@@ -3564,7 +3588,7 @@
       "imdbId": "tt0095327",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "A young boy and his little sister struggle to survive in Japan during World War II.",
@@ -3588,7 +3612,7 @@
       "imdbId": "tt0071230",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "In order to ruin a western town and steal their land, a corrupt politician appoints a black sheriff, who promptly becomes his most formidable adversary.",
@@ -3612,7 +3636,7 @@
       "imdbId": "tt0119698",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "After a deadly curse forces him from home, young warrior Ashitaka journeys west and is drawn into a conflict between ancient forest spirits, an iron town, and a wolf-raised girl.",
@@ -3636,7 +3660,7 @@
       "imdbId": "tt0347149",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
@@ -3660,7 +3684,7 @@
       "imdbId": "tt0067116",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "A pair of NYPD detectives in the Narcotics Bureau stumble onto a heroin smuggling ring based in Marseilles, but stopping them and capturing their leaders proves an elusive goal.",
@@ -3684,7 +3708,7 @@
       "imdbId": "tt0175142",
       "scores": {
         "imdb": "6.3",
-        "rottenTomatoes": "52%",
+        "rottenTomatoes": null,
         "metacritic": "48"
       },
       "plot": "A year after disposing of the body of a man they accidentally killed, a group of dumb teenagers are stalked by a bumbling serial killer.",
@@ -3708,7 +3732,7 @@
       "imdbId": "tt2543164",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "Linguist Louise Banks leads a team of investigators when gigantic spaceships touch down around the world. As nations teeter on the verge of global war, Banks and her crew must find a way to communicate with the extraterrestrial vi...",
@@ -3732,7 +3756,7 @@
       "imdbId": "tt2380307",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
@@ -3756,7 +3780,7 @@
       "imdbId": "tt0078788",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
@@ -3780,7 +3804,7 @@
       "imdbId": "tt0120201",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "72%",
+        "rottenTomatoes": null,
         "metacritic": "52"
       },
       "plot": "Humans, in a fascist militaristic future, wage war with giant alien bugs.",
@@ -3804,7 +3828,7 @@
       "imdbId": "tt0468569",
       "scores": {
         "imdb": "9.1",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
@@ -3828,7 +3852,7 @@
       "imdbId": "tt15339456",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "A cash-strapped documentary maker decides to make his newest documentary about a mollusk shell he finds living in his Airbnb with his friends.",
@@ -3852,7 +3876,7 @@
       "imdbId": "tt0061512",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "100%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "A laid-back Southern man is sentenced to two years in a rural prison, but refuses to conform.",
@@ -3876,7 +3900,7 @@
       "imdbId": "tt1798709",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "In the near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
@@ -3900,7 +3924,7 @@
       "imdbId": "tt0892769",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
@@ -3924,7 +3948,7 @@
       "imdbId": "tt0052618",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "87%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, but it's not long before he regains his freedom and comes back for revenge.",
@@ -3948,7 +3972,7 @@
       "imdbId": "tt0470752",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
@@ -3972,7 +3996,7 @@
       "imdbId": "tt3040964",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "77"
       },
       "plot": "After a threat from the tiger Shere Khan forces him to flee the jungle, a man-cub named Mowgli embarks on a journey of self discovery with the help of panther Bagheera and free-spirited bear Baloo.",
@@ -3996,7 +4020,7 @@
       "imdbId": "tt0056172",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "100"
       },
       "plot": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
@@ -4020,7 +4044,7 @@
       "imdbId": "tt5613484",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "Follows Stevie, a thirteen-year-old in 1990s-era Los Angeles who spends his summer navigating between his troubled home life and a group of new friends that he meets at a Motor Avenue skate shop.",
@@ -4044,7 +4068,7 @@
       "imdbId": "tt0046183",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan.",
@@ -4068,7 +4092,7 @@
       "imdbId": "tt9231040",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "In 1820, a cook travels to Oregon, where he meets a Chinese immigrant who is also looking to make his fortune. Soon, they team up in a dangerous scheme to steal milk from a prized local cow, the first and only in the territory.",
@@ -4092,7 +4116,7 @@
       "imdbId": "tt0993846",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
@@ -4116,7 +4140,7 @@
       "imdbId": "tt0084649",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "To save her ill son, a field mouse must seek the aid of a colony of rats, with whom she has a deeper link than she suspected.",
@@ -4140,7 +4164,7 @@
       "imdbId": "tt0060196",
       "scores": {
         "imdb": "8.8",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
@@ -4164,7 +4188,7 @@
       "imdbId": "tt0190332",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "A young Chinese warrior steals a sword from a famed swordsman and then escapes into a world of romantic adventure with a mysterious man in the frontier of the nation.",
@@ -4188,7 +4212,7 @@
       "imdbId": "tt2948356",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
@@ -4212,7 +4236,7 @@
       "imdbId": "tt2278871",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire and to assert herself as a woman and as an adult. In front of others, Adèle grows, seeks herself, loses herself, and ...",
@@ -4236,7 +4260,7 @@
       "imdbId": "tt0317248",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
@@ -4284,7 +4308,7 @@
       "imdbId": "tt12300742",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "87%",
+        "rottenTomatoes": null,
         "metacritic": "72"
       },
       "plot": "Two conspiracy-obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
@@ -4308,7 +4332,7 @@
       "imdbId": "tt0361748",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "69"
       },
       "plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
@@ -4332,7 +4356,7 @@
       "imdbId": "tt8589698",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "The Turtle brothers work to earn the love of New York City while facing down an army of mutants.",
@@ -4356,7 +4380,7 @@
       "imdbId": "tt0086250",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "77%",
+        "rottenTomatoes": null,
         "metacritic": "65"
       },
       "plot": "In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.",
@@ -4380,7 +4404,7 @@
       "imdbId": "tt0206634",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "In 2027, in a chaotic world in which women have somehow become infertile, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea.",
@@ -4404,7 +4428,7 @@
       "imdbId": "tt2245084",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
@@ -4428,7 +4452,7 @@
       "imdbId": "tt0077416",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "The lives of a group of friends are forever changed by the Vietnam War.",
@@ -4452,7 +4476,7 @@
       "imdbId": "tt1392190",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max.",
@@ -4476,7 +4500,7 @@
       "imdbId": "tt0106677",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "The adventures of high school and junior high students on the last day of school in May 1976.",
@@ -4500,7 +4524,7 @@
       "imdbId": "tt17279496",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "In the midst of a U.S. civil war, four reporters make the dangerous trip to the capital to interview the president before he is overthrown.",
@@ -4524,7 +4548,7 @@
       "imdbId": "tt1285016",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
@@ -4548,7 +4572,7 @@
       "imdbId": "tt3104988",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "This contemporary romantic comedy based on a global bestseller follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
@@ -4572,7 +4596,7 @@
       "imdbId": "tt14208870",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "Growing up in post-World War II era Arizona, young Sammy Fabelman aspires to become a filmmaker as he reaches adolescence, but soon discovers a shattering family secret and explores how the power of films can help him see the truth.",
@@ -4596,7 +4620,7 @@
       "imdbId": "tt0113568",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
@@ -4620,7 +4644,7 @@
       "imdbId": "tt0373074",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "In Shanghai, China in the 1940s, a wannabe gangster aspires to join the notorious \"Axe Gang\" while residents of a housing complex exhibit extraordinary powers in defending their turf.",
@@ -4644,7 +4668,7 @@
       "imdbId": "tt0355702",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "55%",
+        "rottenTomatoes": null,
         "metacritic": "56"
       },
       "plot": "The film follows the surf and skateboarding trends that originated in Venice, California during the 1970s.",
@@ -4692,7 +4716,7 @@
       "imdbId": "tt0319343",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "A man raised by Santa's elves travels from the North Pole to New York City to meet his biological father, who doesn't know he exists and is in desperate need of some Christmas spirit.",
@@ -4740,7 +4764,7 @@
       "imdbId": "tt0338013",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories forever.",
@@ -4764,7 +4788,7 @@
       "imdbId": "tt0118655",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "72%",
+        "rottenTomatoes": null,
         "metacritic": "51"
       },
       "plot": "A world-class playboy and part-time secret agent from the 1960s emerges after thirty years in a cryogenic state to battle with his nemesis Dr. Evil.",
@@ -4788,7 +4812,7 @@
       "imdbId": "tt0114746",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
@@ -4812,7 +4836,7 @@
       "imdbId": "tt0477348",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.",
@@ -4836,7 +4860,7 @@
       "imdbId": "tt3152624",
       "scores": {
         "imdb": "6.2",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "A commitment-phobic career woman who has always thought that monogamy was impossible must face her fears when she meets a good guy.",
@@ -4860,7 +4884,7 @@
       "imdbId": "tt20215234",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "When Cardinal Lawrence is tasked with leading the selection of a new Pope, he finds himself in a web of conspiracy and intrigue that could shake the very foundations of the Catholic Church.",
@@ -4884,7 +4908,7 @@
       "imdbId": "tt4975722",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "99"
       },
       "plot": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
@@ -4908,7 +4932,7 @@
       "imdbId": "tt0151804",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "Three company workers who hate their jobs decide to rebel against their greedy boss.",
@@ -4932,7 +4956,7 @@
       "imdbId": "tt11563598",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "70"
       },
       "plot": "In 1961, an unknown 19-year-old Bob Dylan arrives in New York City with his guitar and forges relationships with musical icons on his meteoric rise, culminating in a groundbreaking performance that reverberates around the world.",
@@ -4956,7 +4980,7 @@
       "imdbId": "tt0469494",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
@@ -4980,7 +5004,7 @@
       "imdbId": "tt0118715",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "71"
       },
       "plot": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
@@ -5004,7 +5028,7 @@
       "imdbId": "tt22084616",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
@@ -5028,7 +5052,7 @@
       "imdbId": "tt6751668",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "97"
       },
       "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
@@ -5052,7 +5076,7 @@
       "imdbId": "tt1119646",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "Three buddies wake up from a bachelor party in Las Vegas with no memory of the previous night and the bachelor missing. They must make their way around the city in order to find their friend in time for his wedding.",
@@ -5076,7 +5100,7 @@
       "imdbId": "tt1790885",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "A chronicle of the decade-long hunt for al-Qaeda terrorist leader Osama bin Laden after the September 2001 attacks, and his death at the hands of the Navy S.E.A.L.s Team 6 in May 2011.",
@@ -5100,7 +5124,7 @@
       "imdbId": "tt0105793",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "57"
       },
       "plot": "When a slick producer offers to take their public-access TV show to the big time, rock-loving pals Wayne and Garth struggle to keep control of their creation as he also pursues Wayne's girlfriend.",
@@ -5124,7 +5148,7 @@
       "imdbId": "tt3397884",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "An FBI agent joins a covert DoD task force targeting a Mexican cartel. Operating outside legal boundaries with a CIA handler and a mysterious fixer, she discovers the mission's true purpose goes far beyond what she was told.",
@@ -5148,7 +5172,7 @@
       "imdbId": "tt0372588",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "77%",
+        "rottenTomatoes": null,
         "metacritic": "64"
       },
       "plot": "Popular Broadway actor Gary Johnston is recruited by the elite counter-terrorism organization Team America: World Police. As the world begins to crumble around him, he must battle with terrorists, celebrities and falling in love.",
@@ -5172,7 +5196,7 @@
       "imdbId": "tt0108052",
       "scores": {
         "imdb": "9.0",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "95"
       },
       "plot": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
@@ -5196,7 +5220,7 @@
       "imdbId": "tt0366551",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "75%",
+        "rottenTomatoes": null,
         "metacritic": "64"
       },
       "plot": "A Korean-American office worker and his Indian-American stoner friend embark on a quest to satisfy their desire for White Castle burgers.",
@@ -5220,7 +5244,7 @@
       "imdbId": "tt1745960",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.",
@@ -5244,7 +5268,7 @@
       "imdbId": "tt0387808",
       "scores": {
         "imdb": "6.5",
-        "rottenTomatoes": "71%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "Corporal Joe Bauers, a decidedly average American, is selected for a top-secret hibernation program but is forgotten and left to awaken to a future so incredibly moronic that he's easily the most intelligent person alive.",
@@ -5268,7 +5292,7 @@
       "imdbId": "tt0053221",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "A small-town sheriff in the American West enlists the help of a disabled man, a drunk, and a young gunfighter in his efforts to hold in jail the brother of the local bad guy.",
@@ -5292,7 +5316,7 @@
       "imdbId": "tt0196229",
       "scores": {
         "imdb": "6.5",
-        "rottenTomatoes": "64%",
+        "rottenTomatoes": null,
         "metacritic": "61"
       },
       "plot": "At the end of his career, a clueless fashion model is brainwashed to kill the Prime Minister of Malaysia.",
@@ -5316,7 +5340,7 @@
       "imdbId": "tt0099685",
       "scores": {
         "imdb": "8.7",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
@@ -5340,7 +5364,7 @@
       "imdbId": "tt0290002",
       "scores": {
         "imdb": "6.4",
-        "rottenTomatoes": "38%",
+        "rottenTomatoes": null,
         "metacritic": "41"
       },
       "plot": "All hell breaks loose when the Byrnes family meets the Focker family for the first time.",
@@ -5364,7 +5388,7 @@
       "imdbId": "tt0217505",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "72%",
+        "rottenTomatoes": null,
         "metacritic": "72"
       },
       "plot": "In 1862, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher; his father's killer.",
@@ -5388,7 +5412,7 @@
       "imdbId": "tt0247745",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "37%",
+        "rottenTomatoes": null,
         "metacritic": "48"
       },
       "plot": "Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.",
@@ -5412,7 +5436,7 @@
       "imdbId": "tt0120735",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "75%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "When four small-time criminals lose a rigged poker game against a London kingpin, he gives them one week to settle their enormous debt.",
@@ -5436,7 +5460,7 @@
       "imdbId": "tt0446029",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "69"
       },
       "plot": "A young man must defeat his new girlfriend's seven evil exes, who are willing to do anything to prevent her happiness with someone else.",
@@ -5460,7 +5484,7 @@
       "imdbId": "tt0208092",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "74%",
+        "rottenTomatoes": null,
         "metacritic": "55"
       },
       "plot": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
@@ -5484,7 +5508,7 @@
       "imdbId": "tt1045658",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her ...",
@@ -5508,7 +5532,7 @@
       "imdbId": "tt0780504",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "79"
       },
       "plot": "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver.",
@@ -5532,7 +5556,7 @@
       "imdbId": "tt0093779",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "A bedridden boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.",
@@ -5556,7 +5580,7 @@
       "imdbId": "tt3315342",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "77"
       },
       "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
@@ -5580,7 +5604,7 @@
       "imdbId": "tt1022603",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "After being dumped by the girl he believes to be his soulmate, hopeless romantic Tom Hansen reflects on their relationship to try and figure out where things went wrong and how he can win her back.",
@@ -5604,7 +5628,7 @@
       "imdbId": "tt1631867",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "71"
       },
       "plot": "A man fighting in a war against aliens must relive the same day every time he dies until he can find a way to stop their power source with the help of an elite soldier.",
@@ -5628,7 +5652,7 @@
       "imdbId": "tt0942385",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "71"
       },
       "plot": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
@@ -5652,7 +5676,7 @@
       "imdbId": "tt0112573",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "74%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
@@ -5676,7 +5700,7 @@
       "imdbId": "tt0090728",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "65%",
+        "rottenTomatoes": null,
         "metacritic": "53"
       },
       "plot": "A truck driver is pulled into Chinatown conflict when a sorcerer kidnaps a friend's fiancée, forcing them into a hidden war of gangs, magic, and prophecy beneath San Francisco.",
@@ -5700,7 +5724,7 @@
       "imdbId": "tt0381061",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "After earning a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro.",
@@ -5724,7 +5748,7 @@
       "imdbId": "tt1074638",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
@@ -5748,7 +5772,7 @@
       "imdbId": "tt0454848",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "76"
       },
       "plot": "A police detective, a bank robber and a high-power broker enter high-stakes negotiations after the criminal's brilliant heist spirals into a hostage situation.",
@@ -5772,7 +5796,7 @@
       "imdbId": "tt2582782",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "A divorced father and his ex-con brother plan a series of heists against the bank that's about to foreclose on their family ranch.",
@@ -5796,7 +5820,7 @@
       "imdbId": "tt0264464",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "A runaway teenager lives an exciting life by forging checks and impersonating several professions, but his fraudulent activities soon attract the attention of the FBI.",
@@ -5820,7 +5844,7 @@
       "imdbId": "tt13957560",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "84%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "When Keith Gill stakes his savings on GameStop and posts about it online, everyday investors rally behind him, taking on the powerful Wall Street hedge funds betting against the struggling retailer.",
@@ -5844,7 +5868,7 @@
       "imdbId": "tt0120382",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
@@ -5868,7 +5892,7 @@
       "imdbId": "tt1684562",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "81%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
@@ -5892,7 +5916,7 @@
       "imdbId": "tt0181875",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A high-school boy in the early 1970s is given the chance to write a story for Rolling Stone magazine about an up-and-coming rock band as he accompanies them on their concert tour.",
@@ -5916,7 +5940,7 @@
       "imdbId": "tt11858890",
       "scores": {
         "imdb": "6.7",
-        "rottenTomatoes": "67%",
+        "rottenTomatoes": null,
         "metacritic": "63"
       },
       "plot": "Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the robots' secret weapon to end the conflict, an AI in the form of a child.",
@@ -5940,7 +5964,7 @@
       "imdbId": "tt4686844",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "Moscow, 1953. After being in power for nearly 30 years, Soviet dictator, Joseph Vissarionovich Stalin, takes ill and quickly dies. Now the members of the Council of Ministers scramble for power.",
@@ -5964,7 +5988,7 @@
       "imdbId": "tt4425200",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
@@ -5988,7 +6012,7 @@
       "imdbId": "tt6146586",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "89%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
@@ -6012,7 +6036,7 @@
       "imdbId": "tt10366206",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
@@ -6036,7 +6060,7 @@
       "imdbId": "tt2562232",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
@@ -6060,7 +6084,7 @@
       "imdbId": "tt0190590",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "78%",
+        "rottenTomatoes": null,
         "metacritic": "69"
       },
       "plot": "In the deep south during the 1930s, three escaped convicts search for hidden treasure while a relentless lawman pursues them.",
@@ -6084,7 +6108,7 @@
       "imdbId": "tt9686708",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "76%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward ...",
@@ -6108,7 +6132,7 @@
       "imdbId": "tt5649144",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "92"
       },
       "plot": "A single mother and the manager of a roadside motel do their utmost to maintain the innocence of a six-year-old girl's life.",
@@ -6156,7 +6180,7 @@
       "imdbId": "tt0240772",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "A thief and his team of associates plan a sophisticated heist to rob three Las Vegas casinos at the same time.",
@@ -6180,7 +6204,7 @@
       "imdbId": "tt6587046",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "In the wake of his mother's death and his father's remarriage, a headstrong boy ventures into a dreamlike world shared by the living and the dead in search of his missing stepmother.",
@@ -6204,7 +6228,7 @@
       "imdbId": "tt15398776",
       "scores": {
         "imdb": "8.2",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
@@ -6228,7 +6252,7 @@
       "imdbId": "tt4772188",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "Cat is a solitary animal, but as its home is devastated by a great flood, he finds refuge on a boat populated by various species, and will have to team up with them despite their differences.",
@@ -6252,7 +6276,7 @@
       "imdbId": "tt0449059",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
@@ -6276,7 +6300,7 @@
       "imdbId": "tt0333766",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "67"
       },
       "plot": "A quietly troubled young man returns home for his mother's funeral after being estranged from his family for a decade.",
@@ -6300,7 +6324,7 @@
       "imdbId": "tt2582802",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
@@ -6324,7 +6348,7 @@
       "imdbId": "tt31193180",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
@@ -6348,7 +6372,7 @@
       "imdbId": "tt5727208",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "With his debts mounting and angry collectors closing in, a fast-talking New York City jeweler risks everything in hope of staying afloat and alive.",
@@ -6372,7 +6396,7 @@
       "imdbId": "tt14205554",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "77"
       },
       "plot": "A world-renowned K-Pop girl group balance their lives in the spotlight with their secret identities as demon hunters.",
@@ -6396,7 +6420,7 @@
       "imdbId": "tt9770150",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "After losing everything in the Great Recession, a woman in her sixties embarks on a journey through the American West, living as a van-dwelling nomad.",
@@ -6420,7 +6444,7 @@
       "imdbId": "tt0102057",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "37%",
+        "rottenTomatoes": null,
         "metacritic": "52"
       },
       "plot": "When Captain James Hook kidnaps his children, an adult Peter Pan must return to Neverland and reclaim his youthful spirit in order to challenge his old enemy.",
@@ -6444,7 +6468,7 @@
       "imdbId": "tt7131622",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "86%",
+        "rottenTomatoes": null,
         "metacritic": "84"
       },
       "plot": "As Hollywood's Golden Age is winding down, a television actor and his stunt double endeavor to achieve lasting success.",
@@ -6468,7 +6492,7 @@
       "imdbId": "tt0887883",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "78%",
+        "rottenTomatoes": null,
         "metacritic": "63"
       },
       "plot": "A disc containing mysterious information from a CIA agent ends up in the hands of two unscrupulous and daft gym employees who attempt to sell it.",
@@ -6492,7 +6516,7 @@
       "imdbId": "tt4925292",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "93"
       },
       "plot": "A fiercely independent teenager tries to make her own way in the world while wanting to get out of her hometown of Sacramento, California, and to get away from her complicated mother and recently-unemployed father.",
@@ -6516,7 +6540,7 @@
       "imdbId": "tt2704998",
       "scores": {
         "imdb": "6.9",
-        "rottenTomatoes": "85%",
+        "rottenTomatoes": null,
         "metacritic": "66"
       },
       "plot": "A group of friends who meet regularly for game nights find themselves entangled in a real-life mystery when the shady brother of one of them is seemingly kidnapped by dangerous gangsters.",
@@ -6540,7 +6564,7 @@
       "imdbId": "tt0062765",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "98%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "A nonconformist San Francisco cop is determined to find the underworld kingpin who killed the witness under his protection.",
@@ -6564,7 +6588,7 @@
       "imdbId": "tt0405296",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "68%",
+        "rottenTomatoes": null,
         "metacritic": "73"
       },
       "plot": "An undercover cop in a not-too-distant future becomes involved with a dangerous new drug and begins to lose his own identity as a result.",
@@ -6588,7 +6612,7 @@
       "imdbId": "tt5013056",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
@@ -6612,7 +6636,7 @@
       "imdbId": "tt1302006",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.",
@@ -6636,7 +6660,7 @@
       "imdbId": "tt16311594",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "82%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "A Formula One driver comes out of retirement to mentor and team up with a younger driver.",
@@ -6660,7 +6684,7 @@
       "imdbId": "tt0120338",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "75"
       },
       "plot": "A young aristocrat falls in love with a poor artist aboard the luxurious, ill-fated RMS Titanic.",
@@ -6684,7 +6708,7 @@
       "imdbId": "tt1800241",
       "scores": {
         "imdb": "7.2",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "Two con artists are forced to work for a wild FBI agent who pushes them into a world of Jersey powerbrokers and the Mafia.",
@@ -6708,7 +6732,7 @@
       "imdbId": "tt5537002",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
@@ -6732,7 +6756,7 @@
       "imdbId": "tt1517451",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "A hard-drinking country music star falls in love with a singer whose career quickly takes off.",
@@ -6756,7 +6780,7 @@
       "imdbId": "tt31434639",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "A platoon of Navy SEALs embark on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
@@ -6780,7 +6804,7 @@
       "imdbId": "tt4846232",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "80"
       },
       "plot": "After a botched robbery lands his brother in jail, a small-time criminal traverses the depraved underbelly of New York City in search of bail money.",
@@ -6804,7 +6828,7 @@
       "imdbId": "tt8946378",
       "scores": {
         "imdb": "7.9",
-        "rottenTomatoes": "97%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate.",
@@ -6828,7 +6852,7 @@
       "imdbId": "tt11564570",
       "scores": {
         "imdb": "7.1",
-        "rottenTomatoes": "91%",
+        "rottenTomatoes": null,
         "metacritic": "81"
       },
       "plot": "Tech billionaire Miles Bron invites his friends for a getaway on his private Greek island. When someone turns up dead, Detective Benoit Blanc is put on the case.",
@@ -6876,7 +6900,7 @@
       "imdbId": "tt0034583",
       "scores": {
         "imdb": "8.5",
-        "rottenTomatoes": "99%",
+        "rottenTomatoes": null,
         "metacritic": "100"
       },
       "plot": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
@@ -6900,7 +6924,7 @@
       "imdbId": "tt0094625",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "A secret military project endangers Neo-Tokyo when it turns a teenage biker gang member into a rampaging psychic psychopath who can only be stopped by his best friend.",
@@ -6924,7 +6948,7 @@
       "imdbId": "tt4154796",
       "scores": {
         "imdb": "8.4",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "78"
       },
       "plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
@@ -6948,7 +6972,7 @@
       "imdbId": "tt0416449",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "61%",
+        "rottenTomatoes": null,
         "metacritic": "52"
       },
       "plot": "In the ancient battle of Thermopylae, King Leonidas and 300 Spartans fight against Xerxes and his massive Persian army.",
@@ -6972,7 +6996,7 @@
       "imdbId": "tt3890160",
       "scores": {
         "imdb": "7.5",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "86"
       },
       "plot": "Coerced into working for a crime boss, a young getaway driver must face the music when a doomed heist threatens his life, love, and freedom.",
@@ -7020,7 +7044,7 @@
       "imdbId": "tt1504320",
       "scores": {
         "imdb": "8.0",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "The story of King George VI, his unexpected ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
@@ -7044,7 +7068,7 @@
       "imdbId": "tt2400463",
       "scores": {
         "imdb": "6.6",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "74"
       },
       "plot": "When a man accepts an invitation to a dinner party hosted by his ex-wife, the unsettling past reopens old wounds and creates new tensions.",
@@ -7068,7 +7092,7 @@
       "imdbId": "tt2278388",
       "scores": {
         "imdb": "8.1",
-        "rottenTomatoes": "92%",
+        "rottenTomatoes": null,
         "metacritic": "88"
       },
       "plot": "The owner of an aging high-class hotel regales a writer with tales of serving as a lobby boy under an exceptional concierge in the hotel's glory years.",
@@ -7092,7 +7116,7 @@
       "imdbId": "tt0120915",
       "scores": {
         "imdb": "6.5",
-        "rottenTomatoes": "54%",
+        "rottenTomatoes": null,
         "metacritic": "51"
       },
       "plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long-dormant Sith resurface to claim their former glory.",
@@ -7116,7 +7140,7 @@
       "imdbId": "tt0121765",
       "scores": {
         "imdb": "6.6",
-        "rottenTomatoes": "62%",
+        "rottenTomatoes": null,
         "metacritic": "54"
       },
       "plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
@@ -7140,7 +7164,7 @@
       "imdbId": "tt0121766",
       "scores": {
         "imdb": "7.7",
-        "rottenTomatoes": "79%",
+        "rottenTomatoes": null,
         "metacritic": "68"
       },
       "plot": "As the Clone Wars nears its end, Obi-Wan Kenobi pursues a new threat, while Anakin Skywalker is lured by Chancellor Palpatine into a sinister plot for galactic domination.",
@@ -7164,7 +7188,7 @@
       "imdbId": "tt11813216",
       "scores": {
         "imdb": "7.6",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": "87"
       },
       "plot": "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
@@ -7188,7 +7212,7 @@
       "imdbId": "tt0076759",
       "scores": {
         "imdb": "8.6",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "90"
       },
       "plot": "A farmboy joins forces with various allies to save their galaxy from the evil Empire's planet-destroying battle station, while also rescuing the princess leading the rebellion against them.",
@@ -7212,7 +7236,7 @@
       "imdbId": "tt0080684",
       "scores": {
         "imdb": "8.7",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
@@ -7236,7 +7260,7 @@
       "imdbId": "tt0086190",
       "scores": {
         "imdb": "8.3",
-        "rottenTomatoes": "83%",
+        "rottenTomatoes": null,
         "metacritic": "58"
       },
       "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
@@ -7260,7 +7284,7 @@
       "imdbId": "tt5104604",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "82"
       },
       "plot": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
@@ -7284,7 +7308,7 @@
       "imdbId": "tt13238346",
       "scores": {
         "imdb": "7.8",
-        "rottenTomatoes": "95%",
+        "rottenTomatoes": null,
         "metacritic": "94"
       },
       "plot": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
@@ -7308,7 +7332,7 @@
       "imdbId": "tt0116483",
       "scores": {
         "imdb": "7.0",
-        "rottenTomatoes": "66%",
+        "rottenTomatoes": null,
         "metacritic": "31"
       },
       "plot": "After his grandmother's house is repossessed by the IRS, a bad tempered hockey player takes his talents to golf to earn the big bucks and get his grandmothers house back.",
@@ -7332,7 +7356,7 @@
       "imdbId": "tt7984734",
       "scores": {
         "imdb": "7.3",
-        "rottenTomatoes": "90%",
+        "rottenTomatoes": null,
         "metacritic": "83"
       },
       "plot": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
@@ -7356,7 +7380,7 @@
       "imdbId": "tt28607951",
       "scores": {
         "imdb": "7.4",
-        "rottenTomatoes": "93%",
+        "rottenTomatoes": null,
         "metacritic": "91"
       },
       "plot": "A young stripper from Brooklyn impulsively marries the son of Russian oligarchs, but her fairy tale is threatened when his parents set out for New York to get the marriage annulled.",
@@ -7380,7 +7404,7 @@
       "imdbId": "tt10293406",
       "scores": {
         "imdb": "6.8",
-        "rottenTomatoes": "94%",
+        "rottenTomatoes": null,
         "metacritic": "89"
       },
       "plot": "Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love.",
@@ -7404,7 +7428,7 @@
       "imdbId": "tt9243804",
       "scores": {
         "imdb": "6.5",
-        "rottenTomatoes": "88%",
+        "rottenTomatoes": null,
         "metacritic": "85"
       },
       "plot": "A fantasy retelling of the medieval story of Sir Gawain and the Green Knight.",
@@ -7598,7 +7622,7 @@
       "imdbId": "tt0903747",
       "scores": {
         "imdb": "9.5",
-        "rottenTomatoes": "96%",
+        "rottenTomatoes": null,
         "metacritic": null
       },
       "plot": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
@@ -9384,7 +9408,7 @@
       "director": null,
       "writer": "Joseph Bennett, Steve Hely",
       "actors": "Dave King, Emily Pendergast, Mike Judge",
-      "seasons": "1",
+      "seasons": "2",
       "poster": "https://m.media-amazon.com/images/M/MV5BNDMwOTFhMTUtYTYwOS00NDQwLTk1YTAtN2E2MzdiMWNkOWQ5XkEyXkFqcGc@._V1_QL75_UY562_CR24,0,380,562_.jpg"
     },
     {
@@ -9449,7 +9473,7 @@
         "rottenTomatoes": null,
         "metacritic": null
       },
-      "plot": "David Haller is a troubled young man diagnosed as schizophrenic, but after a strange encounter he discovers special powers that will change his life forever.",
+      "plot": "David Haller is a troubled young man diagnosed with schizophrenia, but after a strange encounter he discovers special powers that will change his life forever.",
       "genre": "Action, Sci-Fi, Thriller",
       "runtime": "60 min",
       "rated": "TV-MA",
@@ -9768,7 +9792,7 @@
       "director": null,
       "writer": "Robert Kirkman, Ryan Ottley, Cory Walker",
       "actors": "Steven Yeun, J.K. Simmons, Sandra Oh",
-      "seasons": "4",
+      "seasons": "5",
       "poster": "https://m.media-amazon.com/images/M/MV5BZGM5MmM2ZDAtMzBjNS00NjMxLWE4ZTMtNzFjMWMxYzU2ZThjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg"
     },
     {

@@ -16,7 +16,8 @@ void main(){ vec2 p = vec2((gl_VertexID << 1) & 2, gl_VertexID & 2); gl_Position
 precision highp float;
 uniform sampler2D uN, uTa, uTb;
 uniform vec2 uRes, uBc;
-uniform float uDpr, uT, uPos, uFloor, uCx, uS, uRing, uEnergy, uVeil, uBurst, uSmoke, uDir, uClear;
+uniform float uDpr, uT, uPos, uFloor, uCx, uS, uRing, uEnergy, uVeil, uBurst, uSmoke, uDir, uClear, uPalMix;
+uniform vec3 uPal[7];
 uniform vec4 uRa, uRb;
 uniform vec3 uCa, uCb;
 out vec4 o;
@@ -28,7 +29,13 @@ const mat2 M = mat2(0.8, 0.6, -0.6, 0.8);
 float n(vec2 x){ vec2 i = floor(x), f = fract(x); f = f*f*f*(f*(f*6.0-15.0)+10.0); return textureLod(uN, (i+f+0.5)/256.0, 0.0).r; }
 float fbm(vec2 p, float t){ float v = 0.0, a = 0.5; for (int i = 0; i < 4; i++){ v += a*n(p + vec2(t*(1.0+float(i)*0.35), -t*0.7)); p = M*p*2.03 + 7.1; a *= 0.5; } return v/0.9375; }
 vec2 flow(vec2 p, float t){ return vec2(fbm(p + vec2(0.0, t*0.6), t*0.25), fbm(p + vec2(5.2, 1.3) - t*0.5, t*0.2))*2.0 - 1.0; }
-vec3 tint(float l){ return l < 0.5 ? mix(LOW, MID, l*2.0) : mix(MID, HI, l*2.0-1.0); }
+vec2 gP;
+// a shelf's own palette, laid out like a sunset: deep colours up top, warm ones low down, lit wisps warmer still
+vec3 pal(float s){ s = clamp(s, 0.0, 1.0)*6.0; int i = int(min(floor(s), 5.0)); return mix(uPal[i], uPal[i + 1], s - float(i)); }
+vec3 sunset(float l){ vec3 c = pal(gP.y/uRes.y*0.9 + (l - 0.7)*0.9 + 0.08); return mix(c, vec3(1.0, 0.88, 0.74), smoothstep(0.86, 1.0, l)*0.35); }
+vec3 tint(float l){ vec3 c = l < 0.5 ? mix(LOW, MID, l*2.0) : mix(MID, HI, l*2.0-1.0); return uPalMix > 0.0 ? mix(c, sunset(l), uPalMix) : c; }
+vec3 hi(){ return uPalMix > 0.0 ? mix(HI, sunset(0.95), uPalMix) : HI; }
+vec3 mid(){ return uPalMix > 0.0 ? mix(MID, sunset(0.6), uPalMix) : MID; }
 
 vec4 cloud(vec2 p, float par, float lift){
 float top = uFloor - lift*uS;
@@ -44,7 +51,7 @@ float g = fbm(b + q*0.62, t*0.8);
 float g2 = fbm(b + q*0.62 + vec2(-0.12, -0.22), t*0.8);
 float d = smoothstep(0.0, 0.5, g*1.3 - 0.6 + h*1.75);
 float l = clamp(0.74 + (g - g2)*2.5 + h*0.1, 0.0, 1.0);
-vec3 c = mix(tint(l), HI, smoothstep(0.75, 1.7, h));
+vec3 c = mix(tint(l), hi(), smoothstep(0.75, 1.7, h));
 return vec4(c, d);
 }
 
@@ -91,9 +98,10 @@ return col;
 
 void main(){
 vec2 p = vec2(gl_FragCoord.x, uRes.y*uDpr - gl_FragCoord.y)/uDpr;
+gP = p;
 vec3 col = BG;
 vec4 b = cloud(p, 0.62, 26.0);
-b.rgb = mix(b.rgb, MID, 0.28);
+b.rgb = mix(b.rgb, mid(), 0.28);
 col = mix(col, b.rgb, b.a);
 col = evan(col, p, uTb, uRb, uCb);
 col = evan(col, p, uTa, uRa, uCa);
@@ -157,7 +165,7 @@ o = vec4(col*a, a);
   gl.useProgram(prog);
   gl.bindVertexArray(gl.createVertexArray());
   const U = {};
-  ['uN', 'uTa', 'uTb', 'uRes', 'uBc', 'uDpr', 'uT', 'uPos', 'uFloor', 'uCx', 'uS', 'uRing', 'uEnergy', 'uVeil', 'uBurst', 'uSmoke', 'uDir', 'uClear', 'uRa', 'uRb', 'uCa', 'uCb'].forEach((k) => { U[k] = gl.getUniformLocation(prog, k); });
+  ['uN', 'uTa', 'uTb', 'uRes', 'uBc', 'uDpr', 'uT', 'uPos', 'uFloor', 'uCx', 'uS', 'uRing', 'uEnergy', 'uVeil', 'uBurst', 'uSmoke', 'uDir', 'uClear', 'uPalMix', 'uPal', 'uRa', 'uRb', 'uCa', 'uCb'].forEach((k) => { U[k] = gl.getUniformLocation(prog, k); });
 
   // noise lives in a small repeating texture, so the many samples per pixel stay cheap on a phone
   const noise = new Uint8Array(256 * 256);
@@ -211,6 +219,10 @@ o = vec4(col*a, a);
     }
     return null;
   };
+
+  const hex = (h) => [1, 3, 5].map((k) => parseInt(h.slice(k, k + 2), 16) / 255);
+  const palettes = self.items.map((it) => (it.palette ? new Float32Array(it.palette.flatMap(hex)) : null));
+  let palMix = 0, palOn = -1;
 
   let g = self.geom(self.state.key);
   const setLayout = (key) => {
@@ -330,6 +342,13 @@ o = vec4(col*a, a);
     gl.uniform1f(U.uEnergy, energy);
     gl.uniform1f(U.uVeil, veil);
     gl.uniform1f(U.uClear, clear);
+    // the shelf being opened brings its own colours: they bloom as the cloud rises and drain back as it sinks
+    const N = self.items.length;
+    const shelf = ((Math.round(pos) % N) + N) % N;
+    const palWant = palettes[shelf] && self.state.key === 'closed' ? smooth(0.0, 0.3, self.tr) : 0;
+    palMix = still ? palWant : palMix + (palWant - palMix) * (1 - Math.exp(-dt * 6));
+    if (palWant > 0 && palOn !== shelf) { gl.uniform3fv(U.uPal, palettes[shelf]); palOn = shelf; }
+    gl.uniform1f(U.uPalMix, palOn >= 0 ? palMix : 0);
     gl.uniform1f(U.uBurst, burst);
     gl.uniform1f(U.uSmoke, self.props.smoke ?? 1);
     gl.uniform1f(U.uDir, vel > 0 ? -1 : 1);

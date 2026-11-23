@@ -74,8 +74,10 @@ const OMDB_CREDIT = { name: 'OMDb', url: 'https://www.omdbapi.com/', tail: ', CC
 
 export const SHELVES = [
   {
-    t: 'Games', kind: 'game', alt: 'Evan raising a purple ocarina to his mouth', ar: 0.804, src: art('games-12.webp'),
-    frames: Array.from({ length: 13 }, (_, i) => art(`games-${String(i).padStart(2, '0')}.webp`)),
+    t: 'Games', kind: 'game', alt: 'Two clay figures pulling paisley bandanas up over their faces', ar: 0.825, src: art('gta-04.webp'),
+    frames: Array.from({ length: 5 }, (_, i) => art(`gta-${String(i).padStart(2, '0')}.webp`)),
+    // swiping up into this shelf turns the smoke into a Vice City sunset, top to bottom
+    palette: ['#3B146B', '#7B208F', '#C9349B', '#F36A78', '#F87572', '#FF9B55', '#FFB458'],
     credit: { name: 'Steam', url: 'https://store.steampowered.com/', tail: ' and Wikipedia' },
   },
   { t: 'Movies', kind: 'movie', alt: 'Evan as a film director', ar: 0.71, src: art('movies.webp'), mediaKey: 'movies', credit: OMDB_CREDIT },
